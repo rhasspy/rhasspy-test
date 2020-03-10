@@ -1,0 +1,1396 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_la_lampe_de_salon.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lampe de salon"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "allumé la lampe de salon",
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "recognize_seconds": 0,
+      "text": "allumé la lampe de salon",
+      "tokens": [
+        "allumé",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "transcribe_seconds": 0.13400136699965515,
+      "wav_seconds": 1.7657083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lumière dans la chambre à coucher"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "allumé la lumière dans la chambre à coucher",
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "recognize_seconds": 0,
+      "text": "allumé la lumière dans la chambre à coucher",
+      "tokens": [
+        "allumé",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "transcribe_seconds": 0.11652532900006918,
+      "wav_seconds": 2.562125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "insertions": 0,
+        "matches": 8,
+        "reference": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "substitutions": 0,
+        "words": 8
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_léclairage_de_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "l'éclairage de garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "allumé l'éclairage de garage",
+      "raw_tokens": [
+        "allumé",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "text": "allumé l'éclairage de garage",
+      "tokens": [
+        "allumé",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0.14444046000062372,
+      "wav_seconds": 1.9377916666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "est-ce_que la porte de garage est ouverte ou fermée",
+      "raw_tokens": [
+        "est-ce_que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "recognize_seconds": 0,
+      "text": "est-ce_que la porte de garage est ouverte ou fermée",
+      "tokens": [
+        "est-ce_que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "transcribe_seconds": 0.22964427300030366,
+      "wav_seconds": 3.0151666666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "est-ce_que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "est-ce_que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "insertions": 0,
+        "matches": 9,
+        "reference": [
+          "est-ce_que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "substitutions": 0,
+        "words": 9
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/estelle_ouverte_ou_fermée_la_porte_de_garage.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "est -elle ouverte ou fermée la porte de garage",
+      "raw_tokens": [
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "text": "est -elle ouverte ou fermée la porte de garage",
+      "tokens": [
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0.20051419400078885,
+      "wav_seconds": 2.760625,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 9,
+        "reference": [
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 9
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/il_est_quelle_heure.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "il est quelle heure",
+      "raw_tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "recognize_seconds": 0,
+      "text": "il est quelle heure",
+      "tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "transcribe_seconds": 0.15385709000111092,
+      "wav_seconds": 0.94875,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/la_porte_de_garage_estelle_ouverte_ou_fermée.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "la porte de garage est -elle ouverte ou fermée",
+      "raw_tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "recognize_seconds": 0,
+      "text": "la porte de garage est -elle ouverte ou fermée",
+      "tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "transcribe_seconds": 0.21384574100011378,
+      "wav_seconds": 2.867875,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "insertions": 0,
+        "matches": 9,
+        "reference": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "-elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "substitutions": 0,
+        "words": 9
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/quelle_est_la_température.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "quelle la température",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "text": "quelle la température",
+      "tokens": [],
+      "transcribe_seconds": 0.12859826299973065,
+      "wav_seconds": 1.4677916666666666,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "quelle",
+          "-est",
+          "la",
+          "température"
+        ],
+        "error_rate": 0.25,
+        "errors": 1,
+        "hypothesis": [
+          "quelle",
+          "la",
+          "température"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "quelle",
+          "est",
+          "la",
+          "température"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/quelle_heure_estil.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "quelle heure est -il",
+      "raw_tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "-il"
+      ],
+      "recognize_seconds": 0,
+      "text": "quelle heure est -il",
+      "tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "-il"
+      ],
+      "transcribe_seconds": 0.30446924600073544,
+      "wav_seconds": 1.0114583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "il:quelle",
+          "est:heure",
+          "quelle:est",
+          "heure:-il"
+        ],
+        "error_rate": 1,
+        "errors": 4,
+        "hypothesis": [
+          "quelle",
+          "heure",
+          "est",
+          "-il"
+        ],
+        "insertions": 0,
+        "matches": 0,
+        "reference": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "substitutions": 4,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_la_lampe_de_salon.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lampe de salon"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "éteindre la lampe de salon",
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "recognize_seconds": 0,
+      "text": "éteindre la lampe de salon",
+      "tokens": [
+        "éteindre",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "transcribe_seconds": 0.23909728599937807,
+      "wav_seconds": 1.8169166666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lumière dans la chambre à coucher"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "éteindre la lumière dans la chambre à coucher",
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "recognize_seconds": 0,
+      "text": "éteindre la lumière dans la chambre à coucher",
+      "tokens": [
+        "éteindre",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "transcribe_seconds": 0.27569180599857646,
+      "wav_seconds": 2.6883333333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "insertions": 0,
+        "matches": 8,
+        "reference": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "substitutions": 0,
+        "words": 8
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_léclairage_de_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "l'éclairage de garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "éteindre l'éclairage de garage",
+      "raw_tokens": [
+        "éteindre",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "text": "éteindre l'éclairage de garage",
+      "tokens": [
+        "éteindre",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0.1640969789987139,
+      "wav_seconds": 2.0467916666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 11.634530606135927,
+  "correct_entities": 12,
+  "correct_intent_and_entities": 11,
+  "correct_intent_names": 11,
+  "correct_transcriptions": 10,
+  "correct_words": 68,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_la_lampe_de_salon.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lampe de salon"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "allumé la lampe de salon",
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "recognize_seconds": 0.0003254413604736328,
+      "text": "on la lampe de salon",
+      "tokens": [
+        "on",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lumière dans la chambre à coucher"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "allumé la lumière dans la chambre à coucher",
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "recognize_seconds": 0.00034165382385253906,
+      "text": "on la lumière dans la chambre à coucher",
+      "tokens": [
+        "on",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/allumé_léclairage_de_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "l'éclairage de garage"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "allumé l'éclairage de garage",
+      "raw_tokens": [
+        "allumé",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0.00029921531677246094,
+      "text": "on l'éclairage de garage",
+      "tokens": [
+        "on",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "est-ce_que la porte de garage est ouverte ou fermée",
+      "raw_tokens": [
+        "est-ce_que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "recognize_seconds": 0.00029850006103515625,
+      "text": "est-ce_que la porte de garage est ouverte ou fermée",
+      "tokens": [
+        "est-ce_que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/estelle_ouverte_ou_fermée_la_porte_de_garage.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "est -elle ouverte ou fermée la porte de garage",
+      "raw_tokens": [
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0.0002751350402832031,
+      "text": "est -elle ouverte ou fermée la porte de garage",
+      "tokens": [
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/il_est_quelle_heure.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "il est quelle heure",
+      "raw_tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "recognize_seconds": 0.00024437904357910156,
+      "text": "il est quelle heure",
+      "tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/la_porte_de_garage_estelle_ouverte_ou_fermée.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "la porte de garage est -elle ouverte ou fermée",
+      "raw_tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "recognize_seconds": 0.0002970695495605469,
+      "text": "la porte de garage est -elle ouverte ou fermée",
+      "tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "-elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/quelle_est_la_température.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "quelle est la température",
+      "raw_tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "recognize_seconds": 0.0002503395080566406,
+      "text": "quelle est la température",
+      "tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/quelle_heure_estil.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "il est quelle heure",
+      "raw_tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "recognize_seconds": 0.00024962425231933594,
+      "text": "il est quelle heure",
+      "tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_la_lampe_de_salon.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lampe de salon"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "éteindre la lampe de salon",
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "recognize_seconds": 0.00030040740966796875,
+      "text": "off la lampe de salon",
+      "tokens": [
+        "off",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "la lumière dans la chambre à coucher"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "éteindre la lumière dans la chambre à coucher",
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "recognize_seconds": 0.00033664703369140625,
+      "text": "off la lumière dans la chambre à coucher",
+      "tokens": [
+        "off",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/fr/éteindre_léclairage_de_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "l'éclairage de garage"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "éteindre l'éclairage de garage",
+      "raw_tokens": [
+        "éteindre",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "recognize_seconds": 0.00029587745666503906,
+      "text": "off l'éclairage de garage",
+      "tokens": [
+        "off",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 0.9166666666666666,
+  "intent_entity_accuracy": 0.9166666666666666,
+  "num_entities": 12,
+  "num_intents": 12,
+  "num_wavs": 12,
+  "num_words": 73,
+  "transcription_accuracy": 0.9315068493150684
+}

@@ -1,0 +1,1558 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/ist_das_garagentor_geschlossen.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "ist das garagentor geschlossen",
+      "raw_tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "geschlossen"
+      ],
+      "recognize_seconds": 0,
+      "text": "ist das garagentor geschlossen",
+      "tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "geschlossen"
+      ],
+      "transcribe_seconds": 0.30020060799870407,
+      "wav_seconds": 2.213125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ist",
+          "das",
+          "garagentor",
+          "geschlossen"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ist",
+          "das",
+          "garagentor",
+          "geschlossen"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "ist",
+          "das",
+          "garagentor",
+          "geschlossen"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/ist_das_garagentor_offen.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "ist das garagentor offen",
+      "raw_tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "offen"
+      ],
+      "recognize_seconds": 0,
+      "text": "ist das garagentor offen",
+      "tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "offen"
+      ],
+      "transcribe_seconds": 0.27118656400125474,
+      "wav_seconds": 1.950125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ist",
+          "das",
+          "garagentor",
+          "offen"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ist",
+          "das",
+          "garagentor",
+          "offen"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "ist",
+          "das",
+          "garagentor",
+          "offen"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/sag_mir_die_uhrzeit.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "sag mir die uhrzeit",
+      "raw_tokens": [
+        "sag",
+        "mir",
+        "die",
+        "uhrzeit"
+      ],
+      "recognize_seconds": 0,
+      "text": "sag mir die uhrzeit",
+      "tokens": [
+        "sag",
+        "mir",
+        "die",
+        "uhrzeit"
+      ],
+      "transcribe_seconds": 0.2925774219984305,
+      "wav_seconds": 1.627,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "sag",
+          "mir",
+          "die",
+          "uhrzeit"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "sag",
+          "mir",
+          "die",
+          "uhrzeit"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "sag",
+          "mir",
+          "die",
+          "uhrzeit"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_garagenlicht_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte das garagenlicht aus",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "aus"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte das garagenlicht aus",
+      "tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "aus"
+      ],
+      "transcribe_seconds": 0.32291893099682056,
+      "wav_seconds": 2.2655833333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "aus"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "aus"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "aus"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_garagenlicht_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte das garagenlicht ein",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "ein"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte das garagenlicht ein",
+      "tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "ein"
+      ],
+      "transcribe_seconds": 0.38096545200096443,
+      "wav_seconds": 2.1569166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "ein"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "ein"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "das",
+          "garagenlicht",
+          "ein"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_wohnzimmerlampe_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte das wohnzimmerlampe aus",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte das wohnzimmerlampe aus",
+      "tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "transcribe_seconds": 0.33057331099917064,
+      "wav_seconds": 2.38725,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_wohnzimmerlampe_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte das wohnzimmerlampe ein",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte das wohnzimmerlampe ein",
+      "tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "transcribe_seconds": 0.33992257399950176,
+      "wav_seconds": 2.28075,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "das",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_garagenlicht_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte die garagenlicht aus",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "aus"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte die garagenlicht aus",
+      "tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "aus"
+      ],
+      "transcribe_seconds": 0.33268066000164254,
+      "wav_seconds": 2.1772916666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "aus"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "aus"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "aus"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_garagenlicht_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte die garagenlicht ein",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "ein"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte die garagenlicht ein",
+      "tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "ein"
+      ],
+      "transcribe_seconds": 0.34569974500118406,
+      "wav_seconds": 2.08375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "ein"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "ein"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "die",
+          "garagenlicht",
+          "ein"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_wohnzimmerlampe_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte die wohnzimmerlampe aus",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte die wohnzimmerlampe aus",
+      "tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "transcribe_seconds": 0.2265685950005718,
+      "wav_seconds": 2.2660833333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "aus"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_wohnzimmerlampe_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "schalte die wohnzimmerlampe ein",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "recognize_seconds": 0,
+      "text": "schalte die wohnzimmerlampe ein",
+      "tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "transcribe_seconds": 0.3860387230015476,
+      "wav_seconds": 2.1929166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "schalte",
+          "die",
+          "wohnzimmerlampe",
+          "ein"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_heiß_ist_es.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "wie heiß ist es",
+      "raw_tokens": [
+        "wie",
+        "heiß",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0,
+      "text": "wie heiß ist es",
+      "tokens": [
+        "wie",
+        "heiß",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0.3315451740018034,
+      "wav_seconds": 1.372375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "wie",
+          "heiß",
+          "ist",
+          "es"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "wie",
+          "heiß",
+          "ist",
+          "es"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "wie",
+          "heiß",
+          "ist",
+          "es"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_ist_die_temperatur.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "wie ist die temperatur",
+      "raw_tokens": [
+        "wie",
+        "ist",
+        "die",
+        "temperatur"
+      ],
+      "recognize_seconds": 0,
+      "text": "wie ist die temperatur",
+      "tokens": [
+        "wie",
+        "ist",
+        "die",
+        "temperatur"
+      ],
+      "transcribe_seconds": 0.32305889000053867,
+      "wav_seconds": 1.8011666666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "wie",
+          "ist",
+          "die",
+          "temperatur"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "wie",
+          "ist",
+          "die",
+          "temperatur"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "wie",
+          "ist",
+          "die",
+          "temperatur"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_kalt_ist_es.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "wie kalt ist es",
+      "raw_tokens": [
+        "wie",
+        "kalt",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0,
+      "text": "wie kalt ist es",
+      "tokens": [
+        "wie",
+        "kalt",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0.19462357700103894,
+      "wav_seconds": 1.3629583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "wie",
+          "kalt",
+          "ist",
+          "es"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "wie",
+          "kalt",
+          "ist",
+          "es"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "wie",
+          "kalt",
+          "ist",
+          "es"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_spät_ist_es.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "wie spät ist es",
+      "raw_tokens": [
+        "wie",
+        "spät",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0,
+      "text": "wie spät ist es",
+      "tokens": [
+        "wie",
+        "spät",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0.2062293929993757,
+      "wav_seconds": 1.3947083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "wie",
+          "spät",
+          "ist",
+          "es"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "wie",
+          "spät",
+          "ist",
+          "es"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "wie",
+          "spät",
+          "ist",
+          "es"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 6.5645495626771995,
+  "correct_entities": 16,
+  "correct_intent_and_entities": 15,
+  "correct_intent_names": 15,
+  "correct_transcriptions": 15,
+  "correct_words": 60,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/ist_das_garagentor_geschlossen.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "ist das garagentor geschlossen",
+      "raw_tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "geschlossen"
+      ],
+      "recognize_seconds": 0.0002460479736328125,
+      "text": "ist das garagentor geschlossen",
+      "tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "geschlossen"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/ist_das_garagentor_offen.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "ist das garagentor offen",
+      "raw_tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "offen"
+      ],
+      "recognize_seconds": 0.0002772808074951172,
+      "text": "ist das garagentor offen",
+      "tokens": [
+        "ist",
+        "das",
+        "garagentor",
+        "offen"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/sag_mir_die_uhrzeit.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "sag mir die uhrzeit",
+      "raw_tokens": [
+        "sag",
+        "mir",
+        "die",
+        "uhrzeit"
+      ],
+      "recognize_seconds": 0.0002415180206298828,
+      "text": "sag mir die uhrzeit",
+      "tokens": [
+        "sag",
+        "mir",
+        "die",
+        "uhrzeit"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_garagenlicht_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte das garagenlicht aus",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "aus"
+      ],
+      "recognize_seconds": 0.0003693103790283203,
+      "text": "schalte das garagenlicht aus",
+      "tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "aus"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_garagenlicht_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte das garagenlicht ein",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "ein"
+      ],
+      "recognize_seconds": 0.0003476142883300781,
+      "text": "schalte das garagenlicht ein",
+      "tokens": [
+        "schalte",
+        "das",
+        "garagenlicht",
+        "ein"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_wohnzimmerlampe_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte das wohnzimmerlampe aus",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "recognize_seconds": 0.0003592967987060547,
+      "text": "schalte das wohnzimmerlampe aus",
+      "tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_das_wohnzimmerlampe_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte das wohnzimmerlampe ein",
+      "raw_tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "recognize_seconds": 0.0003497600555419922,
+      "text": "schalte das wohnzimmerlampe ein",
+      "tokens": [
+        "schalte",
+        "das",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_garagenlicht_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte die garagenlicht aus",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "aus"
+      ],
+      "recognize_seconds": 0.0004322528839111328,
+      "text": "schalte die garagenlicht aus",
+      "tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "aus"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_garagenlicht_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garagenlicht"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte die garagenlicht ein",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "ein"
+      ],
+      "recognize_seconds": 0.0004088878631591797,
+      "text": "schalte die garagenlicht ein",
+      "tokens": [
+        "schalte",
+        "die",
+        "garagenlicht",
+        "ein"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_wohnzimmerlampe_aus.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aus"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte die wohnzimmerlampe aus",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "recognize_seconds": 0.00043082237243652344,
+      "text": "schalte die wohnzimmerlampe aus",
+      "tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "aus"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/schalte_die_wohnzimmerlampe_ein.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "wohnzimmerlampe"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ein"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "schalte die wohnzimmerlampe ein",
+      "raw_tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "recognize_seconds": 0.0004050731658935547,
+      "text": "schalte die wohnzimmerlampe ein",
+      "tokens": [
+        "schalte",
+        "die",
+        "wohnzimmerlampe",
+        "ein"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_heiß_ist_es.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "wie heiß ist es",
+      "raw_tokens": [
+        "wie",
+        "heiß",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0.00024056434631347656,
+      "text": "wie heiß ist es",
+      "tokens": [
+        "wie",
+        "heiß",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_ist_die_temperatur.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "wie ist die temperatur",
+      "raw_tokens": [
+        "wie",
+        "ist",
+        "die",
+        "temperatur"
+      ],
+      "recognize_seconds": 0.0002295970916748047,
+      "text": "wie ist die temperatur",
+      "tokens": [
+        "wie",
+        "ist",
+        "die",
+        "temperatur"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_kalt_ist_es.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "wie kalt ist es",
+      "raw_tokens": [
+        "wie",
+        "kalt",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0.0002384185791015625,
+      "text": "wie kalt ist es",
+      "tokens": [
+        "wie",
+        "kalt",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/de/wie_spät_ist_es.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "wie spät ist es",
+      "raw_tokens": [
+        "wie",
+        "spät",
+        "ist",
+        "es"
+      ],
+      "recognize_seconds": 0.00023794174194335938,
+      "text": "wie spät ist es",
+      "tokens": [
+        "wie",
+        "spät",
+        "ist",
+        "es"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "num_entities": 16,
+  "num_intents": 15,
+  "num_wavs": 15,
+  "num_words": 60,
+  "transcription_accuracy": 1
+}

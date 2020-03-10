@@ -1,0 +1,1222 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_koud_is_het.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "hoe koud is het",
+      "raw_tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "recognize_seconds": 0,
+      "text": "hoe koud is het",
+      "tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "transcribe_seconds": 0.17467950399986876,
+      "wav_seconds": 0.9535416666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "hoe",
+          "koud",
+          "is",
+          "het"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "hoe",
+          "koud",
+          "is",
+          "het"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "hoe",
+          "koud",
+          "is",
+          "het"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_laat_is_het.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "hoe laat is het",
+      "raw_tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "recognize_seconds": 0,
+      "text": "hoe laat is het",
+      "tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "transcribe_seconds": 0.18730252200111863,
+      "wav_seconds": 0.949375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "hoe",
+          "laat",
+          "is",
+          "het"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "hoe",
+          "laat",
+          "is",
+          "het"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "hoe",
+          "laat",
+          "is",
+          "het"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_warm_is_het.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "hoe warm is zet",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "text": "hoe warm is zet",
+      "tokens": [],
+      "transcribe_seconds": 0.2877526960000978,
+      "wav_seconds": 1.0229583333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "hoe",
+          "warm",
+          "is",
+          "het:zet"
+        ],
+        "error_rate": 0.25,
+        "errors": 1,
+        "hypothesis": [
+          "hoe",
+          "warm",
+          "is",
+          "zet"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "hoe",
+          "warm",
+          "is",
+          "het"
+        ],
+        "substitutions": 1,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/is_de_garagepoort_gesloten.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "is de garagepoort gesloten",
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "recognize_seconds": 0,
+      "text": "is de garagepoort gesloten",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "transcribe_seconds": 0.2244124449989613,
+      "wav_seconds": 1.9591666666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "is",
+          "de",
+          "garagepoort",
+          "gesloten"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "is",
+          "de",
+          "garagepoort",
+          "gesloten"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "is",
+          "de",
+          "garagepoort",
+          "gesloten"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/is_de_garagepoort_open.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "is de garagepoort open",
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "recognize_seconds": 0,
+      "text": "is de garagepoort open",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "transcribe_seconds": 0.1730432809999911,
+      "wav_seconds": 1.6314166666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "is",
+          "de",
+          "garagepoort",
+          "open"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "is",
+          "de",
+          "garagepoort",
+          "open"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "is",
+          "de",
+          "garagepoort",
+          "open"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/wat_is_de_temperatuur.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "wat is de temperatuur",
+      "raw_tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "recognize_seconds": 0,
+      "text": "wat is de temperatuur",
+      "tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "transcribe_seconds": 0.16799140799957968,
+      "wav_seconds": 1.46,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "wat",
+          "is",
+          "de",
+          "temperatuur"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "wat",
+          "is",
+          "de",
+          "temperatuur"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "wat",
+          "is",
+          "de",
+          "temperatuur"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_garageverlichting_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garageverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de garageverlichting aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de garageverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "transcribe_seconds": 0.10927531699962856,
+      "wav_seconds": 1.7398333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "aan"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "aan"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "aan"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_garageverlichting_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garageverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de garageverlichting uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de garageverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "transcribe_seconds": 0.2036743930002558,
+      "wav_seconds": 1.8774583333333332,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "uit"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "uit"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "garageverlichting",
+          "uit"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerlamp_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerlamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de woonkamerlamp aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de woonkamerlamp aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "transcribe_seconds": 0.1787896810001257,
+      "wav_seconds": 1.6000416666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "aan"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "aan"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "aan"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerlamp_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerlamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de woonkamerlamp uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de woonkamerlamp uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "transcribe_seconds": 0.18477170599908277,
+      "wav_seconds": 1.6308333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "uit"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "uit"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "woonkamerlamp",
+          "uit"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerverlichting_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de woonkamerverlichting aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de woonkamerverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "transcribe_seconds": 0.18654444999992847,
+      "wav_seconds": 1.8495416666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "aan"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "aan"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "aan"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerverlichting_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "zet de woonkamerverlichting uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "recognize_seconds": 0,
+      "text": "zet de woonkamerverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "transcribe_seconds": 0.21291687399934744,
+      "wav_seconds": 1.9937916666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "uit"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "uit"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "zet",
+          "de",
+          "woonkamerverlichting",
+          "uit"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 8.593776753865221,
+  "correct_entities": 12,
+  "correct_intent_and_entities": 11,
+  "correct_intent_names": 11,
+  "correct_transcriptions": 11,
+  "correct_words": 47,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_koud_is_het.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "hoe koud is het",
+      "raw_tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "recognize_seconds": 0.00022935867309570312,
+      "text": "hoe koud is het",
+      "tokens": [
+        "hoe",
+        "koud",
+        "is",
+        "het"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_laat_is_het.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "hoe laat is het",
+      "raw_tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "recognize_seconds": 0.0002295970916748047,
+      "text": "hoe laat is het",
+      "tokens": [
+        "hoe",
+        "laat",
+        "is",
+        "het"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/hoe_warm_is_het.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "hoe warm is het",
+      "raw_tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "recognize_seconds": 0.00022292137145996094,
+      "text": "hoe warm is het",
+      "tokens": [
+        "hoe",
+        "warm",
+        "is",
+        "het"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/is_de_garagepoort_gesloten.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "is de garagepoort gesloten",
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "recognize_seconds": 0.0002422332763671875,
+      "text": "is de garagepoort gesloten",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "gesloten"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/is_de_garagepoort_open.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "is de garagepoort open",
+      "raw_tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "recognize_seconds": 0.00022840499877929688,
+      "text": "is de garagepoort open",
+      "tokens": [
+        "is",
+        "de",
+        "garagepoort",
+        "open"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/wat_is_de_temperatuur.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "wat is de temperatuur",
+      "raw_tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "recognize_seconds": 0.00023365020751953125,
+      "text": "wat is de temperatuur",
+      "tokens": [
+        "wat",
+        "is",
+        "de",
+        "temperatuur"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_garageverlichting_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garageverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de garageverlichting aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "recognize_seconds": 0.00035119056701660156,
+      "text": "zet de garageverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "aan"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_garageverlichting_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garageverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de garageverlichting uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "recognize_seconds": 0.0003192424774169922,
+      "text": "zet de garageverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "garageverlichting",
+        "uit"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerlamp_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerlamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de woonkamerlamp aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "recognize_seconds": 0.0003161430358886719,
+      "text": "zet de woonkamerlamp aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "aan"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerlamp_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerlamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de woonkamerlamp uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "recognize_seconds": 0.0005981922149658203,
+      "text": "zet de woonkamerlamp uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerlamp",
+        "uit"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerverlichting_aan.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "aan"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de woonkamerverlichting aan",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "recognize_seconds": 0.0002865791320800781,
+      "text": "zet de woonkamerverlichting aan",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "aan"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/nl/zet_de_woonkamerverlichting_uit.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "woonkamerverlichting"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "uit"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "zet de woonkamerverlichting uit",
+      "raw_tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "recognize_seconds": 0.0002880096435546875,
+      "text": "zet de woonkamerverlichting uit",
+      "tokens": [
+        "zet",
+        "de",
+        "woonkamerverlichting",
+        "uit"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 0.9166666666666666,
+  "intent_entity_accuracy": 0.9166666666666666,
+  "num_entities": 12,
+  "num_intents": 12,
+  "num_wavs": 12,
+  "num_words": 48,
+  "transcription_accuracy": 0.9791666666666666
+}

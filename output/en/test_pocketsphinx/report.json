@@ -1,0 +1,6124 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_cold_is_it.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "how cold is it",
+      "raw_tokens": [
+        "how",
+        "cold",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "how cold is it",
+      "tokens": [
+        "how",
+        "cold",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0.18837342400001944,
+      "wav_seconds": 1.1037916666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "how",
+          "cold",
+          "is",
+          "it"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "how",
+          "cold",
+          "is",
+          "it"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "how",
+          "cold",
+          "is",
+          "it"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_hot_is_it.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "how hot is it",
+      "raw_tokens": [
+        "how",
+        "hot",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "how hot is it",
+      "tokens": [
+        "how",
+        "hot",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0.26343704399914714,
+      "wav_seconds": 1.02975,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "how",
+          "hot",
+          "is",
+          "it"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "how",
+          "hot",
+          "is",
+          "it"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "how",
+          "hot",
+          "is",
+          "it"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_closed.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "is the garage door closed",
+      "raw_tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "closed"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "is the garage door closed",
+      "tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "closed"
+      ],
+      "transcribe_seconds": 0.2956925840007898,
+      "wav_seconds": 1.967125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "closed"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "closed"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "closed"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_open.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "is the garage door open",
+      "raw_tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "open"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "is the garage door open",
+      "tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "open"
+      ],
+      "transcribe_seconds": 0.2806405930023175,
+      "wav_seconds": 1.803,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "open"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "open"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "is",
+          "the",
+          "garage",
+          "door",
+          "open"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make bedroom light blue",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make bedroom light blue",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0.16703173499990953,
+      "wav_seconds": 1.5683333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "make",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make bedroom light green",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make bedroom light green",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0.13482306399964727,
+      "wav_seconds": 1.5480833333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "make",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make bedroom light red",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make bedroom light red",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0.16833733900057268,
+      "wav_seconds": 1.5045,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "make",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make the bedroom light blue",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make the bedroom light blue",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0.18335380099961185,
+      "wav_seconds": 1.7679166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make the bedroom light green",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make the bedroom light green",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0.19158068999968236,
+      "wav_seconds": 1.7502083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "make the bedroom light red",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "make the bedroom light red",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0.15140270499978215,
+      "wav_seconds": 1.670625,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "make",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light blue",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light blue",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0.13846302500314778,
+      "wav_seconds": 1.58225,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light green",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light green",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0.24080177699943306,
+      "wav_seconds": 1.5603333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light red",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light red",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0.14580575799845974,
+      "wav_seconds": 1.5311666666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light to blue",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light to blue",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "transcribe_seconds": 0.17401059300027555,
+      "wav_seconds": 1.844125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light to green",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light to green",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "transcribe_seconds": 0.1694220259996655,
+      "wav_seconds": 1.8626666666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set bedroom light to red",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set bedroom light to red",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "transcribe_seconds": 0.2423240349999105,
+      "wav_seconds": 1.79925,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light blue",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light blue",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0.15798576700035483,
+      "wav_seconds": 1.7904583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light green",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light green",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0.18913222399714869,
+      "wav_seconds": 1.765,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light red",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light red",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0.15922697899804916,
+      "wav_seconds": 1.7149166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light to blue",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to blue",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "transcribe_seconds": 0.2814675250010623,
+      "wav_seconds": 1.8801666666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "blue"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light to green",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to green",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "transcribe_seconds": 0.20130309099840815,
+      "wav_seconds": 1.8752083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "green"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "expected_intent_name": "ChangeLightColor",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "missing_entities": [],
+      "raw_text": "set the bedroom light to red",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to red",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "transcribe_seconds": 0.22562897000170778,
+      "wav_seconds": 1.8183333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "set",
+          "the",
+          "bedroom",
+          "light",
+          "to",
+          "red"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/tell_me_the_time.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "tell me the time",
+      "raw_tokens": [
+        "tell",
+        "me",
+        "the",
+        "time"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "tell me the time",
+      "tokens": [
+        "tell",
+        "me",
+        "the",
+        "time"
+      ],
+      "transcribe_seconds": 0.2419973680007388,
+      "wav_seconds": 1.0830833333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "tell",
+          "me",
+          "the",
+          "time"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "tell",
+          "me",
+          "the",
+          "time"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "tell",
+          "me",
+          "the",
+          "time"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn bedroom light off",
+      "raw_tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn bedroom light off",
+      "tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0.21808832999886363,
+      "wav_seconds": 1.5684583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn bedroom light on",
+      "raw_tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn bedroom light on",
+      "tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0.16712835200087284,
+      "wav_seconds": 1.5656666666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn garage light off",
+      "raw_tokens": [
+        "turn",
+        "garage",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn garage light off",
+      "tokens": [
+        "turn",
+        "garage",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0.14284177900117356,
+      "wav_seconds": 1.6213333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "garage",
+          "light",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "garage",
+          "light",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "garage",
+          "light",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn garage light on",
+      "raw_tokens": [
+        "turn",
+        "garage",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn garage light on",
+      "tokens": [
+        "turn",
+        "garage",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0.1487461139986408,
+      "wav_seconds": 1.6065416666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "garage",
+          "light",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "garage",
+          "light",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "garage",
+          "light",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn living room lamp off",
+      "raw_tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn living room lamp off",
+      "tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "transcribe_seconds": 0.09168339800089598,
+      "wav_seconds": 1.927375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn living room lamp on",
+      "raw_tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn living room lamp on",
+      "tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "transcribe_seconds": 0.20952287600084674,
+      "wav_seconds": 1.8906666666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off bedroom light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off bedroom light",
+      "tokens": [
+        "turn",
+        "off",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0.12958440399961546,
+      "wav_seconds": 1.470875,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "bedroom",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "bedroom",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "off",
+          "bedroom",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off garage light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off garage light",
+      "tokens": [
+        "turn",
+        "off",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0.2830036489976919,
+      "wav_seconds": 1.547,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "garage",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "garage",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "off",
+          "garage",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off living room lamp",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off living room lamp",
+      "tokens": [
+        "turn",
+        "off",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0.17071685699920636,
+      "wav_seconds": 1.8044583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "off",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off the bedroom light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off the bedroom light",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0.15049113200075226,
+      "wav_seconds": 1.6902916666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "off",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off the garage light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off the garage light",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0.31605908799974713,
+      "wav_seconds": 1.7356666666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "the",
+          "garage",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "the",
+          "garage",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "off",
+          "the",
+          "garage",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn off the living room lamp",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn off the living room lamp",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0.2702141379995737,
+      "wav_seconds": 1.8654166666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "off",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "off",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "turn",
+          "off",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on bedroom light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on bedroom light",
+      "tokens": [
+        "turn",
+        "on",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0.15634472599776927,
+      "wav_seconds": 1.4594166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "bedroom",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "bedroom",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "on",
+          "bedroom",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on garage light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on garage light",
+      "tokens": [
+        "turn",
+        "on",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0.16762960299820406,
+      "wav_seconds": 1.5037083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "garage",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "garage",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "turn",
+          "on",
+          "garage",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on living room lamp",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on living room lamp",
+      "tokens": [
+        "turn",
+        "on",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0.16097744200305897,
+      "wav_seconds": 1.7895833333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "on",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on the bedroom light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on the bedroom light",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0.15653333799855318,
+      "wav_seconds": 1.6467083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "on",
+          "the",
+          "bedroom",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on the garage light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on the garage light",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0.17138698299822863,
+      "wav_seconds": 1.692375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "the",
+          "garage",
+          "light"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "the",
+          "garage",
+          "light"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "on",
+          "the",
+          "garage",
+          "light"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn on the living room lamp",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn on the living room lamp",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0.1905467469987343,
+      "wav_seconds": 1.8501666666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "on",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "on",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "turn",
+          "on",
+          "the",
+          "living",
+          "room",
+          "lamp"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the bedroom light off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the bedroom light off",
+      "tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0.15715576100046746,
+      "wav_seconds": 1.7300416666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the bedroom light on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the bedroom light on",
+      "tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0.2644615809986135,
+      "wav_seconds": 1.7334583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "the",
+          "bedroom",
+          "light",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the garage light off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the garage light off",
+      "tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0.23260567799661658,
+      "wav_seconds": 1.7683333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the garage light on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the garage light on",
+      "tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0.1572743780016026,
+      "wav_seconds": 1.7797083333333332,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "turn",
+          "the",
+          "garage",
+          "light",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the living room lamp off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the living room lamp off",
+      "tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "transcribe_seconds": 0.20325325700105168,
+      "wav_seconds": 1.9486666666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "off"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "turn the living room lamp on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "turn the living room lamp on",
+      "tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "transcribe_seconds": 0.1761237249993428,
+      "wav_seconds": 1.94125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "turn",
+          "the",
+          "living",
+          "room",
+          "lamp",
+          "on"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/what_time_is_it.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "what time is it",
+      "raw_tokens": [
+        "what",
+        "time",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "what time is it",
+      "tokens": [
+        "what",
+        "time",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0.21131623199835303,
+      "wav_seconds": 1.047875,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "what",
+          "time",
+          "is",
+          "it"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "what",
+          "time",
+          "is",
+          "it"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "what",
+          "time",
+          "is",
+          "it"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/whats_the_temperature.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "whats the temperature",
+      "raw_tokens": [
+        "whats",
+        "the",
+        "temperature"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "whats the temperature",
+      "tokens": [
+        "whats",
+        "the",
+        "temperature"
+      ],
+      "transcribe_seconds": 0.17551152300075046,
+      "wav_seconds": 1.298125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "whats",
+          "the",
+          "temperature"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "whats",
+          "the",
+          "temperature"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "whats",
+          "the",
+          "temperature"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 9.155105281075365,
+  "correct_entities": 84,
+  "correct_intent_and_entities": 49,
+  "correct_intent_names": 49,
+  "correct_transcriptions": 49,
+  "correct_words": 232,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_cold_is_it.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "how cold is it",
+      "raw_tokens": [
+        "how",
+        "cold",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0.0011115074157714844,
+      "speech_confidence": 0,
+      "text": "how cold is it",
+      "tokens": [
+        "how",
+        "cold",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_hot_is_it.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "how hot is it",
+      "raw_tokens": [
+        "how",
+        "hot",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0.0002765655517578125,
+      "speech_confidence": 0,
+      "text": "how hot is it",
+      "tokens": [
+        "how",
+        "hot",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_closed.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "is the garage door closed",
+      "raw_tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "closed"
+      ],
+      "recognize_seconds": 0.0010418891906738281,
+      "speech_confidence": 0,
+      "text": "is the garage door closed",
+      "tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "closed"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_open.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "is the garage door open",
+      "raw_tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "open"
+      ],
+      "recognize_seconds": 0.0002727508544921875,
+      "speech_confidence": 0,
+      "text": "is the garage door open",
+      "tokens": [
+        "is",
+        "the",
+        "garage",
+        "door",
+        "open"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make bedroom light blue",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0.001384735107421875,
+      "speech_confidence": 0,
+      "text": "make bedroom light blue",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make bedroom light green",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0.0012445449829101562,
+      "speech_confidence": 0,
+      "text": "make bedroom light green",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make bedroom light red",
+      "raw_tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0.00039839744567871094,
+      "speech_confidence": 0,
+      "text": "make bedroom light red",
+      "tokens": [
+        "make",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make the bedroom light blue",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0.00046539306640625,
+      "speech_confidence": 0,
+      "text": "make the bedroom light blue",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make the bedroom light green",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0.0004088878631591797,
+      "speech_confidence": 0,
+      "text": "make the bedroom light green",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "make the bedroom light red",
+      "raw_tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0.00039267539978027344,
+      "speech_confidence": 0,
+      "text": "make the bedroom light red",
+      "tokens": [
+        "make",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light blue",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0.0014884471893310547,
+      "speech_confidence": 0,
+      "text": "set bedroom light blue",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light green",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0.0004918575286865234,
+      "speech_confidence": 0,
+      "text": "set bedroom light green",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light red",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0.0014257431030273438,
+      "speech_confidence": 0,
+      "text": "set bedroom light red",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light to blue",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "recognize_seconds": 0.00046443939208984375,
+      "speech_confidence": 0,
+      "text": "set bedroom light to blue",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light to green",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "recognize_seconds": 0.00144195556640625,
+      "speech_confidence": 0,
+      "text": "set bedroom light to green",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set bedroom light to red",
+      "raw_tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "recognize_seconds": 0.00047969818115234375,
+      "speech_confidence": 0,
+      "text": "set bedroom light to red",
+      "tokens": [
+        "set",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light blue",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "recognize_seconds": 0.0005872249603271484,
+      "speech_confidence": 0,
+      "text": "set the bedroom light blue",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light green",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "recognize_seconds": 0.0015377998352050781,
+      "speech_confidence": 0,
+      "text": "set the bedroom light green",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light red",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "recognize_seconds": 0.001444101333618164,
+      "speech_confidence": 0,
+      "text": "set the bedroom light red",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_blue.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "blue"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light to blue",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "recognize_seconds": 0.0005192756652832031,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to blue",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "blue"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_green.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "green"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light to green",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "recognize_seconds": 0.00179290771484375,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to green",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "green"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_red.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "color",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "red"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightColor"
+      },
+      "raw_text": "set the bedroom light to red",
+      "raw_tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "recognize_seconds": 0.0005435943603515625,
+      "speech_confidence": 0,
+      "text": "set the bedroom light to red",
+      "tokens": [
+        "set",
+        "the",
+        "bedroom",
+        "light",
+        "to",
+        "red"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/tell_me_the_time.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "tell me the time",
+      "raw_tokens": [
+        "tell",
+        "me",
+        "the",
+        "time"
+      ],
+      "recognize_seconds": 0.0009148120880126953,
+      "speech_confidence": 0,
+      "text": "tell me the time",
+      "tokens": [
+        "tell",
+        "me",
+        "the",
+        "time"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn bedroom light off",
+      "raw_tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0.0027565956115722656,
+      "speech_confidence": 0,
+      "text": "turn bedroom light off",
+      "tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn bedroom light on",
+      "raw_tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0.0009396076202392578,
+      "speech_confidence": 0,
+      "text": "turn bedroom light on",
+      "tokens": [
+        "turn",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn garage light off",
+      "raw_tokens": [
+        "turn",
+        "garage",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0.0008075237274169922,
+      "speech_confidence": 0,
+      "text": "turn garage light off",
+      "tokens": [
+        "turn",
+        "garage",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn garage light on",
+      "raw_tokens": [
+        "turn",
+        "garage",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0.0029053688049316406,
+      "speech_confidence": 0,
+      "text": "turn garage light on",
+      "tokens": [
+        "turn",
+        "garage",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn living room lamp off",
+      "raw_tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "recognize_seconds": 0.0031638145446777344,
+      "speech_confidence": 0,
+      "text": "turn living room lamp off",
+      "tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn living room lamp on",
+      "raw_tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "recognize_seconds": 0.0027468204498291016,
+      "speech_confidence": 0,
+      "text": "turn living room lamp on",
+      "tokens": [
+        "turn",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off bedroom light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0.0007283687591552734,
+      "speech_confidence": 0,
+      "text": "turn off bedroom light",
+      "tokens": [
+        "turn",
+        "off",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off garage light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0.0007455348968505859,
+      "speech_confidence": 0,
+      "text": "turn off garage light",
+      "tokens": [
+        "turn",
+        "off",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off living room lamp",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0.002843141555786133,
+      "speech_confidence": 0,
+      "text": "turn off living room lamp",
+      "tokens": [
+        "turn",
+        "off",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off the bedroom light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0.002583742141723633,
+      "speech_confidence": 0,
+      "text": "turn off the bedroom light",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off the garage light",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0.0026466846466064453,
+      "speech_confidence": 0,
+      "text": "turn off the garage light",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn off the living room lamp",
+      "raw_tokens": [
+        "turn",
+        "off",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0.000751495361328125,
+      "speech_confidence": 0,
+      "text": "turn off the living room lamp",
+      "tokens": [
+        "turn",
+        "off",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on bedroom light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0.002665996551513672,
+      "speech_confidence": 0,
+      "text": "turn on bedroom light",
+      "tokens": [
+        "turn",
+        "on",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on garage light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0.0027306079864501953,
+      "speech_confidence": 0,
+      "text": "turn on garage light",
+      "tokens": [
+        "turn",
+        "on",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on living room lamp",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0.002945423126220703,
+      "speech_confidence": 0,
+      "text": "turn on living room lamp",
+      "tokens": [
+        "turn",
+        "on",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_bedroom_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on the bedroom light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "recognize_seconds": 0.0031557083129882812,
+      "speech_confidence": 0,
+      "text": "turn on the bedroom light",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "bedroom",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_garage_light.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on the garage light",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "garage",
+        "light"
+      ],
+      "recognize_seconds": 0.0008332729339599609,
+      "speech_confidence": 0,
+      "text": "turn on the garage light",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "garage",
+        "light"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_living_room_lamp.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn on the living room lamp",
+      "raw_tokens": [
+        "turn",
+        "on",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "recognize_seconds": 0.0028378963470458984,
+      "speech_confidence": 0,
+      "text": "turn on the living room lamp",
+      "tokens": [
+        "turn",
+        "on",
+        "the",
+        "living",
+        "room",
+        "lamp"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the bedroom light off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0.0026140213012695312,
+      "speech_confidence": 0,
+      "text": "turn the bedroom light off",
+      "tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "bedroom light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the bedroom light on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0.0025267601013183594,
+      "speech_confidence": 0,
+      "text": "turn the bedroom light on",
+      "tokens": [
+        "turn",
+        "the",
+        "bedroom",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the garage light off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "off"
+      ],
+      "recognize_seconds": 0.0007758140563964844,
+      "speech_confidence": 0,
+      "text": "turn the garage light off",
+      "tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "garage light"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the garage light on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "on"
+      ],
+      "recognize_seconds": 0.0009126663208007812,
+      "speech_confidence": 0,
+      "text": "turn the garage light on",
+      "tokens": [
+        "turn",
+        "the",
+        "garage",
+        "light",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_off.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "off"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the living room lamp off",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "recognize_seconds": 0.002612590789794922,
+      "speech_confidence": 0,
+      "text": "turn the living room lamp off",
+      "tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "off"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_on.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "living room lamp"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "on"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "turn the living room lamp on",
+      "raw_tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "recognize_seconds": 0.002851724624633789,
+      "speech_confidence": 0,
+      "text": "turn the living room lamp on",
+      "tokens": [
+        "turn",
+        "the",
+        "living",
+        "room",
+        "lamp",
+        "on"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/what_time_is_it.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "what time is it",
+      "raw_tokens": [
+        "what",
+        "time",
+        "is",
+        "it"
+      ],
+      "recognize_seconds": 0.00029468536376953125,
+      "speech_confidence": 0,
+      "text": "what time is it",
+      "tokens": [
+        "what",
+        "time",
+        "is",
+        "it"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/whats_the_temperature.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "whats the temperature",
+      "raw_tokens": [
+        "whats",
+        "the",
+        "temperature"
+      ],
+      "recognize_seconds": 0.0010981559753417969,
+      "speech_confidence": 0,
+      "text": "whats the temperature",
+      "tokens": [
+        "whats",
+        "the",
+        "temperature"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "num_entities": 84,
+  "num_intents": 49,
+  "num_wavs": 49,
+  "num_words": 232,
+  "transcription_accuracy": 1
+}

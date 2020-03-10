@@ -1,0 +1,1 @@
+{"text": "hoe laat is het", "intent": {"name": "GetTime", "confidence": 1.0}, "entities": [], "raw_text": "hoe laat is het", "tokens": ["hoe", "laat", "is", "het"], "raw_tokens": ["hoe", "laat", "is", "het"], "slots": {}, "intents": [], "recognize_seconds": 0.0002295970916748047}

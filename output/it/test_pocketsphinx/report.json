@@ -1,0 +1,1533 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_la_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "accendi la lampada del soggiorno",
+      "raw_tokens": [
+        "accendi",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "accendi la lampada del soggiorno",
+      "tokens": [
+        "accendi",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0.05793091300074593,
+      "wav_seconds": 2.4727083333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "accendi",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "accendi",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "accendi",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_la_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "accendi la luce del garage",
+      "raw_tokens": [
+        "accendi",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "accendi la luce del garage",
+      "tokens": [
+        "accendi",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0.06939980300012394,
+      "wav_seconds": 2.1490833333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "accendi",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "accendi",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "accendi",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "accendi lampada del soggiorno",
+      "raw_tokens": [
+        "accendi",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "accendi lampada del soggiorno",
+      "tokens": [
+        "accendi",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0.05628627199985203,
+      "wav_seconds": 2.254,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "accendi",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "accendi",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "accendi",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "accendi luce del garage",
+      "raw_tokens": [
+        "accendi",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "accendi luce del garage",
+      "tokens": [
+        "accendi",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0.06637834700086387,
+      "wav_seconds": 1.8250833333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "accendi",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "accendi",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "accendi",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/che_ore_sono.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "ore sono",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ore sono",
+      "tokens": [],
+      "transcribe_seconds": 0.03270233600051142,
+      "wav_seconds": 1.2227083333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ore",
+          "sono"
+        ],
+        "error_rate": 0,
+        "errors": 1,
+        "hypothesis": [
+          "ore",
+          "sono"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "che",
+          "ore",
+          "sono"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/la_porta_del_garage_è_aperta.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "la porta del garage è aperta",
+      "raw_tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "aperta"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "la porta del garage è aperta",
+      "tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "aperta"
+      ],
+      "transcribe_seconds": 0.07574233100240235,
+      "wav_seconds": 2.3343333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "aperta"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "aperta"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "aperta"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/la_porta_del_garage_è_chiusa.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "la porta del garage è chiusa",
+      "raw_tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "chiusa"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "la porta del garage è chiusa",
+      "tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "chiusa"
+      ],
+      "transcribe_seconds": 0.06634143100018264,
+      "wav_seconds": 2.289625,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "chiusa"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "chiusa"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "la",
+          "porta",
+          "del",
+          "garage",
+          "è",
+          "chiusa"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quale_e_la_temperatura.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "quale e la temperatura",
+      "raw_tokens": [
+        "quale",
+        "e",
+        "la",
+        "temperatura"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "quale e la temperatura",
+      "tokens": [
+        "quale",
+        "e",
+        "la",
+        "temperatura"
+      ],
+      "transcribe_seconds": 0.04694407300121384,
+      "wav_seconds": 1.686375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "quale",
+          "e",
+          "la",
+          "temperatura"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "quale",
+          "e",
+          "la",
+          "temperatura"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "quale",
+          "e",
+          "la",
+          "temperatura"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quanto_è_caldo.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "quanto è caldo",
+      "raw_tokens": [
+        "quanto",
+        "è",
+        "caldo"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "quanto è caldo",
+      "tokens": [
+        "quanto",
+        "è",
+        "caldo"
+      ],
+      "transcribe_seconds": 0.05350476400053594,
+      "wav_seconds": 1.2764166666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "quanto",
+          "è",
+          "caldo"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "quanto",
+          "è",
+          "caldo"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "quanto",
+          "è",
+          "caldo"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quanto_è_freddo.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "quanto è freddo",
+      "raw_tokens": [
+        "quanto",
+        "è",
+        "freddo"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "quanto è freddo",
+      "tokens": [
+        "quanto",
+        "è",
+        "freddo"
+      ],
+      "transcribe_seconds": 0.03969548299937742,
+      "wav_seconds": 1.2437083333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "quanto",
+          "è",
+          "freddo"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "quanto",
+          "è",
+          "freddo"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "quanto",
+          "è",
+          "freddo"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_la_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "spegnere la lampada del soggiorno",
+      "raw_tokens": [
+        "spegnere",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "spegnere la lampada del soggiorno",
+      "tokens": [
+        "spegnere",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0.056857234998460626,
+      "wav_seconds": 2.5808333333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "spegnere",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "spegnere",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "spegnere",
+          "la",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_la_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "spegnere la luce del garage",
+      "raw_tokens": [
+        "spegnere",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "spegnere la luce del garage",
+      "tokens": [
+        "spegnere",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0.05805887899987283,
+      "wav_seconds": 2.234541666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "spegnere",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "spegnere",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "spegnere",
+          "la",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "spegnere lampada del soggiorno",
+      "raw_tokens": [
+        "spegnere",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "spegnere lampada del soggiorno",
+      "tokens": [
+        "spegnere",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0.058023109999339795,
+      "wav_seconds": 2.324291666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "spegnere",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "spegnere",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "spegnere",
+          "lampada",
+          "del",
+          "soggiorno"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "spegnere luce del garage",
+      "raw_tokens": [
+        "spegnere",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "spegnere luce del garage",
+      "tokens": [
+        "spegnere",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0.06567842199729057,
+      "wav_seconds": 1.9299583333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "spegnere",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "spegnere",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "spegnere",
+          "luce",
+          "del",
+          "garage"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 34.881748310989906,
+  "correct_entities": 16,
+  "correct_intent_and_entities": 13,
+  "correct_intent_names": 13,
+  "correct_transcriptions": 13,
+  "correct_words": 60,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_la_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "accendi la lampada del soggiorno",
+      "raw_tokens": [
+        "accendi",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0.04818378600248252,
+      "speech_confidence": 1,
+      "text": "accendi la lampada del soggiorno",
+      "tokens": [
+        "accendi",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_la_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "accendi la luce del garage",
+      "raw_tokens": [
+        "accendi",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0.04602447800061782,
+      "speech_confidence": 1,
+      "text": "accendi la luce del garage",
+      "tokens": [
+        "accendi",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "accendi lampada del soggiorno",
+      "raw_tokens": [
+        "accendi",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0.047639378000894794,
+      "speech_confidence": 1,
+      "text": "accendi lampada del soggiorno",
+      "tokens": [
+        "accendi",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/accendi_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "accendi"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "accendi luce del garage",
+      "raw_tokens": [
+        "accendi",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0.043929146999289514,
+      "speech_confidence": 1,
+      "text": "accendi luce del garage",
+      "tokens": [
+        "accendi",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/che_ore_sono.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "che ore sono",
+      "raw_tokens": [
+        "che",
+        "ore",
+        "sono"
+      ],
+      "recognize_seconds": 0.04835253199780709,
+      "speech_confidence": 1,
+      "text": "che ore sono",
+      "tokens": [
+        "che",
+        "ore",
+        "sono"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/la_porta_del_garage_è_aperta.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "la porta del garage è aperta",
+      "raw_tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "aperta"
+      ],
+      "recognize_seconds": 0.050504494000051636,
+      "speech_confidence": 1,
+      "text": "la porta del garage è aperta",
+      "tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "aperta"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/la_porta_del_garage_è_chiusa.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "la porta del garage è chiusa",
+      "raw_tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "chiusa"
+      ],
+      "recognize_seconds": 0.04532631400070386,
+      "speech_confidence": 1,
+      "text": "la porta del garage è chiusa",
+      "tokens": [
+        "la",
+        "porta",
+        "del",
+        "garage",
+        "è",
+        "chiusa"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quale_e_la_temperatura.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "quale e la temperatura",
+      "raw_tokens": [
+        "quale",
+        "e",
+        "la",
+        "temperatura"
+      ],
+      "recognize_seconds": 0.007511453000915935,
+      "speech_confidence": 1,
+      "text": "quale e la temperatura",
+      "tokens": [
+        "quale",
+        "e",
+        "la",
+        "temperatura"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quanto_è_caldo.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "quanto è caldo",
+      "raw_tokens": [
+        "quanto",
+        "è",
+        "caldo"
+      ],
+      "recognize_seconds": 0.008163987997249933,
+      "speech_confidence": 1,
+      "text": "quanto è caldo",
+      "tokens": [
+        "quanto",
+        "è",
+        "caldo"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/quanto_è_freddo.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "quanto è freddo",
+      "raw_tokens": [
+        "quanto",
+        "è",
+        "freddo"
+      ],
+      "recognize_seconds": 0.00813703400126542,
+      "speech_confidence": 1,
+      "text": "quanto è freddo",
+      "tokens": [
+        "quanto",
+        "è",
+        "freddo"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_la_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "spegnere la lampada del soggiorno",
+      "raw_tokens": [
+        "spegnere",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0.009232562999386573,
+      "speech_confidence": 1,
+      "text": "spegnere la lampada del soggiorno",
+      "tokens": [
+        "spegnere",
+        "la",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_la_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "spegnere la luce del garage",
+      "raw_tokens": [
+        "spegnere",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0.009270418999221874,
+      "speech_confidence": 1,
+      "text": "spegnere la luce del garage",
+      "tokens": [
+        "spegnere",
+        "la",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_lampada_del_soggiorno.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lampada del soggiorno"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "spegnere lampada del soggiorno",
+      "raw_tokens": [
+        "spegnere",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "recognize_seconds": 0.009201150998705998,
+      "speech_confidence": 1,
+      "text": "spegnere lampada del soggiorno",
+      "tokens": [
+        "spegnere",
+        "lampada",
+        "del",
+        "soggiorno"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/it/spegnere_luce_del_garage.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luce del garage"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "spegnere"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "spegnere luce del garage",
+      "raw_tokens": [
+        "spegnere",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "recognize_seconds": 0.05079762400055188,
+      "speech_confidence": 1,
+      "text": "spegnere luce del garage",
+      "tokens": [
+        "spegnere",
+        "luce",
+        "del",
+        "garage"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 0.9285714285714286,
+  "intent_entity_accuracy": 0.9285714285714286,
+  "num_entities": 16,
+  "num_intents": 14,
+  "num_wavs": 14,
+  "num_words": 61,
+  "transcription_accuracy": 0.9836065573770492
+}
