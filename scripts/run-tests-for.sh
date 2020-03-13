@@ -54,7 +54,7 @@ for profile_dir in ${profiles_dir}/test_*; do
     cp -R "${shared_dir}"/* "${temp_dir}/${lang}/"
 
     user="$(id -u):$(id -g)"
-    docker_command="docker run -d -v "${temp_dir}:/profiles" --user "${user}" --network host cecep-prime:15555/services/rhasspy:2.5.0 --profile "${lang}" --user-profiles /profiles --http-port ${web_port} --local-mqtt-port ${mqtt_port} -- --set download.url_base 'http://localhost:5000'"
+    docker_command="docker run -d -v "${temp_dir}:/profiles" --user "${user}" --network host rhasspy/rhasspy:2.5.0-pre --profile "${lang}" --user-profiles /profiles --http-port ${web_port} --local-mqtt-port ${mqtt_port} -- --set download.url_base 'http://localhost:5000'"
     echo "${docker_command}"
 
     container_id="$(${docker_command})"

@@ -1,0 +1,1 @@
+{"entities":[],"intent":{"confidence":1.0,"name":"GetGarageState"},"raw_text":"qual o status da garagem","raw_tokens":["qual","o","status","da","garagem"],"recognize_seconds":0.047318864992121235,"slots":{},"speech_confidence":1,"text":"qual o status da garagem","tokens":["qual","o","status","da","garagem"],"wakewordId":""}

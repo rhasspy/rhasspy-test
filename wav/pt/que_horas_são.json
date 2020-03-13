@@ -1,0 +1,1 @@
+{"entities":[],"intent":{"confidence":1.0,"name":"GetTime"},"raw_text":"que horas s\u00e3o","raw_tokens":["que","horas","s\u00e3o"],"recognize_seconds":0.04826404599589296,"slots":{},"speech_confidence":1,"text":"que horas s\u00e3o","tokens":["que","horas","s\u00e3o"],"wakewordId":""}

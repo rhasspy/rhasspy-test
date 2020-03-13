@@ -1,0 +1,1 @@
+{"entities":[],"intent":{"confidence":1.0,"name":"GetTemperature"},"raw_text":"que calor hace","raw_tokens":["que","calor","hace"],"recognize_seconds":0.04980077498476021,"slots":{},"speech_confidence":1,"text":"que calor hace","tokens":["que","calor","hace"],"wakewordId":""}

@@ -1,0 +1,3514 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda luz do quarto",
+      "raw_tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda luz do quarto",
+      "tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.0360546610027086,
+      "wav_seconds": 1.9656666666666667,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "acenda",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0.2,
+        "errors": 1,
+        "hypothesis": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "acenda",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda a lâmpada",
+      "raw_tokens": [
+        "acenda",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda a lâmpada",
+      "tokens": [
+        "acenda",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.03543028098647483,
+      "wav_seconds": 1.5655833333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda régua",
+      "raw_tokens": [
+        "acenda",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda régua",
+      "tokens": [
+        "acenda",
+        "régua"
+      ],
+      "transcribe_seconds": 0.02353719199891202,
+      "wav_seconds": 1.3682916666666667,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "acenda",
+          "-a",
+          "régua"
+        ],
+        "error_rate": 0.3333333333333333,
+        "errors": 1,
+        "hypothesis": [
+          "acenda",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "acenda",
+          "a",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda luz do quarto",
+      "raw_tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda luz do quarto",
+      "tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.0324309749994427,
+      "wav_seconds": 1.6944166666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda lâmpada",
+      "raw_tokens": [
+        "acenda",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda lâmpada",
+      "tokens": [
+        "acenda",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.017912696988787502,
+      "wav_seconds": 1.4013333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "acenda",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "acenda",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "acenda",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "acenda régua",
+      "raw_tokens": [
+        "acenda",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "acenda régua",
+      "tokens": [
+        "acenda",
+        "régua"
+      ],
+      "transcribe_seconds": 0.035293566004838794,
+      "wav_seconds": 1.240125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "acenda",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "acenda",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "acenda",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague a luz do quarto",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague a luz do quarto",
+      "tokens": [
+        "apague",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.026765989023260772,
+      "wav_seconds": 1.9063333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague a lâmpada",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague a lâmpada",
+      "tokens": [
+        "apague",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.033724951004842296,
+      "wav_seconds": 1.5855416666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague a régua",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague a régua",
+      "tokens": [
+        "apague",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0.024440045992378145,
+      "wav_seconds": 1.3649166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague luz do quarto",
+      "raw_tokens": [
+        "apague",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague luz do quarto",
+      "tokens": [
+        "apague",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.033676035003736615,
+      "wav_seconds": 1.7983333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague lâmpada",
+      "raw_tokens": [
+        "apague",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague lâmpada",
+      "tokens": [
+        "apague",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.018429097020998597,
+      "wav_seconds": 1.41975,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "apague",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apague régua",
+      "raw_tokens": [
+        "apague",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apague régua",
+      "tokens": [
+        "apague",
+        "régua"
+      ],
+      "transcribe_seconds": 0.019422440993366763,
+      "wav_seconds": 1.2239583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apague",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apague",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "apague",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "desligar luz do quarto",
+      "raw_tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "desligar luz do quarto",
+      "tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.04147084098076448,
+      "wav_seconds": 2.0945833333333335,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "desligar",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0.2,
+        "errors": 1,
+        "hypothesis": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "desligar",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "desligar lâmpada",
+      "raw_tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "desligar lâmpada",
+      "tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.028654231980908662,
+      "wav_seconds": 1.683625,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "desligar",
+          "-a",
+          "lâmpada"
+        ],
+        "error_rate": 0.3333333333333333,
+        "errors": 1,
+        "hypothesis": [
+          "desligar",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "desligar",
+          "a",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_régua.wav": {
+      "entities": [],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "externa ar régua",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "externa ar régua",
+      "tokens": [],
+      "transcribe_seconds": 0.02691923698876053,
+      "wav_seconds": 1.4988333333333332,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "desligar:externa",
+          "a:ar",
+          "régua"
+        ],
+        "error_rate": 0.6666666666666666,
+        "errors": 2,
+        "hypothesis": [
+          "externa",
+          "ar",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 1,
+        "reference": [
+          "desligar",
+          "a",
+          "régua"
+        ],
+        "substitutions": 2,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "desligar luz do quarto",
+      "raw_tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "desligar luz do quarto",
+      "tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.029262284020660445,
+      "wav_seconds": 1.8995,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "desligar lâmpada",
+      "raw_tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "desligar lâmpada",
+      "tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.034672520007006824,
+      "wav_seconds": 1.5783333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "desligar",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "desligar",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "desligar",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "desligar régua",
+      "raw_tokens": [
+        "desligar",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "desligar régua",
+      "tokens": [
+        "desligar",
+        "régua"
+      ],
+      "transcribe_seconds": 0.03749169598449953,
+      "wav_seconds": 1.37725,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "desligar",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "desligar",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "desligar",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar luz do quarto",
+      "raw_tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar luz do quarto",
+      "tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.03274818998761475,
+      "wav_seconds": 1.9347916666666667,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "ligar",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0.2,
+        "errors": 1,
+        "hypothesis": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "ligar",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar lâmpada",
+      "raw_tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar lâmpada",
+      "tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.02799728000536561,
+      "wav_seconds": 1.4665833333333333,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "ligar",
+          "-a",
+          "lâmpada"
+        ],
+        "error_rate": 0.3333333333333333,
+        "errors": 1,
+        "hypothesis": [
+          "ligar",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "ligar",
+          "a",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar a régua",
+      "raw_tokens": [
+        "ligar",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar a régua",
+      "tokens": [
+        "ligar",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0.04185991600388661,
+      "wav_seconds": 1.2728333333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar luz do quarto",
+      "raw_tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar luz do quarto",
+      "tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0.02984953299164772,
+      "wav_seconds": 1.7697916666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar lâmpada",
+      "raw_tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar lâmpada",
+      "tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0.029198762000305578,
+      "wav_seconds": 1.3405,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ligar",
+          "lâmpada"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ligar",
+          "lâmpada"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "ligar",
+          "lâmpada"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "ligar régua",
+      "raw_tokens": [
+        "ligar",
+        "régua"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "ligar régua",
+      "tokens": [
+        "ligar",
+        "régua"
+      ],
+      "transcribe_seconds": 0.03186360499239527,
+      "wav_seconds": 1.1077083333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "ligar",
+          "régua"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "ligar",
+          "régua"
+        ],
+        "insertions": 0,
+        "matches": 2,
+        "reference": [
+          "ligar",
+          "régua"
+        ],
+        "substitutions": 0,
+        "words": 2
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_qualidade_do_ar.wav": {
+      "entities": [],
+      "expected_intent_name": "GetAirQuality",
+      "intent": {
+        "confidence": 1,
+        "name": "GetAirQuality"
+      },
+      "missing_entities": [],
+      "raw_text": "qual a qualidade do ar",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual a qualidade do ar",
+      "tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
+      "transcribe_seconds": 0.024658656999235973,
+      "wav_seconds": 1.8144166666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "qual",
+          "a",
+          "qualidade",
+          "do",
+          "ar"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "qual",
+          "a",
+          "qualidade",
+          "do",
+          "ar"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "qual",
+          "a",
+          "qualidade",
+          "do",
+          "ar"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_temperatura_externa.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "externa"
+        }
+      ],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "qual a temperatura externa",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual a temperatura externa",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "transcribe_seconds": 0.029511964006815106,
+      "wav_seconds": 2.056791666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_temperatura_interna.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "interna"
+        }
+      ],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "qual a temperatura interna",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual a temperatura interna",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "transcribe_seconds": 0.0312731490121223,
+      "wav_seconds": 1.9280416666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_o_status_da_garagem.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "qual estar do da garagem",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual estar do da garagem",
+      "tokens": [],
+      "transcribe_seconds": 0.030125028017209843,
+      "wav_seconds": 2.0164583333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "qual",
+          "o:estar",
+          "status:do",
+          "da",
+          "garagem"
+        ],
+        "error_rate": 0.4,
+        "errors": 2,
+        "hypothesis": [
+          "qual",
+          "estar",
+          "do",
+          "da",
+          "garagem"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "qual",
+          "o",
+          "status",
+          "da",
+          "garagem"
+        ],
+        "substitutions": 2,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_é_a_temperatura_externa.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "externa"
+        }
+      ],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "qual a temperatura externa",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual a temperatura externa",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "transcribe_seconds": 0.034241076005855575,
+      "wav_seconds": 2.2995833333333335,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "qual",
+          "-é",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "error_rate": 0.2,
+        "errors": 1,
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "qual",
+          "é",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_é_a_temperatura_interna.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "interna"
+        }
+      ],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "qual a temperatura interna",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "qual a temperatura interna",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "transcribe_seconds": 0.02890451400890015,
+      "wav_seconds": 2.2977083333333335,
+      "word_error": {
+        "deletions": 1,
+        "differences": [
+          "qual",
+          "-é",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "error_rate": 0.2,
+        "errors": 1,
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "qual",
+          "é",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/que_horas_são.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "que horas são",
+      "raw_tokens": [
+        "que",
+        "horas",
+        "são"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "que horas são",
+      "tokens": [
+        "que",
+        "horas",
+        "são"
+      ],
+      "transcribe_seconds": 0.020613458997104317,
+      "wav_seconds": 1.0715833333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "que",
+          "horas",
+          "são"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "que",
+          "horas",
+          "são"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "que",
+          "horas",
+          "são"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 56.59490875683357,
+  "correct_entities": 50,
+  "correct_intent_and_entities": 29,
+  "correct_intent_names": 29,
+  "correct_transcriptions": 21,
+  "correct_words": 95,
+  "entity_accuracy": 0.9615384615384616,
+  "expected": {
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda a luz do quarto",
+      "raw_tokens": [
+        "acenda",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.04952373998821713,
+      "speech_confidence": 1,
+      "text": "acenda a luz do quarto",
+      "tokens": [
+        "acenda",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda a lâmpada",
+      "raw_tokens": [
+        "acenda",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.015434346976689994,
+      "speech_confidence": 1,
+      "text": "acenda a lâmpada",
+      "tokens": [
+        "acenda",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda a régua",
+      "raw_tokens": [
+        "acenda",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0.05131421599071473,
+      "speech_confidence": 1,
+      "text": "acenda a régua",
+      "tokens": [
+        "acenda",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda luz do quarto",
+      "raw_tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.009262968000257388,
+      "speech_confidence": 1,
+      "text": "acenda luz do quarto",
+      "tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda lâmpada",
+      "raw_tokens": [
+        "acenda",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.04906689201015979,
+      "speech_confidence": 1,
+      "text": "acenda lâmpada",
+      "tokens": [
+        "acenda",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/acenda_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "acenda"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "acenda régua",
+      "raw_tokens": [
+        "acenda",
+        "régua"
+      ],
+      "recognize_seconds": 0.051182442024583,
+      "speech_confidence": 1,
+      "text": "acenda régua",
+      "tokens": [
+        "acenda",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague a luz do quarto",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.0053207539895083755,
+      "speech_confidence": 1,
+      "text": "apague a luz do quarto",
+      "tokens": [
+        "apague",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague a lâmpada",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.05042662101914175,
+      "speech_confidence": 1,
+      "text": "apague a lâmpada",
+      "tokens": [
+        "apague",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague a régua",
+      "raw_tokens": [
+        "apague",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0.050549556995974854,
+      "speech_confidence": 1,
+      "text": "apague a régua",
+      "tokens": [
+        "apague",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague luz do quarto",
+      "raw_tokens": [
+        "apague",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.05405683201388456,
+      "speech_confidence": 1,
+      "text": "apague luz do quarto",
+      "tokens": [
+        "apague",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague lâmpada",
+      "raw_tokens": [
+        "apague",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.046970555995358154,
+      "speech_confidence": 1,
+      "text": "apague lâmpada",
+      "tokens": [
+        "apague",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/apague_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apague"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apague régua",
+      "raw_tokens": [
+        "apague",
+        "régua"
+      ],
+      "recognize_seconds": 0.04813739299424924,
+      "speech_confidence": 1,
+      "text": "apague régua",
+      "tokens": [
+        "apague",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar a luz do quarto",
+      "raw_tokens": [
+        "desligar",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.05631379198166542,
+      "speech_confidence": 1,
+      "text": "desligar a luz do quarto",
+      "tokens": [
+        "desligar",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar a lâmpada",
+      "raw_tokens": [
+        "desligar",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.049024657026166096,
+      "speech_confidence": 1,
+      "text": "desligar a lâmpada",
+      "tokens": [
+        "desligar",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar a régua",
+      "raw_tokens": [
+        "desligar",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0.047848796006292105,
+      "speech_confidence": 1,
+      "text": "desligar a régua",
+      "tokens": [
+        "desligar",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar luz do quarto",
+      "raw_tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.00996412499807775,
+      "speech_confidence": 1,
+      "text": "desligar luz do quarto",
+      "tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar lâmpada",
+      "raw_tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.05318727297708392,
+      "speech_confidence": 1,
+      "text": "desligar lâmpada",
+      "tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/desligar_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "desligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "desligar régua",
+      "raw_tokens": [
+        "desligar",
+        "régua"
+      ],
+      "recognize_seconds": 0.05032746298820712,
+      "speech_confidence": 1,
+      "text": "desligar régua",
+      "tokens": [
+        "desligar",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar a luz do quarto",
+      "raw_tokens": [
+        "ligar",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.045585943007608876,
+      "speech_confidence": 1,
+      "text": "ligar a luz do quarto",
+      "tokens": [
+        "ligar",
+        "a",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar a lâmpada",
+      "raw_tokens": [
+        "ligar",
+        "a",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.04710287702619098,
+      "speech_confidence": 1,
+      "text": "ligar a lâmpada",
+      "tokens": [
+        "ligar",
+        "a",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_a_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar a régua",
+      "raw_tokens": [
+        "ligar",
+        "a",
+        "régua"
+      ],
+      "recognize_seconds": 0.0519087029970251,
+      "speech_confidence": 1,
+      "text": "ligar a régua",
+      "tokens": [
+        "ligar",
+        "a",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_luz_do_quarto.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz do quarto"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar luz do quarto",
+      "raw_tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "recognize_seconds": 0.046465255989460275,
+      "speech_confidence": 1,
+      "text": "ligar luz do quarto",
+      "tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_lâmpada.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lâmpada"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar lâmpada",
+      "raw_tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "recognize_seconds": 0.04748540700529702,
+      "speech_confidence": 1,
+      "text": "ligar lâmpada",
+      "tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/ligar_régua.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "régua"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "ligar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "ligar régua",
+      "raw_tokens": [
+        "ligar",
+        "régua"
+      ],
+      "recognize_seconds": 0.05113437300315127,
+      "speech_confidence": 1,
+      "text": "ligar régua",
+      "tokens": [
+        "ligar",
+        "régua"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_qualidade_do_ar.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetAirQuality"
+      },
+      "raw_text": "qual a qualidade do ar",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
+      "recognize_seconds": 0.04825390101177618,
+      "speech_confidence": 1,
+      "text": "qual a qualidade do ar",
+      "tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_temperatura_externa.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "externa"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "qual a temperatura externa",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "recognize_seconds": 0.05249617897788994,
+      "speech_confidence": 1,
+      "text": "qual a temperatura externa",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_a_temperatura_interna.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "interna"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "qual a temperatura interna",
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "recognize_seconds": 0.04717249801615253,
+      "speech_confidence": 1,
+      "text": "qual a temperatura interna",
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_o_status_da_garagem.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "qual o status da garagem",
+      "raw_tokens": [
+        "qual",
+        "o",
+        "status",
+        "da",
+        "garagem"
+      ],
+      "recognize_seconds": 0.047318864992121235,
+      "speech_confidence": 1,
+      "text": "qual o status da garagem",
+      "tokens": [
+        "qual",
+        "o",
+        "status",
+        "da",
+        "garagem"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_é_a_temperatura_externa.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "externa"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "qual é a temperatura externa",
+      "raw_tokens": [
+        "qual",
+        "é",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "recognize_seconds": 0.05317530702450313,
+      "speech_confidence": 1,
+      "text": "qual é a temperatura externa",
+      "tokens": [
+        "qual",
+        "é",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/qual_é_a_temperatura_interna.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "interna"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "qual é a temperatura interna",
+      "raw_tokens": [
+        "qual",
+        "é",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "recognize_seconds": 0.05221852700924501,
+      "speech_confidence": 1,
+      "text": "qual é a temperatura interna",
+      "tokens": [
+        "qual",
+        "é",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/pt/que_horas_são.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "que horas são",
+      "raw_tokens": [
+        "que",
+        "horas",
+        "são"
+      ],
+      "recognize_seconds": 0.04826404599589296,
+      "speech_confidence": 1,
+      "text": "que horas são",
+      "tokens": [
+        "que",
+        "horas",
+        "são"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 0.9354838709677419,
+  "intent_entity_accuracy": 0.9354838709677419,
+  "num_entities": 52,
+  "num_intents": 31,
+  "num_wavs": 31,
+  "num_words": 107,
+  "transcription_accuracy": 0.8878504672897196
+}

@@ -1,0 +1,968 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-test/wav/es/apagar_la_luz_del_garaje.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apagar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz del garaje"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apagar la luz del garaje",
+      "raw_tokens": [
+        "apagar",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apagar la luz del garaje",
+      "tokens": [
+        "apagar",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0.05913409698405303,
+      "wav_seconds": 2.0418333333333334,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apagar",
+          "la",
+          "luz",
+          "del",
+          "garaje"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apagar",
+          "la",
+          "luz",
+          "del",
+          "garaje"
+        ],
+        "insertions": 0,
+        "matches": 5,
+        "reference": [
+          "apagar",
+          "la",
+          "luz",
+          "del",
+          "garaje"
+        ],
+        "substitutions": 0,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/apagar_la_lámpara_de_la_sala_de_estar.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apagar"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lámpara de la sala de estar"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "apagar la lámpara de la sala de estar",
+      "raw_tokens": [
+        "apagar",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala",
+        "de",
+        "estar"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "apagar la lámpara de la sala de estar",
+      "tokens": [
+        "apagar",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala",
+        "de",
+        "estar"
+      ],
+      "transcribe_seconds": 0.0884708329977002,
+      "wav_seconds": 2.9034166666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "apagar",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala",
+          "de",
+          "estar"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "apagar",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala",
+          "de",
+          "estar"
+        ],
+        "insertions": 0,
+        "matches": 8,
+        "reference": [
+          "apagar",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala",
+          "de",
+          "estar"
+        ],
+        "substitutions": 0,
+        "words": 8
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/cuál_es_la_temperatura.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "cuál es la temperatura",
+      "raw_tokens": [
+        "cuál",
+        "es",
+        "la",
+        "temperatura"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "cuál es la temperatura",
+      "tokens": [
+        "cuál",
+        "es",
+        "la",
+        "temperatura"
+      ],
+      "transcribe_seconds": 0.06566458000452258,
+      "wav_seconds": 1.8537083333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "cuál",
+          "es",
+          "la",
+          "temperatura"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "cuál",
+          "es",
+          "la",
+          "temperatura"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "cuál",
+          "es",
+          "la",
+          "temperatura"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/encender_la_luz_del_garaje.wav": {
+      "entities": [],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 0,
+        "name": ""
+      },
+      "missing_entities": [],
+      "raw_text": "enciende la del estar hace es",
+      "raw_tokens": [],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "enciende la del estar hace es",
+      "tokens": [],
+      "transcribe_seconds": 0.07843875599792227,
+      "wav_seconds": 2.2876666666666665,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "encender:enciende",
+          "la",
+          "+del",
+          "luz:estar",
+          "del:hace",
+          "garaje:es"
+        ],
+        "error_rate": 1,
+        "errors": 5,
+        "hypothesis": [
+          "enciende",
+          "la",
+          "del",
+          "estar",
+          "hace",
+          "es"
+        ],
+        "insertions": 1,
+        "matches": 1,
+        "reference": [
+          "encender",
+          "la",
+          "luz",
+          "del",
+          "garaje"
+        ],
+        "substitutions": 4,
+        "words": 5
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/enciende_la_lámpara_de_la_sala.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "enciende"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lámpara de la sala"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "enciende la lámpara de la sala",
+      "raw_tokens": [
+        "enciende",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "enciende la lámpara de la sala",
+      "tokens": [
+        "enciende",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala"
+      ],
+      "transcribe_seconds": 0.07841674599330872,
+      "wav_seconds": 2.4859583333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "enciende",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "enciende",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "enciende",
+          "la",
+          "lámpara",
+          "de",
+          "la",
+          "sala"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/está_abierta_la_puerta_del_garaje.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "está abierta la puerta del garaje",
+      "raw_tokens": [
+        "está",
+        "abierta",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "está abierta la puerta del garaje",
+      "tokens": [
+        "está",
+        "abierta",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0.08518351300153881,
+      "wav_seconds": 2.568,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "está",
+          "abierta",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "está",
+          "abierta",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "está",
+          "abierta",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/está_cerrada_la_puerta_del_garaje.wav": {
+      "entities": [],
+      "expected_intent_name": "GetGarageState",
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "missing_entities": [],
+      "raw_text": "está cerrada la puerta del garaje",
+      "raw_tokens": [
+        "está",
+        "cerrada",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "está cerrada la puerta del garaje",
+      "tokens": [
+        "está",
+        "cerrada",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0.12143489200389013,
+      "wav_seconds": 2.6742083333333335,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "está",
+          "cerrada",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "está",
+          "cerrada",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "insertions": 0,
+        "matches": 6,
+        "reference": [
+          "está",
+          "cerrada",
+          "la",
+          "puerta",
+          "del",
+          "garaje"
+        ],
+        "substitutions": 0,
+        "words": 6
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/que_calor_hace.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "que calor hace",
+      "raw_tokens": [
+        "que",
+        "calor",
+        "hace"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "que calor hace",
+      "tokens": [
+        "que",
+        "calor",
+        "hace"
+      ],
+      "transcribe_seconds": 0.056229531997814775,
+      "wav_seconds": 1.3485833333333332,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "que",
+          "calor",
+          "hace"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "que",
+          "calor",
+          "hace"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "que",
+          "calor",
+          "hace"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/que_tan_frio_esta.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTemperature",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "missing_entities": [],
+      "raw_text": "que tan frio esta",
+      "raw_tokens": [
+        "que",
+        "tan",
+        "frio",
+        "esta"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "que tan frio esta",
+      "tokens": [
+        "que",
+        "tan",
+        "frio",
+        "esta"
+      ],
+      "transcribe_seconds": 0.062296994001371786,
+      "wav_seconds": 1.740375,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "que",
+          "tan",
+          "frio",
+          "esta"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "que",
+          "tan",
+          "frio",
+          "esta"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "que",
+          "tan",
+          "frio",
+          "esta"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 28.948022334750963,
+  "correct_entities": 6,
+  "correct_intent_and_entities": 8,
+  "correct_intent_names": 8,
+  "correct_transcriptions": 8,
+  "correct_words": 43,
+  "entity_accuracy": 0.75,
+  "expected": {
+    "home/hansenm/opt/rhasspy-test/wav/es/apagar_la_luz_del_garaje.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz del garaje"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apagar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apagar la luz del garaje",
+      "raw_tokens": [
+        "apagar",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0.047828500013565645,
+      "speech_confidence": 1,
+      "text": "apagar la luz del garaje",
+      "tokens": [
+        "apagar",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/apagar_la_lámpara_de_la_sala_de_estar.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lámpara de la sala de estar"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "apagar"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "apagar la lámpara de la sala de estar",
+      "raw_tokens": [
+        "apagar",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala",
+        "de",
+        "estar"
+      ],
+      "recognize_seconds": 0.008810349012492225,
+      "speech_confidence": 1,
+      "text": "apagar la lámpara de la sala de estar",
+      "tokens": [
+        "apagar",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala",
+        "de",
+        "estar"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/cuál_es_la_temperatura.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "cuál es la temperatura",
+      "raw_tokens": [
+        "cuál",
+        "es",
+        "la",
+        "temperatura"
+      ],
+      "recognize_seconds": 0.045081882999511436,
+      "speech_confidence": 1,
+      "text": "cuál es la temperatura",
+      "tokens": [
+        "cuál",
+        "es",
+        "la",
+        "temperatura"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/encender_la_luz_del_garaje.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "luz del garaje"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "encender"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "encender la luz del garaje",
+      "raw_tokens": [
+        "encender",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0.0477835499914363,
+      "speech_confidence": 1,
+      "text": "encender la luz del garaje",
+      "tokens": [
+        "encender",
+        "la",
+        "luz",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/enciende_la_lámpara_de_la_sala.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "lámpara de la sala"
+        },
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "enciende"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "enciende la lámpara de la sala",
+      "raw_tokens": [
+        "enciende",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala"
+      ],
+      "recognize_seconds": 0.04819781900732778,
+      "speech_confidence": 1,
+      "text": "enciende la lámpara de la sala",
+      "tokens": [
+        "enciende",
+        "la",
+        "lámpara",
+        "de",
+        "la",
+        "sala"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/está_abierta_la_puerta_del_garaje.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "está abierta la puerta del garaje",
+      "raw_tokens": [
+        "está",
+        "abierta",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0.05083782700239681,
+      "speech_confidence": 1,
+      "text": "está abierta la puerta del garaje",
+      "tokens": [
+        "está",
+        "abierta",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/está_cerrada_la_puerta_del_garaje.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetGarageState"
+      },
+      "raw_text": "está cerrada la puerta del garaje",
+      "raw_tokens": [
+        "está",
+        "cerrada",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "recognize_seconds": 0.04771100598736666,
+      "speech_confidence": 1,
+      "text": "está cerrada la puerta del garaje",
+      "tokens": [
+        "está",
+        "cerrada",
+        "la",
+        "puerta",
+        "del",
+        "garaje"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/que_calor_hace.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "que calor hace",
+      "raw_tokens": [
+        "que",
+        "calor",
+        "hace"
+      ],
+      "recognize_seconds": 0.04980077498476021,
+      "speech_confidence": 1,
+      "text": "que calor hace",
+      "tokens": [
+        "que",
+        "calor",
+        "hace"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/es/que_tan_frio_esta.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTemperature"
+      },
+      "raw_text": "que tan frio esta",
+      "raw_tokens": [
+        "que",
+        "tan",
+        "frio",
+        "esta"
+      ],
+      "recognize_seconds": 0.044588966004084796,
+      "speech_confidence": 1,
+      "text": "que tan frio esta",
+      "tokens": [
+        "que",
+        "tan",
+        "frio",
+        "esta"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 0.8888888888888888,
+  "intent_entity_accuracy": 0.8888888888888888,
+  "num_entities": 8,
+  "num_intents": 9,
+  "num_wavs": 9,
+  "num_words": 47,
+  "transcription_accuracy": 0.9148936170212766
+}

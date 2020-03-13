@@ -1,0 +1,1087 @@
+{
+  "actual": {
+    "home/hansenm/opt/rhasspy-test/wav/vi/mấy_giờ_rồi.wav": {
+      "entities": [],
+      "expected_intent_name": "GetTime",
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "missing_entities": [],
+      "raw_text": "mấy giờ rồi",
+      "raw_tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "mấy giờ rồi",
+      "tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "transcribe_seconds": 0.3251896479923744,
+      "wav_seconds": 1.1295416666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "mấy",
+          "giờ",
+          "rồi"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "mấy",
+          "giờ",
+          "rồi"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "mấy",
+          "giờ",
+          "rồi"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_khách.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng khách"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "mở đèn phòng khách",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng khách",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "transcribe_seconds": 0.2769440500123892,
+      "wav_seconds": 1.1439166666666667,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "mở",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "mở",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "mở",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_ngủ.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng ngủ"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "mở đèn phòng ngủ",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng ngủ",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "transcribe_seconds": 0.24392986399470828,
+      "wav_seconds": 1.2627916666666668,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "mở",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "mở",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "mở",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_tắm.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng tắm"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "mở đèn phòng tắm",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng tắm",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "transcribe_seconds": 0.2143226680054795,
+      "wav_seconds": 1.2997083333333332,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "mở",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "mở",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "mở",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_trước.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "trước"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "mở đèn trước",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "mở đèn trước",
+      "tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "transcribe_seconds": 0.2606152709922753,
+      "wav_seconds": 0.997625,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "mở",
+          "đèn",
+          "trước"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "mở",
+          "đèn",
+          "trước"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "mở",
+          "đèn",
+          "trước"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_khách.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng khách"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "tắt đèn phòng khách",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng khách",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "transcribe_seconds": 0.23699976698844694,
+      "wav_seconds": 1.103625,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "khách"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_ngủ.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng ngủ"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "tắt đèn phòng ngủ",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng ngủ",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "transcribe_seconds": 0.22937830499722622,
+      "wav_seconds": 1.2174583333333333,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "ngủ"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_tắm.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng tắm"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "tắt đèn phòng tắm",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng tắm",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "transcribe_seconds": 0.24472404600237496,
+      "wav_seconds": 1.2590416666666666,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "insertions": 0,
+        "matches": 4,
+        "reference": [
+          "tắt",
+          "đèn",
+          "phòng",
+          "tắm"
+        ],
+        "substitutions": 0,
+        "words": 4
+      },
+      "wrong_entities": []
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_trước.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "trước"
+        }
+      ],
+      "expected_intent_name": "ChangeLightState",
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "missing_entities": [],
+      "raw_text": "tắt đèn trước",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "recognize_seconds": 0,
+      "speech_confidence": 0,
+      "text": "tắt đèn trước",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "transcribe_seconds": 0.21227508399169892,
+      "wav_seconds": 0.94125,
+      "word_error": {
+        "deletions": 0,
+        "differences": [
+          "tắt",
+          "đèn",
+          "trước"
+        ],
+        "error_rate": 0,
+        "errors": 0,
+        "hypothesis": [
+          "tắt",
+          "đèn",
+          "trước"
+        ],
+        "insertions": 0,
+        "matches": 3,
+        "reference": [
+          "tắt",
+          "đèn",
+          "trước"
+        ],
+        "substitutions": 0,
+        "words": 3
+      },
+      "wrong_entities": []
+    }
+  },
+  "average_transcription_speedup": 4.690689624987694,
+  "correct_entities": 16,
+  "correct_intent_and_entities": 9,
+  "correct_intent_names": 9,
+  "correct_transcriptions": 9,
+  "correct_words": 33,
+  "entity_accuracy": 1,
+  "expected": {
+    "home/hansenm/opt/rhasspy-test/wav/vi/mấy_giờ_rồi.wav": {
+      "entities": [],
+      "intent": {
+        "confidence": 1,
+        "name": "GetTime"
+      },
+      "raw_text": "mấy giờ rồi",
+      "raw_tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "recognize_seconds": 0.00019288063049316406,
+      "speech_confidence": 0,
+      "text": "mấy giờ rồi",
+      "tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_khách.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng khách"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "mở đèn phòng khách",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "recognize_seconds": 0.000270843505859375,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng khách",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_ngủ.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng ngủ"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "mở đèn phòng ngủ",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "recognize_seconds": 0.0002944469451904297,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng ngủ",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_phòng_tắm.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng tắm"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "mở đèn phòng tắm",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "recognize_seconds": 0.0002951622009277344,
+      "speech_confidence": 0,
+      "text": "mở đèn phòng tắm",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/mở_đèn_trước.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "mở"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "trước"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "mở đèn trước",
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "recognize_seconds": 0.0002334117889404297,
+      "speech_confidence": 0,
+      "text": "mở đèn trước",
+      "tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_khách.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng khách"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "tắt đèn phòng khách",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "recognize_seconds": 0.0002837181091308594,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng khách",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_ngủ.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng ngủ"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "tắt đèn phòng ngủ",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "recognize_seconds": 0.00030541419982910156,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng ngủ",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_phòng_tắm.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "phòng tắm"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "tắt đèn phòng tắm",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "recognize_seconds": 0.00031280517578125,
+      "speech_confidence": 0,
+      "text": "tắt đèn phòng tắm",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    },
+    "home/hansenm/opt/rhasspy-test/wav/vi/tắt_đèn_trước.wav": {
+      "entities": [
+        {
+          "end": 0,
+          "entity": "state",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "tắt"
+        },
+        {
+          "end": 0,
+          "entity": "name",
+          "raw_end": 0,
+          "raw_start": 0,
+          "raw_tokens": [],
+          "raw_value": "",
+          "start": 0,
+          "tokens": [],
+          "value": "trước"
+        }
+      ],
+      "intent": {
+        "confidence": 1,
+        "name": "ChangeLightState"
+      },
+      "raw_text": "tắt đèn trước",
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "recognize_seconds": 0.0002415180206298828,
+      "speech_confidence": 0,
+      "text": "tắt đèn trước",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "transcribe_seconds": 0,
+      "wav_seconds": 0
+    }
+  },
+  "intent_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "num_entities": 16,
+  "num_intents": 9,
+  "num_wavs": 9,
+  "num_words": 33,
+  "transcription_accuracy": 1
+}
