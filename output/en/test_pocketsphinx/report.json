@@ -1,6 +1,6 @@
 {
   "actual": {
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_cold_is_it.wav": {
+    "how_cold_is_it.wav": {
       "entities": [],
       "expected_intent_name": "GetTemperature",
       "intent": {
@@ -24,7 +24,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.18837342400001944,
+      "transcribe_seconds": 0.07315384799949243,
       "wav_seconds": 1.1037916666666667,
       "word_error": {
         "deletions": 0,
@@ -55,7 +55,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_hot_is_it.wav": {
+    "how_hot_is_it.wav": {
       "entities": [],
       "expected_intent_name": "GetTemperature",
       "intent": {
@@ -79,7 +79,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.26343704399914714,
+      "transcribe_seconds": 0.09738305599967134,
       "wav_seconds": 1.02975,
       "word_error": {
         "deletions": 0,
@@ -110,7 +110,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_closed.wav": {
+    "is_the_garage_door_closed.wav": {
       "entities": [],
       "expected_intent_name": "GetGarageState",
       "intent": {
@@ -136,7 +136,7 @@
         "door",
         "closed"
       ],
-      "transcribe_seconds": 0.2956925840007898,
+      "transcribe_seconds": 0.11364612499892246,
       "wav_seconds": 1.967125,
       "word_error": {
         "deletions": 0,
@@ -170,7 +170,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_open.wav": {
+    "is_the_garage_door_open.wav": {
       "entities": [],
       "expected_intent_name": "GetGarageState",
       "intent": {
@@ -196,7 +196,7 @@
         "door",
         "open"
       ],
-      "transcribe_seconds": 0.2806405930023175,
+      "transcribe_seconds": 0.11657952799941995,
       "wav_seconds": 1.803,
       "word_error": {
         "deletions": 0,
@@ -230,7 +230,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_blue.wav": {
+    "make_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -277,7 +277,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.16703173499990953,
+      "transcribe_seconds": 0.12047003999759909,
       "wav_seconds": 1.5683333333333334,
       "word_error": {
         "deletions": 0,
@@ -308,7 +308,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_green.wav": {
+    "make_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -355,7 +355,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.13482306399964727,
+      "transcribe_seconds": 0.11140511499979766,
       "wav_seconds": 1.5480833333333333,
       "word_error": {
         "deletions": 0,
@@ -386,7 +386,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_red.wav": {
+    "make_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -433,7 +433,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.16833733900057268,
+      "transcribe_seconds": 0.09740142900045612,
       "wav_seconds": 1.5045,
       "word_error": {
         "deletions": 0,
@@ -464,7 +464,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_blue.wav": {
+    "make_the_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -513,7 +513,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.18335380099961185,
+      "transcribe_seconds": 0.11327755600359524,
       "wav_seconds": 1.7679166666666666,
       "word_error": {
         "deletions": 0,
@@ -547,7 +547,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_green.wav": {
+    "make_the_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -596,7 +596,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.19158068999968236,
+      "transcribe_seconds": 0.11470551700040232,
       "wav_seconds": 1.7502083333333334,
       "word_error": {
         "deletions": 0,
@@ -630,7 +630,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_red.wav": {
+    "make_the_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -679,7 +679,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.15140270499978215,
+      "transcribe_seconds": 0.10314530199684668,
       "wav_seconds": 1.670625,
       "word_error": {
         "deletions": 0,
@@ -713,7 +713,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_blue.wav": {
+    "set_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -760,7 +760,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.13846302500314778,
+      "transcribe_seconds": 0.10036787599892705,
       "wav_seconds": 1.58225,
       "word_error": {
         "deletions": 0,
@@ -791,7 +791,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_green.wav": {
+    "set_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -838,7 +838,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.24080177699943306,
+      "transcribe_seconds": 0.09796003699739231,
       "wav_seconds": 1.5603333333333333,
       "word_error": {
         "deletions": 0,
@@ -869,7 +869,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_red.wav": {
+    "set_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -916,7 +916,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.14580575799845974,
+      "transcribe_seconds": 0.09061486100108596,
       "wav_seconds": 1.5311666666666666,
       "word_error": {
         "deletions": 0,
@@ -947,7 +947,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_blue.wav": {
+    "set_bedroom_light_to_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -996,7 +996,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.17401059300027555,
+      "transcribe_seconds": 0.12352554999961285,
       "wav_seconds": 1.844125,
       "word_error": {
         "deletions": 0,
@@ -1030,7 +1030,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_green.wav": {
+    "set_bedroom_light_to_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -1079,7 +1079,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.1694220259996655,
+      "transcribe_seconds": 0.11800452799798222,
       "wav_seconds": 1.8626666666666667,
       "word_error": {
         "deletions": 0,
@@ -1113,7 +1113,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_red.wav": {
+    "set_bedroom_light_to_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -1162,7 +1162,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.2423240349999105,
+      "transcribe_seconds": 0.10643600299954414,
       "wav_seconds": 1.79925,
       "word_error": {
         "deletions": 0,
@@ -1196,7 +1196,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_blue.wav": {
+    "set_the_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -1245,7 +1245,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.15798576700035483,
+      "transcribe_seconds": 0.11157115600144607,
       "wav_seconds": 1.7904583333333333,
       "word_error": {
         "deletions": 0,
@@ -1279,7 +1279,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_green.wav": {
+    "set_the_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -1328,7 +1328,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.18913222399714869,
+      "transcribe_seconds": 0.1047261099993193,
       "wav_seconds": 1.765,
       "word_error": {
         "deletions": 0,
@@ -1362,7 +1362,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_red.wav": {
+    "set_the_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -1411,7 +1411,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.15922697899804916,
+      "transcribe_seconds": 0.10017394199894625,
       "wav_seconds": 1.7149166666666666,
       "word_error": {
         "deletions": 0,
@@ -1445,7 +1445,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_blue.wav": {
+    "set_the_bedroom_light_to_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -1496,7 +1496,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.2814675250010623,
+      "transcribe_seconds": 0.12521661999926437,
       "wav_seconds": 1.8801666666666668,
       "word_error": {
         "deletions": 0,
@@ -1533,7 +1533,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_green.wav": {
+    "set_the_bedroom_light_to_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -1584,7 +1584,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.20130309099840815,
+      "transcribe_seconds": 0.1152378740007407,
       "wav_seconds": 1.8752083333333334,
       "word_error": {
         "deletions": 0,
@@ -1621,7 +1621,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_red.wav": {
+    "set_the_bedroom_light_to_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -1672,7 +1672,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.22562897000170778,
+      "transcribe_seconds": 0.10669639799743891,
       "wav_seconds": 1.8183333333333334,
       "word_error": {
         "deletions": 0,
@@ -1709,7 +1709,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/tell_me_the_time.wav": {
+    "tell_me_the_time.wav": {
       "entities": [],
       "expected_intent_name": "GetTime",
       "intent": {
@@ -1733,7 +1733,7 @@
         "the",
         "time"
       ],
-      "transcribe_seconds": 0.2419973680007388,
+      "transcribe_seconds": 0.07613744600166683,
       "wav_seconds": 1.0830833333333334,
       "word_error": {
         "deletions": 0,
@@ -1764,7 +1764,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_off.wav": {
+    "turn_bedroom_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -1811,7 +1811,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.21808832999886363,
+      "transcribe_seconds": 0.11391818299671286,
       "wav_seconds": 1.5684583333333333,
       "word_error": {
         "deletions": 0,
@@ -1842,7 +1842,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_on.wav": {
+    "turn_bedroom_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -1889,7 +1889,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.16712835200087284,
+      "transcribe_seconds": 0.11324057399906451,
       "wav_seconds": 1.5656666666666668,
       "word_error": {
         "deletions": 0,
@@ -1920,7 +1920,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_off.wav": {
+    "turn_garage_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -1967,7 +1967,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.14284177900117356,
+      "transcribe_seconds": 0.12541586700172047,
       "wav_seconds": 1.6213333333333333,
       "word_error": {
         "deletions": 0,
@@ -1998,7 +1998,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_on.wav": {
+    "turn_garage_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -2045,7 +2045,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.1487461139986408,
+      "transcribe_seconds": 0.11714468299760483,
       "wav_seconds": 1.6065416666666668,
       "word_error": {
         "deletions": 0,
@@ -2076,7 +2076,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_off.wav": {
+    "turn_living_room_lamp_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -2125,7 +2125,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.09168339800089598,
+      "transcribe_seconds": 0.11868707100074971,
       "wav_seconds": 1.927375,
       "word_error": {
         "deletions": 0,
@@ -2159,7 +2159,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_on.wav": {
+    "turn_living_room_lamp_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -2208,7 +2208,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.20952287600084674,
+      "transcribe_seconds": 0.12757905000034953,
       "wav_seconds": 1.8906666666666667,
       "word_error": {
         "deletions": 0,
@@ -2242,7 +2242,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_bedroom_light.wav": {
+    "turn_off_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2289,7 +2289,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.12958440399961546,
+      "transcribe_seconds": 0.09651604299870087,
       "wav_seconds": 1.470875,
       "word_error": {
         "deletions": 0,
@@ -2320,7 +2320,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_garage_light.wav": {
+    "turn_off_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2367,7 +2367,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.2830036489976919,
+      "transcribe_seconds": 0.0939434979991347,
       "wav_seconds": 1.547,
       "word_error": {
         "deletions": 0,
@@ -2398,7 +2398,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_living_room_lamp.wav": {
+    "turn_off_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -2447,7 +2447,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.17071685699920636,
+      "transcribe_seconds": 0.10640975999922375,
       "wav_seconds": 1.8044583333333333,
       "word_error": {
         "deletions": 0,
@@ -2481,7 +2481,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_bedroom_light.wav": {
+    "turn_off_the_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2530,7 +2530,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.15049113200075226,
+      "transcribe_seconds": 0.09802972499892348,
       "wav_seconds": 1.6902916666666667,
       "word_error": {
         "deletions": 0,
@@ -2564,7 +2564,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_garage_light.wav": {
+    "turn_off_the_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2613,7 +2613,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.31605908799974713,
+      "transcribe_seconds": 0.10847588800243102,
       "wav_seconds": 1.7356666666666667,
       "word_error": {
         "deletions": 0,
@@ -2647,7 +2647,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_living_room_lamp.wav": {
+    "turn_off_the_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -2698,7 +2698,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.2702141379995737,
+      "transcribe_seconds": 0.10683727400100906,
       "wav_seconds": 1.8654166666666667,
       "word_error": {
         "deletions": 0,
@@ -2735,7 +2735,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_bedroom_light.wav": {
+    "turn_on_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2782,7 +2782,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.15634472599776927,
+      "transcribe_seconds": 0.09021103000122821,
       "wav_seconds": 1.4594166666666666,
       "word_error": {
         "deletions": 0,
@@ -2813,7 +2813,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_garage_light.wav": {
+    "turn_on_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -2860,7 +2860,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.16762960299820406,
+      "transcribe_seconds": 0.08949640500213718,
       "wav_seconds": 1.5037083333333334,
       "word_error": {
         "deletions": 0,
@@ -2891,7 +2891,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_living_room_lamp.wav": {
+    "turn_on_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -2940,7 +2940,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.16097744200305897,
+      "transcribe_seconds": 0.10065997399942717,
       "wav_seconds": 1.7895833333333333,
       "word_error": {
         "deletions": 0,
@@ -2974,7 +2974,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_bedroom_light.wav": {
+    "turn_on_the_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -3023,7 +3023,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.15653333799855318,
+      "transcribe_seconds": 0.09723734999715816,
       "wav_seconds": 1.6467083333333334,
       "word_error": {
         "deletions": 0,
@@ -3057,7 +3057,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_garage_light.wav": {
+    "turn_on_the_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -3106,7 +3106,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.17138698299822863,
+      "transcribe_seconds": 0.11456787999850349,
       "wav_seconds": 1.692375,
       "word_error": {
         "deletions": 0,
@@ -3140,7 +3140,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_living_room_lamp.wav": {
+    "turn_on_the_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -3191,7 +3191,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.1905467469987343,
+      "transcribe_seconds": 0.10271212899897364,
       "wav_seconds": 1.8501666666666667,
       "word_error": {
         "deletions": 0,
@@ -3228,7 +3228,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_off.wav": {
+    "turn_the_bedroom_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -3277,7 +3277,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.15715576100046746,
+      "transcribe_seconds": 0.10953067900118185,
       "wav_seconds": 1.7300416666666667,
       "word_error": {
         "deletions": 0,
@@ -3311,7 +3311,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_on.wav": {
+    "turn_the_bedroom_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -3360,7 +3360,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.2644615809986135,
+      "transcribe_seconds": 0.10999983699730365,
       "wav_seconds": 1.7334583333333333,
       "word_error": {
         "deletions": 0,
@@ -3394,7 +3394,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_off.wav": {
+    "turn_the_garage_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -3443,7 +3443,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.23260567799661658,
+      "transcribe_seconds": 0.12027736799791455,
       "wav_seconds": 1.7683333333333333,
       "word_error": {
         "deletions": 0,
@@ -3477,7 +3477,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_on.wav": {
+    "turn_the_garage_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -3526,7 +3526,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.1572743780016026,
+      "transcribe_seconds": 0.11334021700167796,
       "wav_seconds": 1.7797083333333332,
       "word_error": {
         "deletions": 0,
@@ -3560,7 +3560,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_off.wav": {
+    "turn_the_living_room_lamp_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -3611,7 +3611,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.20325325700105168,
+      "transcribe_seconds": 0.12065397400147049,
       "wav_seconds": 1.9486666666666668,
       "word_error": {
         "deletions": 0,
@@ -3648,7 +3648,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_on.wav": {
+    "turn_the_living_room_lamp_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -3699,7 +3699,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.1761237249993428,
+      "transcribe_seconds": 0.12383490299907862,
       "wav_seconds": 1.94125,
       "word_error": {
         "deletions": 0,
@@ -3736,7 +3736,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/what_time_is_it.wav": {
+    "what_time_is_it.wav": {
       "entities": [],
       "expected_intent_name": "GetTime",
       "intent": {
@@ -3760,7 +3760,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.21131623199835303,
+      "transcribe_seconds": 0.08163503700052388,
       "wav_seconds": 1.047875,
       "word_error": {
         "deletions": 0,
@@ -3791,7 +3791,7 @@
       },
       "wrong_entities": []
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/whats_the_temperature.wav": {
+    "whats_the_temperature.wav": {
       "entities": [],
       "expected_intent_name": "GetTemperature",
       "intent": {
@@ -3813,7 +3813,7 @@
         "the",
         "temperature"
       ],
-      "transcribe_seconds": 0.17551152300075046,
+      "transcribe_seconds": 0.0849864539995906,
       "wav_seconds": 1.298125,
       "word_error": {
         "deletions": 0,
@@ -3842,7 +3842,7 @@
       "wrong_entities": []
     }
   },
-  "average_transcription_speedup": 9.155105281075365,
+  "average_transcription_speedup": 15.585349656831703,
   "correct_entities": 84,
   "correct_intent_and_entities": 49,
   "correct_intent_names": 49,
@@ -3850,7 +3850,7 @@
   "correct_words": 232,
   "entity_accuracy": 1,
   "expected": {
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_cold_is_it.wav": {
+    "how_cold_is_it.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -3875,7 +3875,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/how_hot_is_it.wav": {
+    "how_hot_is_it.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -3900,7 +3900,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_closed.wav": {
+    "is_the_garage_door_closed.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -3927,7 +3927,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/is_the_garage_door_open.wav": {
+    "is_the_garage_door_open.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -3954,7 +3954,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_blue.wav": {
+    "make_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4002,7 +4002,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_green.wav": {
+    "make_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4050,7 +4050,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_bedroom_light_red.wav": {
+    "make_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4098,7 +4098,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_blue.wav": {
+    "make_the_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4148,7 +4148,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_green.wav": {
+    "make_the_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4198,7 +4198,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/make_the_bedroom_light_red.wav": {
+    "make_the_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4248,7 +4248,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_blue.wav": {
+    "set_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4296,7 +4296,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_green.wav": {
+    "set_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4344,7 +4344,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_red.wav": {
+    "set_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4392,7 +4392,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_blue.wav": {
+    "set_bedroom_light_to_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4442,7 +4442,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_green.wav": {
+    "set_bedroom_light_to_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4492,7 +4492,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_bedroom_light_to_red.wav": {
+    "set_bedroom_light_to_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4542,7 +4542,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_blue.wav": {
+    "set_the_bedroom_light_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4592,7 +4592,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_green.wav": {
+    "set_the_bedroom_light_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4642,7 +4642,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_red.wav": {
+    "set_the_bedroom_light_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4692,7 +4692,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_blue.wav": {
+    "set_the_bedroom_light_to_blue.wav": {
       "entities": [
         {
           "end": 0,
@@ -4744,7 +4744,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_green.wav": {
+    "set_the_bedroom_light_to_green.wav": {
       "entities": [
         {
           "end": 0,
@@ -4796,7 +4796,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/set_the_bedroom_light_to_red.wav": {
+    "set_the_bedroom_light_to_red.wav": {
       "entities": [
         {
           "end": 0,
@@ -4848,7 +4848,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/tell_me_the_time.wav": {
+    "tell_me_the_time.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -4873,7 +4873,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_off.wav": {
+    "turn_bedroom_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -4921,7 +4921,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_bedroom_light_on.wav": {
+    "turn_bedroom_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -4969,7 +4969,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_off.wav": {
+    "turn_garage_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -5017,7 +5017,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_garage_light_on.wav": {
+    "turn_garage_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -5065,7 +5065,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_off.wav": {
+    "turn_living_room_lamp_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -5115,7 +5115,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_living_room_lamp_on.wav": {
+    "turn_living_room_lamp_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -5165,7 +5165,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_bedroom_light.wav": {
+    "turn_off_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5213,7 +5213,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_garage_light.wav": {
+    "turn_off_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5261,7 +5261,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_living_room_lamp.wav": {
+    "turn_off_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -5311,7 +5311,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_bedroom_light.wav": {
+    "turn_off_the_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5361,7 +5361,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_garage_light.wav": {
+    "turn_off_the_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5411,7 +5411,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_off_the_living_room_lamp.wav": {
+    "turn_off_the_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -5463,7 +5463,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_bedroom_light.wav": {
+    "turn_on_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5511,7 +5511,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_garage_light.wav": {
+    "turn_on_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5559,7 +5559,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_living_room_lamp.wav": {
+    "turn_on_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -5609,7 +5609,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_bedroom_light.wav": {
+    "turn_on_the_bedroom_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5659,7 +5659,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_garage_light.wav": {
+    "turn_on_the_garage_light.wav": {
       "entities": [
         {
           "end": 0,
@@ -5709,7 +5709,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_on_the_living_room_lamp.wav": {
+    "turn_on_the_living_room_lamp.wav": {
       "entities": [
         {
           "end": 0,
@@ -5761,7 +5761,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_off.wav": {
+    "turn_the_bedroom_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -5811,7 +5811,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_bedroom_light_on.wav": {
+    "turn_the_bedroom_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -5861,7 +5861,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_off.wav": {
+    "turn_the_garage_light_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -5911,7 +5911,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_garage_light_on.wav": {
+    "turn_the_garage_light_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -5961,7 +5961,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_off.wav": {
+    "turn_the_living_room_lamp_off.wav": {
       "entities": [
         {
           "end": 0,
@@ -6013,7 +6013,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/turn_the_living_room_lamp_on.wav": {
+    "turn_the_living_room_lamp_on.wav": {
       "entities": [
         {
           "end": 0,
@@ -6065,7 +6065,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/what_time_is_it.wav": {
+    "what_time_is_it.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,
@@ -6090,7 +6090,7 @@
       "transcribe_seconds": 0,
       "wav_seconds": 0
     },
-    "home/hansenm/opt/rhasspy-voltron/rhasspy-test/wav/en/whats_the_temperature.wav": {
+    "whats_the_temperature.wav": {
       "entities": [],
       "intent": {
         "confidence": 1,

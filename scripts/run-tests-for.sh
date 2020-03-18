@@ -4,9 +4,11 @@ base_dir="$(realpath "${this_dir}/..")"
 
 lang="$1"
 if [[ -z "${lang}" ]]; then
-    echo "Usage: run-tests-for.sh <LANGUAGE>"
+    echo "Usage: run-tests-for.sh <LANGUAGE> [<PROFILE> <PROFILE> ...]"
     exit 1
 fi
+
+shift 1
 
 venv="${base_dir}/.venv"
 if [[ -d "${venv}" ]]; then
@@ -30,8 +32,7 @@ trap cleanup EXIT
 function wait-for-url() {
     url="$1"
     echo "Waiting for ${url}"
-    # timeout 30 bash -c \
-    bash -c \
+    timeout 30 bash -c \
             'while [[ "$(curl -s -o /dev/null -w "%{http_code}" "${0}")" != "200" ]]; do sleep 0.5; done' \
             "${url}"
 }
@@ -41,7 +42,26 @@ function wait-for-url() {
 profiles_dir="${base_dir}/profiles/${lang}"
 shared_dir="${profiles_dir}/shared"
 
-for profile_dir in ${profiles_dir}/test_*; do
+if [[ -z "$1" ]]; then
+    # All profiles
+    profile_dirs=${profiles_dir}/test_*
+else
+    # Specific profiles
+    profiles=()
+    while [[ ! -z "$1" ]]; do
+        profiles+=("${profiles_dir}/$1")
+        shift 1
+    done
+
+    profile_dirs="${profiles[@]}"
+fi
+
+for profile_dir in ${profile_dirs}; do
+    if [[ ! -d "${profile_dir}" ]]; then
+        echo "Directory does not exist: ${profile_dir}"
+        exit 1
+    fi
+
     web_port="$(${base_dir}/scripts/get-free-port)"
     mqtt_port="$(${base_dir}/scripts/get-free-port)"
     profile_name="$(basename "${profile_dir}")"
@@ -67,22 +87,25 @@ for profile_dir in ${profiles_dir}/test_*; do
         # Download all profle artifacts
         echo "Downloading..."
         curl -X POST "http://localhost:${web_port}/api/download-profile" || exit 1
+        sleep 1
         echo ''
 
         # Re-start services
         echo "Restarting..."
         curl -X POST "http://localhost:${web_port}/api/restart" || exit 1
+        sleep 1
         echo ''
 
         # Train profile
         echo "Training..."
         curl -X POST "http://localhost:${web_port}/api/train" || exit 1
+        sleep 1
         echo ''
 
         # Run tests
         echo "Testing..."
         wav_archive="${temp_dir}/${profile_name}.tar.gz"
-        tar -czf "${wav_archive}" "${base_dir}/wav/${lang}" 2>/dev/null
+        (cd "${base_dir}/wav/${lang}" && tar -czf "${wav_archive}" . 2>/dev/null)
         curl -s -X POST -F "archive=@${wav_archive}" "http://localhost:${web_port}/api/evaluate" | \
             tee "${output_dir}/response.txt" | \
             jq . > "${output_dir}/report.json"
