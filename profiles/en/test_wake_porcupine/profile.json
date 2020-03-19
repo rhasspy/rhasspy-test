@@ -1,0 +1,14 @@
+{
+  "speech_to_text": {
+    "system": "pocketsphinx"
+  },
+  "intent": {
+    "system": "fsticuffs"
+  },
+  "wake": {
+    "system": "porcupine"
+  },
+  "dialogue": {
+    "system": "rhasspy"
+  }
+}

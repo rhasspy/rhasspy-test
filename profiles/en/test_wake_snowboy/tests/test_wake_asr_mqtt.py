@@ -1,0 +1,1 @@
+../../../../tests/en/test_wake_asr_mqtt.py

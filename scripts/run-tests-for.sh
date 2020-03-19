@@ -22,6 +22,7 @@ fi
 temp_dir="$(mktemp -d)"
 
 function cleanup {
+    echo "Cleaning up ${temp_dir}"
     rm -rf "${temp_dir}"
 }
 
@@ -80,11 +81,19 @@ for profile_dir in ${profile_dirs}; do
     container_id="$(${docker_command})"
 
     (
+        export RHASSPY_HTTP_PORT="${http_port}"
+        export RHASSPY_MQTT_PORT="${mqtt_port}"
+
+        env_file="${profile_dir}/env"
+        if [[ -f "${env_file}" ]]; then
+            source "${env_file}"
+        fi
+
         # Block until Rhasspy web server is ready
         wait-for-url "http://localhost:${web_port}/api/version" || exit 1
         echo ''
 
-        # Download all profle artifacts
+        # Download all profile artifacts
         echo "Downloading..."
         curl -X POST "http://localhost:${web_port}/api/download-profile" || exit 1
         sleep 1
@@ -103,14 +112,27 @@ for profile_dir in ${profile_dirs}; do
         echo ''
 
         # Run tests
-        echo "Testing..."
-        wav_archive="${temp_dir}/${profile_name}.tar.gz"
-        (cd "${base_dir}/wav/${lang}" && tar -czf "${wav_archive}" . 2>/dev/null)
-        curl -s -X POST -F "archive=@${wav_archive}" "http://localhost:${web_port}/api/evaluate" | \
-            tee "${output_dir}/response.txt" | \
-            jq . > "${output_dir}/report.json"
-
-        # (cd "${base_dir}" && python3 -m unittest tests/${lang}/*.py) > "${output_dir}/test.txt" || exit 1
+        test_dir="${profile_dir}/tests"
+        if [[ -d "${test_dir}" ]]; then
+            echo "Running tests in ${test_dir}"
+            (
+                if [[ -f "${env_file}" ]]; then
+                    source "${env_file}"
+                fi
+                cd "${base_dir}"
+                python3 -m unittest "${profile_dir}/tests"/*.py
+            ) > "${output_dir}/test.txt" || exit 1
+        else
+            echo "Evaluating..."
+            wav_archive="${temp_dir}/${profile_name}.tar.gz"
+            (
+                cd "${base_dir}/wav/${lang}"
+                tar -czf "${wav_archive}" . 2>/dev/null
+            ) || exit 1
+            curl -s -X POST -F "archive=@${wav_archive}" "http://localhost:${web_port}/api/evaluate" | \
+                tee "${output_dir}/response.txt" | \
+                jq . > "${output_dir}/report.json"
+        fi
         echo 'OK'
     ) || docker stop "${container_id}"
 
