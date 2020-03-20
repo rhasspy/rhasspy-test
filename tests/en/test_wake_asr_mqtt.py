@@ -31,9 +31,9 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         self.hermes.mqtt_client.loop_start()
         self.done_event = threading.Event()
 
-        wake_system = os.environ.get("WAKE_SYSTEM") or "porcupine"
+        self.wake_system = os.environ.get("WAKE_SYSTEM") or "porcupine"
         self.wav_path = Path(
-            f"wav/wake/en/{wake_system}_turn_on_the_living_room_lamp.wav"
+            f"wav/wake/en/{self.wake_system}_turn_on_the_living_room_lamp.wav"
         )
         self.wav_bytes = self.wav_path.read_bytes()
 
@@ -63,7 +63,10 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         self.loop.run_forever()
 
         # Verify hotword
-        self.assertIsNotNone(self.hotword_detected, "No hotword detected")
+        self.assertIsNotNone(
+            self.hotword_detected,
+            f"No hotword detected (system={self.wake_system}, wav={self.wav_path})",
+        )
 
         # Verify transcription
         self.assertIsNotNone(self.text_captured, "No text captured")
