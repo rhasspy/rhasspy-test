@@ -81,7 +81,7 @@ for profile_dir in ${profile_dirs}; do
     container_id="$(${docker_command})"
 
     (
-        export RHASSPY_HTTP_PORT="${http_port}"
+        export RHASSPY_HTTP_PORT="${web_port}"
         export RHASSPY_MQTT_PORT="${mqtt_port}"
 
         env_file="${profile_dir}/env"

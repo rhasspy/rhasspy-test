@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import unittest
 
 import requests
@@ -14,28 +15,34 @@ class SlotsEnglishTests(unittest.TestCase):
     def api_url(self, fragment):
         return f"http://localhost:{self.http_port}/api/{fragment}"
 
+    def check_status(self, response):
+        if response.status_code != 200:
+            print(response.text, file=sys.stderr)
+
+        response.raise_for_status()
+
     def test_http_get_slot(self):
         """Test slots GET HTTP endpoint"""
         response = requests.get(self.api_url("slots"))
-        response.raise_for_status()
+        self.check_status(response)
 
         slots = response.json()
 
         # Only color slot should be there
-        self.assertEqual(len(slots), 1)
+        self.assertEqual(len(slots), 1, slots)
         colors = set(slots.get("color", {}))
         self.assertEqual(colors, {"red", "green", "blue"})
 
         # Test single slot GET
         response = requests.get(self.api_url("slots/color"))
-        response.raise_for_status()
+        self.check_status(response)
 
         colors2 = set(response.json())
         self.assertEqual(colors, colors2)
 
         # Test absent slot
         response = requests.get(self.api_url("slots/does-not-exist"))
-        response.raise_for_status()
+        self.check_status(response)
 
         # Expect empty list
         self.assertEqual(response.json(), [])
@@ -45,11 +52,11 @@ class SlotsEnglishTests(unittest.TestCase):
 
         # Add purple
         response = requests.post(self.api_url("slots/color"), json=["purple"])
-        response.raise_for_status()
+        self.check_status(response)
 
         # Check that it's there
         response = requests.get(self.api_url("slots/color"))
-        response.raise_for_status()
+        self.check_status(response)
         colors = set(response.json())
         self.assertEqual(colors, {"red", "green", "blue", "purple"})
 
@@ -60,11 +67,11 @@ class SlotsEnglishTests(unittest.TestCase):
             json=list(colors),
             params={"overwrite_all": "true"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Check that it's gone
         response = requests.get(self.api_url("slots/color"))
-        response.raise_for_status()
+        self.check_status(response)
         colors2 = set(response.json())
         self.assertEqual(colors, colors2)
 
@@ -74,11 +81,11 @@ class SlotsEnglishTests(unittest.TestCase):
         # Add room
         rooms = {"living room", "kitchen", "bedroom"}
         response = requests.post(self.api_url("slots/room"), json=list(rooms))
-        response.raise_for_status()
+        self.check_status(response)
 
         # Check that it's there
         response = requests.get(self.api_url("slots/room"))
-        response.raise_for_status()
+        self.check_status(response)
         rooms2 = set(response.json())
         self.assertEqual(rooms, rooms2)
 
@@ -86,10 +93,10 @@ class SlotsEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("slots/room"), json=[], params={"overwrite_all": "true"}
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Check that it's gone
         response = requests.get(self.api_url("slots"))
-        response.raise_for_status()
+        self.check_status(response)
         slots = response.json()
         self.assertNotIn("room", slots)

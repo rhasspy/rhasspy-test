@@ -1,0 +1,15 @@
+{
+  "speech_to_text": {
+    "system": "pocketsphinx"
+  },
+  "intent": {
+    "system": "fsticuffs"
+  },
+  "wake": {
+    "system": "pocketsphinx",
+    "keyphrase": "okay rhasppy"
+  },
+  "dialogue": {
+    "system": "rhasspy"
+  }
+}

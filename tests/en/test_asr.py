@@ -1,4 +1,5 @@
 import json
+import os
 import unittest
 from pathlib import Path
 
@@ -11,15 +12,15 @@ class AsrEnglishTests(unittest.TestCase):
     """Test automated speech recognition (English)"""
 
     def setUp(self):
-        self.wav_bytes = Path(
-            "wav/en/turn_on_the_living_room_lamp.wav"
-        ).read_bytes()
+        self.http_port = os.environ.get("RHASSPY_HTTP_PORT", 12101)
+        self.wav_bytes = Path("wav/en/turn_on_the_living_room_lamp.wav").read_bytes()
+
+    def api_url(self, fragment):
+        return f"http://localhost:{self.http_port}/api/{fragment}"
 
     def test_http_speech_to_text(self):
         """Test speech-to-text HTTP endpoint"""
-        response = requests.post(
-            "http://localhost:12101/api/speech-to-text", data=self.wav_bytes
-        )
+        response = requests.post(self.api_url("speech-to-text"), data=self.wav_bytes)
         response.raise_for_status()
 
         text = response.content.decode()
@@ -28,7 +29,7 @@ class AsrEnglishTests(unittest.TestCase):
     def test_http_speech_to_text_json(self):
         """Text speech-to-text HTTP endpoint (Rhasspy JSON format)"""
         response = requests.post(
-            "http://localhost:12101/api/speech-to-text",
+            self.api_url("speech-to-text"),
             data=self.wav_bytes,
             headers={"Accept": "application/json"},
         )
@@ -40,8 +41,9 @@ class AsrEnglishTests(unittest.TestCase):
     def test_http_speech_to_text_hermes(self):
         """Text speech-to-text HTTP endpoint (Hermes format)"""
         response = requests.post(
-            "http://localhost:12101/api/speech-to-text?outputFormat=hermes",
+            self.api_url("speech-to-text"),
             data=self.wav_bytes,
+            params={"outputFormat": "hermes"},
         )
         response.raise_for_status()
 
@@ -53,9 +55,7 @@ class AsrEnglishTests(unittest.TestCase):
         self.assertEqual(text_captured.text, "turn on the living room lamp")
 
     def test_http_speech_to_intent(self):
-        response = requests.post(
-            "http://localhost:12101/api/speech-to-intent", data=self.wav_bytes
-        )
+        response = requests.post(self.api_url("speech-to-intent"), data=self.wav_bytes)
         response.raise_for_status()
 
         result = response.json()
@@ -66,8 +66,9 @@ class AsrEnglishTests(unittest.TestCase):
 
     def test_http_speech_to_intent_hermes(self):
         response = requests.post(
-            "http://localhost:12101/api/speech-to-intent?outputFormat=hermes",
+            self.api_url("speech-to-intent"),
             data=self.wav_bytes,
+            params={"outputFormat": "hermes"},
         )
         response.raise_for_status()
 
