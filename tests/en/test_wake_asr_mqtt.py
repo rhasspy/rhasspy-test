@@ -102,3 +102,5 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         finally:
             if all((self.hotword_detected, self.text_captured, self.nlu_intent)):
                 self.stop_test()
+
+        yield None

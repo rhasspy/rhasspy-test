@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import unittest
 from pathlib import Path
 
@@ -18,10 +19,16 @@ class AsrEnglishTests(unittest.TestCase):
     def api_url(self, fragment):
         return f"http://localhost:{self.http_port}/api/{fragment}"
 
+    def check_status(self, response):
+        if response.status_code != 200:
+            print(response.text, file=sys.stderr)
+
+        response.raise_for_status()
+
     def test_http_speech_to_text(self):
         """Test speech-to-text HTTP endpoint"""
         response = requests.post(self.api_url("speech-to-text"), data=self.wav_bytes)
-        response.raise_for_status()
+        self.check_status(response)
 
         text = response.content.decode()
         self.assertEqual(text, "turn on the living room lamp")
@@ -33,7 +40,7 @@ class AsrEnglishTests(unittest.TestCase):
             data=self.wav_bytes,
             headers={"Accept": "application/json"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["text"], "turn on the living room lamp")
@@ -45,7 +52,7 @@ class AsrEnglishTests(unittest.TestCase):
             data=self.wav_bytes,
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "textCaptured")
@@ -56,7 +63,7 @@ class AsrEnglishTests(unittest.TestCase):
 
     def test_http_speech_to_intent(self):
         response = requests.post(self.api_url("speech-to-intent"), data=self.wav_bytes)
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["intent"]["name"], "ChangeLightState")
@@ -70,7 +77,7 @@ class AsrEnglishTests(unittest.TestCase):
             data=self.wav_bytes,
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "intent")

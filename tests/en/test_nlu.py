@@ -1,6 +1,7 @@
 """Natural language understanding tests (English)."""
 import json
 import os
+import sys
 import unittest
 
 import requests
@@ -16,12 +17,18 @@ class NluEnglishTests(unittest.TestCase):
     def api_url(self, fragment):
         return f"http://localhost:{self.http_port}/api/{fragment}"
 
+    def check_status(self, response):
+        if response.status_code != 200:
+            print(response.text, file=sys.stderr)
+
+        response.raise_for_status()
+
     def test_http_text_to_intent(self):
         """Test text-to-intent HTTP endpoint"""
         response = requests.post(
             self.api_url("text-to-intent"), data="set bedroom light to BLUE"
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
 
@@ -41,7 +48,7 @@ class NluEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("text-to-intent"), data="not a valid sentence"
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
 
@@ -59,7 +66,7 @@ class NluEnglishTests(unittest.TestCase):
             data="set bedroom light to BLUE",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "intent")
@@ -89,7 +96,7 @@ class NluEnglishTests(unittest.TestCase):
             data="not a valid sentence",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "intentNotRecognized")
@@ -107,23 +114,23 @@ class NluEnglishTests(unittest.TestCase):
             data="set bedroom light to purple",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Shouldn't exist yet
         result = response.json()
         self.assertEqual(result["type"], "intentNotRecognized")
 
         response = requests.get(self.api_url("slots/color"))
-        response.raise_for_status()
+        self.check_status(response)
         original_colors = response.json()
 
         # Add purple to color slot
         response = requests.post(self.api_url("slots/color"), json=["purple"])
-        response.raise_for_status()
+        self.check_status(response)
 
         # Re-train
         response = requests.post(self.api_url("train"))
-        response.raise_for_status()
+        self.check_status(response)
 
         # Try again
         response = requests.post(
@@ -131,7 +138,7 @@ class NluEnglishTests(unittest.TestCase):
             data="set bedroom light to purple",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "intent")
@@ -154,11 +161,11 @@ class NluEnglishTests(unittest.TestCase):
             json=original_colors,
             params={"overwrite_all": "true"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Re-train
         response = requests.post(self.api_url("train"))
-        response.raise_for_status()
+        self.check_status(response)
 
     def test_http_nlu_new_slot(self):
         """Test recognition with a new slot"""
@@ -167,7 +174,7 @@ class NluEnglishTests(unittest.TestCase):
             data="what is the weather like in Germany",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Shouldn't exist yet
         result = response.json()
@@ -177,13 +184,13 @@ class NluEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("slots/location"), json=["Germany", "France"]
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Add new intent
         response = requests.get(
             self.api_url("sentences"), headers={"Accept": "application/json"}
         )
-        response.raise_for_status()
+        self.check_status(response)
         sentences = response.json()
 
         sentences[
@@ -192,11 +199,11 @@ class NluEnglishTests(unittest.TestCase):
 
         # Save sentences
         response = requests.post(self.api_url("sentences"), json=sentences)
-        response.raise_for_status()
+        self.check_status(response)
 
         # Re-train
         response = requests.post(self.api_url("train"))
-        response.raise_for_status()
+        self.check_status(response)
 
         # Should work now
         response = requests.post(
@@ -204,7 +211,7 @@ class NluEnglishTests(unittest.TestCase):
             data="what is the weather like in Germany",
             params={"outputFormat": "hermes"},
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         result = response.json()
         self.assertEqual(result["type"], "intent")
@@ -222,13 +229,13 @@ class NluEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("slots/location"), json=[], params={"overwrite_all": "true"}
         )
-        response.raise_for_status()
+        self.check_status(response)
 
         # Remove sentences
         sentences["intents/weather.ini"] = ""
         response = requests.post(self.api_url("sentences"), json=sentences)
-        response.raise_for_status()
+        self.check_status(response)
 
         # Re-train
         response = requests.post(self.api_url("train"))
-        response.raise_for_status()
+        self.check_status(response)
