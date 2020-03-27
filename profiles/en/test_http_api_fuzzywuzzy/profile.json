@@ -1,0 +1,14 @@
+{
+  "speech_to_text": {
+    "system": "kaldi"
+  },
+  "intent": {
+    "system": "fuzzywuzzy",
+    "fuzzywuzzy": {
+      "min_confidence": 1
+    }
+  },
+  "text_to_speech": {
+    "system": "espeak"
+  }
+}

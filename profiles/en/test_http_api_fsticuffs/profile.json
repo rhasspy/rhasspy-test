@@ -4,5 +4,8 @@
   },
   "intent": {
     "system": "fsticuffs"
+  },
+  "text_to_speech": {
+    "system": "espeak"
   }
 }
