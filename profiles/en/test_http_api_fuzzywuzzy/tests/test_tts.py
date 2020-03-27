@@ -145,6 +145,7 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertTrue(TtsSayFinished.is_topic(tts_finished_msg.topic))
 
         tts_finished = TtsSayFinished.from_dict(json.loads(tts_finished_msg.payload))
+        self.assertEqual(tts_finished.siteId, self.siteId)
         self.assertEqual(tts_finished.sessionId, self.sessionId)
 
         # Check audioServer/playBytes (will be ignored by audio output system)
