@@ -27,13 +27,15 @@ class WebsocketEnglishTests(unittest.TestCase):
     def setUp(self):
         self.loop = asyncio.get_event_loop()
         self.http_port = os.environ.get("RHASSPY_HTTP_PORT", 12101)
+        self.http_host = os.environ.get("RHASSPY_HTTP_HOST", "localhost")
         self.mqtt_port = int(os.environ.get("RHASSPY_MQTT_PORT") or 1883)
+        self.mqtt_host = os.environ.get("RHASSPY_MQTT_HOST", self.http_host)
         self.client = mqtt.Client()
 
         connected_event = threading.Event()
         self.client.on_connect = lambda *args: connected_event.set()
 
-        self.client.connect("localhost", self.mqtt_port)
+        self.client.connect(self.mqtt_host, self.mqtt_port)
         self.client.loop_start()
 
         # Block until connected
@@ -46,7 +48,7 @@ class WebsocketEnglishTests(unittest.TestCase):
         self.client.loop_stop()
 
     def api_url(self, fragment):
-        return f"http://localhost:{self.http_port}/api/{fragment}"
+        return f"http://{self.http_host}:{self.http_port}/api/{fragment}"
 
     def ws_url(self, fragment):
         return f"ws://localhost:{self.http_port}/api/{fragment}"

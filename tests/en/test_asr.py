@@ -1,3 +1,4 @@
+"""Automated speech recognition tests."""
 import json
 import os
 import sys
@@ -13,11 +14,12 @@ class AsrEnglishTests(unittest.TestCase):
     """Test automated speech recognition (English)"""
 
     def setUp(self):
+        self.http_host = os.environ.get("RHASSPY_HTTP_HOST", "localhost")
         self.http_port = os.environ.get("RHASSPY_HTTP_PORT", 12101)
         self.wav_bytes = Path("wav/en/turn_on_the_living_room_lamp.wav").read_bytes()
 
     def api_url(self, fragment):
-        return f"http://localhost:{self.http_port}/api/{fragment}"
+        return f"http://{self.http_host}:{self.http_port}/api/{fragment}"
 
     def check_status(self, response):
         if response.status_code != 200:

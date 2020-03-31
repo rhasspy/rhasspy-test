@@ -24,7 +24,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.0792683899999247,
+      "transcribe_seconds": 0.08155504500064126,
       "wav_seconds": 1.1037916666666667,
       "word_error": {
         "deletions": 0,
@@ -79,7 +79,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.07111078099842416,
+      "transcribe_seconds": 0.08160510900052032,
       "wav_seconds": 1.02975,
       "word_error": {
         "deletions": 0,
@@ -136,7 +136,7 @@
         "door",
         "closed"
       ],
-      "transcribe_seconds": 0.12030474900166155,
+      "transcribe_seconds": 0.1130016520000936,
       "wav_seconds": 1.967125,
       "word_error": {
         "deletions": 0,
@@ -196,7 +196,7 @@
         "door",
         "open"
       ],
-      "transcribe_seconds": 0.10707577699940884,
+      "transcribe_seconds": 0.10861066399957053,
       "wav_seconds": 1.803,
       "word_error": {
         "deletions": 0,
@@ -277,7 +277,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.12875830800112453,
+      "transcribe_seconds": 0.11789203400076076,
       "wav_seconds": 1.5683333333333334,
       "word_error": {
         "deletions": 0,
@@ -355,7 +355,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.10788722099823644,
+      "transcribe_seconds": 0.10668656400048349,
       "wav_seconds": 1.5480833333333333,
       "word_error": {
         "deletions": 0,
@@ -433,7 +433,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.0980605859986099,
+      "transcribe_seconds": 0.09883876499952748,
       "wav_seconds": 1.5045,
       "word_error": {
         "deletions": 0,
@@ -513,7 +513,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.11936177899769973,
+      "transcribe_seconds": 0.11221815600038099,
       "wav_seconds": 1.7679166666666666,
       "word_error": {
         "deletions": 0,
@@ -596,7 +596,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.11338186400098493,
+      "transcribe_seconds": 0.1075948600009724,
       "wav_seconds": 1.7502083333333334,
       "word_error": {
         "deletions": 0,
@@ -679,7 +679,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.10971240300204954,
+      "transcribe_seconds": 0.10217635200024233,
       "wav_seconds": 1.670625,
       "word_error": {
         "deletions": 0,
@@ -760,7 +760,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.10666690399739309,
+      "transcribe_seconds": 0.10644703499929165,
       "wav_seconds": 1.58225,
       "word_error": {
         "deletions": 0,
@@ -838,7 +838,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.09236997900006827,
+      "transcribe_seconds": 0.09482238300006429,
       "wav_seconds": 1.5603333333333333,
       "word_error": {
         "deletions": 0,
@@ -916,7 +916,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.08756248699864955,
+      "transcribe_seconds": 0.08825831899957848,
       "wav_seconds": 1.5311666666666666,
       "word_error": {
         "deletions": 0,
@@ -996,7 +996,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.12155616200107033,
+      "transcribe_seconds": 0.12638890100060962,
       "wav_seconds": 1.844125,
       "word_error": {
         "deletions": 0,
@@ -1079,7 +1079,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.11210132899941527,
+      "transcribe_seconds": 0.11147534500014444,
       "wav_seconds": 1.8626666666666667,
       "word_error": {
         "deletions": 0,
@@ -1162,7 +1162,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.10429538999960641,
+      "transcribe_seconds": 0.10806353200132435,
       "wav_seconds": 1.79925,
       "word_error": {
         "deletions": 0,
@@ -1245,7 +1245,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.10712602700004936,
+      "transcribe_seconds": 0.10723319899989292,
       "wav_seconds": 1.7904583333333333,
       "word_error": {
         "deletions": 0,
@@ -1328,7 +1328,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.10022949300036998,
+      "transcribe_seconds": 0.10464452599990182,
       "wav_seconds": 1.765,
       "word_error": {
         "deletions": 0,
@@ -1411,7 +1411,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.09699522699884255,
+      "transcribe_seconds": 0.09569714300050691,
       "wav_seconds": 1.7149166666666666,
       "word_error": {
         "deletions": 0,
@@ -1496,7 +1496,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.11727055799929076,
+      "transcribe_seconds": 0.11818694800058438,
       "wav_seconds": 1.8801666666666668,
       "word_error": {
         "deletions": 0,
@@ -1584,7 +1584,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.11468922000130988,
+      "transcribe_seconds": 0.11628841899982945,
       "wav_seconds": 1.8752083333333334,
       "word_error": {
         "deletions": 0,
@@ -1672,7 +1672,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.10245325500000035,
+      "transcribe_seconds": 0.10766894799962756,
       "wav_seconds": 1.8183333333333334,
       "word_error": {
         "deletions": 0,
@@ -1733,7 +1733,7 @@
         "the",
         "time"
       ],
-      "transcribe_seconds": 0.07558977100052289,
+      "transcribe_seconds": 0.07193522300076438,
       "wav_seconds": 1.0830833333333334,
       "word_error": {
         "deletions": 0,
@@ -1811,7 +1811,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.1099705870001344,
+      "transcribe_seconds": 0.11369471599937242,
       "wav_seconds": 1.5684583333333333,
       "word_error": {
         "deletions": 0,
@@ -1889,7 +1889,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.11005239700170932,
+      "transcribe_seconds": 0.11155510499884258,
       "wav_seconds": 1.5656666666666668,
       "word_error": {
         "deletions": 0,
@@ -1967,7 +1967,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.1376109880002332,
+      "transcribe_seconds": 0.1217173549994186,
       "wav_seconds": 1.6213333333333333,
       "word_error": {
         "deletions": 0,
@@ -2045,7 +2045,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.1138855280005373,
+      "transcribe_seconds": 0.11403658199924394,
       "wav_seconds": 1.6065416666666668,
       "word_error": {
         "deletions": 0,
@@ -2125,7 +2125,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.11977998300062609,
+      "transcribe_seconds": 0.11774392400002398,
       "wav_seconds": 1.927375,
       "word_error": {
         "deletions": 0,
@@ -2208,7 +2208,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.12697545899936813,
+      "transcribe_seconds": 0.1283742870000424,
       "wav_seconds": 1.8906666666666667,
       "word_error": {
         "deletions": 0,
@@ -2289,7 +2289,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.09088834000067436,
+      "transcribe_seconds": 0.08912214799966023,
       "wav_seconds": 1.470875,
       "word_error": {
         "deletions": 0,
@@ -2367,7 +2367,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.09995141000035801,
+      "transcribe_seconds": 0.09456407600009697,
       "wav_seconds": 1.547,
       "word_error": {
         "deletions": 0,
@@ -2447,7 +2447,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.10196783100036555,
+      "transcribe_seconds": 0.10947913000018161,
       "wav_seconds": 1.8044583333333333,
       "word_error": {
         "deletions": 0,
@@ -2530,7 +2530,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.09572527400086983,
+      "transcribe_seconds": 0.10275529899990943,
       "wav_seconds": 1.6902916666666667,
       "word_error": {
         "deletions": 0,
@@ -2613,7 +2613,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.10443843800021568,
+      "transcribe_seconds": 0.10557455700109131,
       "wav_seconds": 1.7356666666666667,
       "word_error": {
         "deletions": 0,
@@ -2698,7 +2698,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.10224127400215366,
+      "transcribe_seconds": 0.10480254599860928,
       "wav_seconds": 1.8654166666666667,
       "word_error": {
         "deletions": 0,
@@ -2782,7 +2782,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.0899713740000152,
+      "transcribe_seconds": 0.09259269900030631,
       "wav_seconds": 1.4594166666666666,
       "word_error": {
         "deletions": 0,
@@ -2860,7 +2860,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.10184641700107022,
+      "transcribe_seconds": 0.09323714799938898,
       "wav_seconds": 1.5037083333333334,
       "word_error": {
         "deletions": 0,
@@ -2940,7 +2940,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.09914322999975411,
+      "transcribe_seconds": 0.10000096799922176,
       "wav_seconds": 1.7895833333333333,
       "word_error": {
         "deletions": 0,
@@ -3023,7 +3023,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.09132156099803979,
+      "transcribe_seconds": 0.09012379300111206,
       "wav_seconds": 1.6467083333333334,
       "word_error": {
         "deletions": 0,
@@ -3106,7 +3106,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.1099169469998742,
+      "transcribe_seconds": 0.10624145099973248,
       "wav_seconds": 1.692375,
       "word_error": {
         "deletions": 0,
@@ -3191,7 +3191,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.0985714110029221,
+      "transcribe_seconds": 0.10060911800064787,
       "wav_seconds": 1.8501666666666667,
       "word_error": {
         "deletions": 0,
@@ -3277,7 +3277,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.10742708500038134,
+      "transcribe_seconds": 0.11020961800022633,
       "wav_seconds": 1.7300416666666667,
       "word_error": {
         "deletions": 0,
@@ -3360,7 +3360,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.09985432399844285,
+      "transcribe_seconds": 0.10239852699851326,
       "wav_seconds": 1.7334583333333333,
       "word_error": {
         "deletions": 0,
@@ -3443,7 +3443,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.11438539799928549,
+      "transcribe_seconds": 0.11302873800013913,
       "wav_seconds": 1.7683333333333333,
       "word_error": {
         "deletions": 0,
@@ -3526,7 +3526,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.10771270300028846,
+      "transcribe_seconds": 0.1128228269990359,
       "wav_seconds": 1.7797083333333332,
       "word_error": {
         "deletions": 0,
@@ -3611,7 +3611,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.12040436700044665,
+      "transcribe_seconds": 0.12210231499921065,
       "wav_seconds": 1.9486666666666668,
       "word_error": {
         "deletions": 0,
@@ -3699,7 +3699,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.11830492000080994,
+      "transcribe_seconds": 0.12351577899971744,
       "wav_seconds": 1.94125,
       "word_error": {
         "deletions": 0,
@@ -3760,7 +3760,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.07669369900031597,
+      "transcribe_seconds": 0.07704527500027325,
       "wav_seconds": 1.047875,
       "word_error": {
         "deletions": 0,
@@ -3813,7 +3813,7 @@
         "the",
         "temperature"
       ],
-      "transcribe_seconds": 0.0847868210003071,
+      "transcribe_seconds": 0.08149927399972512,
       "wav_seconds": 1.298125,
       "word_error": {
         "deletions": 0,
@@ -3842,7 +3842,7 @@
       "wrong_entities": []
     }
   },
-  "average_transcription_speedup": 15.900855224241537,
+  "average_transcription_speedup": 15.870316365305369,
   "correct_entities": 84,
   "correct_intent_and_entities": 49,
   "correct_intent_names": 49,

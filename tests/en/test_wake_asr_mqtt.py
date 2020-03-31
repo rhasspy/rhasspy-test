@@ -26,8 +26,11 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         self.loop = asyncio.get_event_loop()
         self.hermes = HermesClient("wake_asr_en", mqtt.Client(), loop=self.loop)
 
-        mqtt_port = int(os.environ.get("RHASSPY_MQTT_PORT") or 1883)
-        self.hermes.mqtt_client.connect("localhost", mqtt_port)
+        self.http_host = os.environ.get("RHASSPY_HTTP_HOST", "localhost")
+        self.mqtt_port = int(os.environ.get("RHASSPY_MQTT_PORT") or 1883)
+        self.mqtt_host = os.environ.get("RHASSPY_MQTT_HOST", self.http_host)
+
+        self.hermes.mqtt_client.connect(self.mqtt_host, self.mqtt_port)
         self.hermes.mqtt_client.loop_start()
 
         self.wake_system = os.environ.get("WAKE_SYSTEM") or "porcupine"
