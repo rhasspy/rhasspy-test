@@ -1,3 +1,4 @@
+"""Test wake/ASR/NLU workflow."""
 import asyncio
 import io
 import json

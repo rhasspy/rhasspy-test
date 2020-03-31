@@ -134,7 +134,10 @@ for profile_dir in ${profile_dirs}; do
                 jq . > "${output_dir}/report.json"
         fi
         echo 'OK'
-    ) || docker stop "${container_id}"
+    ) || (
+        echo "TEST FAILED"
+        docker stop "${container_id}"
+    )
 
     echo 'Stopping Docker container...'
     docker stop "${container_id}"
