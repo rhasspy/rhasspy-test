@@ -211,7 +211,7 @@ class WebsocketEnglishTests(unittest.TestCase):
 
         event_queue = asyncio.Queue()
         connected = asyncio.Event()
-        receive_task = asyncio.ensure_future(
+        receive_task = asyncio.create_task(
             self.async_ws_receive(f"mqtt/{topic}", event_queue, connected)
         )
         await asyncio.wait_for(connected.wait(), timeout=5)

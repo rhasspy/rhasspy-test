@@ -66,16 +66,24 @@ for profile_dir in ${profile_dirs}; do
     web_port="$(${base_dir}/scripts/get-free-port)"
     mqtt_port="$(${base_dir}/scripts/get-free-port)"
     profile_name="$(basename "${profile_dir}")"
+
+    # Re-create output directory
     output_dir="${base_dir}/output/${lang}/${profile_name}"
     rm -rf "${output_dir}"
     mkdir -p "${output_dir}"
 
     echo "Running ${lang}/${profile_name} (http=${web_port}, mqtt=${mqtt_port})"
-    cp -R "${profile_dir}" "${temp_dir}/${lang}"
-    cp -R "${shared_dir}"/* "${temp_dir}/${lang}/"
+
+    # Copy profile files to private directory
+    temp_profile_dir="${temp_dir}/${profile_name}"
+    rm -rf "${temp_profile_dir}"
+    mkdir -p "${temp_profile_dir}"
+
+    cp -R "${profile_dir}" "${temp_profile_dir}/${lang}"
+    cp -R "${shared_dir}"/* "${temp_profile_dir}/${lang}/"
 
     user="$(id -u):$(id -g)"
-    docker_command="docker run -d -v "${temp_dir}:/profiles" --user "${user}" --network host rhasspy/rhasspy:2.5.0-pre --profile "${lang}" --user-profiles /profiles --http-port ${web_port} --local-mqtt-port ${mqtt_port} -- --set download.url_base 'http://localhost:5000'"
+    docker_command="docker run -d -v "${temp_profile_dir}:/profiles" --user "${user}" --network host rhasspy/rhasspy:2.5.0-pre --profile "${lang}" --user-profiles /profiles --http-port ${web_port} --local-mqtt-port ${mqtt_port} -- --set download.url_base 'http://localhost:5000'"
     echo "${docker_command}"
 
     container_id="$(${docker_command})"

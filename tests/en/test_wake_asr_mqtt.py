@@ -4,7 +4,6 @@ import io
 import json
 import logging
 import os
-import threading
 import typing
 import unittest
 from pathlib import Path
@@ -30,7 +29,6 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         mqtt_port = int(os.environ.get("RHASSPY_MQTT_PORT") or 1883)
         self.hermes.mqtt_client.connect("localhost", mqtt_port)
         self.hermes.mqtt_client.loop_start()
-        self.done_event = threading.Event()
 
         self.wake_system = os.environ.get("WAKE_SYSTEM") or "porcupine"
         self.wav_path = Path(
@@ -38,19 +36,31 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         )
         self.wav_bytes = self.wav_path.read_bytes()
 
+        self.ready_event = asyncio.Event()
+        self.done_event = asyncio.Event()
+
     def tearDown(self):
         self.hermes.mqtt_client.loop_stop()
 
     # -------------------------------------------------------------------------
 
-    def test_1(self):
-        """Test 1"""
+    def test_workflow(self):
+        """Call async_test_workflow"""
+        self.loop.run_until_complete(self.async_test_workflow())
+
+    async def async_test_workflow(self):
+        """Test wake/asr/nlu workflow"""
         self.hotword_detected = None
         self.text_captured = None
         self.nlu_intent = None
 
-        self.hermes.on_message = self.on_message_test_1
+        # Wait until connected
+        self.hermes.on_message = self.on_message_test_workflow
+        await asyncio.wait_for(self.hermes.mqtt_connected_event.wait(), timeout=5)
+
+        # Start listening
         self.hermes.subscribe(HotwordDetected, AsrTextCaptured, NluIntent)
+        message_task = asyncio.create_task(self.hermes.handle_messages_async())
 
         # Send audio with realtime delays
         _LOGGER.debug("Sending %s", self.wav_path)
@@ -58,10 +68,8 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
             for chunk in AudioFrame.iter_wav_chunked(wav_io, 4096, live_delay=True):
                 self.hermes.publish(AudioFrame(chunk), siteId="default")
 
-        # Run event loop.
-        # Timeout after 10 seconds.
-        self.loop.call_later(10, self.stop_test)
-        self.loop.run_forever()
+        # Wait for up to 10 seconds
+        await asyncio.wait_for(self.done_event.wait(), timeout=10)
 
         # Verify hotword
         self.assertIsNotNone(
@@ -81,27 +89,25 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         self.assertEqual(slots.get("state"), "on")
         self.assertEqual(slots.get("name"), "living room lamp")
 
-    def stop_test(self):
-        self.hermes.stop()
-        self.loop.stop()
+        message_task.cancel()
 
-    async def on_message_test_1(
+    async def on_message_test_workflow(
         self,
         message: Message,
         siteId: typing.Optional[str] = None,
         sessionId: typing.Optional[str] = None,
         topic: typing.Optional[str] = None,
     ):
-        """Test 1"""
-        try:
-            if isinstance(message, HotwordDetected):
-                self.hotword_detected = message
-            elif isinstance(message, AsrTextCaptured):
-                self.text_captured = message
-            elif isinstance(message, NluIntent):
-                self.nlu_intent = message
-        finally:
-            if all((self.hotword_detected, self.text_captured, self.nlu_intent)):
-                self.stop_test()
+        """Receive messages for test_workflow"""
+        _LOGGER.debug(message)
+        if isinstance(message, HotwordDetected):
+            self.hotword_detected = message
+        elif isinstance(message, AsrTextCaptured):
+            self.text_captured = message
+        elif isinstance(message, NluIntent):
+            self.nlu_intent = message
+
+        if self.hotword_detected and self.text_captured and self.nlu_intent:
+            self.done_event.set()
 
         yield None
