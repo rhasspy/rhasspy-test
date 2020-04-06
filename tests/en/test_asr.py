@@ -94,7 +94,7 @@ class AsrEnglishTests(unittest.TestCase):
 
         slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
-        self.assertEqual(slots_by_name["name"].value, "living room lamp")
+        self.assertEqual(slots_by_name["name"].value["value"], "living room lamp")
 
         self.assertIn("state", slots_by_name)
-        self.assertEqual(slots_by_name["state"].value, "on")
+        self.assertEqual(slots_by_name["state"].value["value"], "on")

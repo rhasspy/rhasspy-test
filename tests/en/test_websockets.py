@@ -137,16 +137,16 @@ class WebsocketEnglishTests(unittest.TestCase):
                 Slot(
                     entity="state",
                     slotName="state",
-                    value="on",
-                    confidence=1,
-                    raw_value="on",
+                    value={"value": "on"},
+                    confidence=1.0,
+                    rawValue="on",
                 ),
                 Slot(
                     entity="name",
                     slotName="name",
-                    value="living room lamp",
-                    confidence=1,
-                    raw_value="living room lamp",
+                    value={"value": "living room lamp"},
+                    confidence=1.0,
+                    rawValue="living room lamp",
                 ),
             ],
             siteId=self.siteId,
@@ -162,6 +162,7 @@ class WebsocketEnglishTests(unittest.TestCase):
         event = json.loads(await asyncio.wait_for(event_queue.get(), timeout=5))
 
         # Expected Rhasspy JSON format as a response
+        _LOGGER.debug(nlu_intent)
         expected = nlu_intent.to_rhasspy_dict()
 
         self.assertEqual(event, expected)

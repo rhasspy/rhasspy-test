@@ -88,7 +88,7 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         self.assertIsNotNone(self.nlu_intent, "No intent recognized")
         self.assertEqual(self.nlu_intent.intent.intentName, "ChangeLightState")
 
-        slots = {s.slotName: s.value for s in self.nlu_intent.slots}
+        slots = {s.slotName: s.value["value"] for s in self.nlu_intent.slots}
         self.assertEqual(slots.get("state"), "on")
         self.assertEqual(slots.get("name"), "living room lamp")
 

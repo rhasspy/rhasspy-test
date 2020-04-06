@@ -83,18 +83,18 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertEqual(tts_say.sessionId, self.sessionId)
         self.assertEqual(tts_say.text, text)
 
+        # Check audioServer/playBytes
+        play_bytes_msg = self.mqtt_messages.get(timeout=5)
+        self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
+        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
+        self.assertEqual(play_bytes_msg.payload, wav_data)
+
         # Check tts/sayFinished
         tts_finished_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(TtsSayFinished.is_topic(tts_finished_msg.topic))
 
         tts_finished = TtsSayFinished.from_dict(json.loads(tts_finished_msg.payload))
         self.assertEqual(tts_finished.sessionId, self.sessionId)
-
-        # Check audioServer/playBytes
-        play_bytes_msg = self.mqtt_messages.get(timeout=5)
-        self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
-        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
-        self.assertEqual(play_bytes_msg.payload, wav_data)
 
         # Ask for repeat
         response = requests.post(
@@ -142,6 +142,12 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertEqual(tts_say.sessionId, self.sessionId)
         self.assertEqual(tts_say.text, text)
 
+        # Check audioServer/playBytes (will be ignored by audio output system)
+        play_bytes_msg = self.mqtt_messages.get(timeout=5)
+        self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
+        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
+        self.assertEqual(play_bytes_msg.payload, wav_data)
+
         # Check tts/sayFinished
         tts_finished_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(TtsSayFinished.is_topic(tts_finished_msg.topic))
@@ -149,12 +155,6 @@ class TtsEnglishTests(unittest.TestCase):
         tts_finished = TtsSayFinished.from_dict(json.loads(tts_finished_msg.payload))
         self.assertEqual(tts_finished.siteId, self.siteId)
         self.assertEqual(tts_finished.sessionId, self.sessionId)
-
-        # Check audioServer/playBytes (will be ignored by audio output system)
-        play_bytes_msg = self.mqtt_messages.get(timeout=5)
-        self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
-        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
-        self.assertEqual(play_bytes_msg.payload, wav_data)
 
         # Check audioServer/toggleOn
         audio_on_msg = self.mqtt_messages.get(timeout=5)

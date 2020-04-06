@@ -85,10 +85,10 @@ class NluEnglishTests(unittest.TestCase):
 
         slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
-        self.assertEqual(slots_by_name["name"].value, "bedroom light")
+        self.assertEqual(slots_by_name["name"].value["value"], "bedroom light")
 
         self.assertIn("color", slots_by_name)
-        self.assertEqual(slots_by_name["color"].value, "blue")
+        self.assertEqual(slots_by_name["color"].value["value"], "blue")
 
     def test_http_text_to_intent_hermes_failure(self):
         """Test recognition failure with text-to-intent HTTP endpoint (Hermes format)"""
@@ -151,10 +151,10 @@ class NluEnglishTests(unittest.TestCase):
 
         slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
-        self.assertEqual(slots_by_name["name"].value, "bedroom light")
+        self.assertEqual(slots_by_name["name"].value["value"], "bedroom light")
 
         self.assertIn("color", slots_by_name)
-        self.assertEqual(slots_by_name["color"].value, "purple")
+        self.assertEqual(slots_by_name["color"].value["value"], "purple")
 
         # Restore colors
         response = requests.post(
@@ -224,7 +224,7 @@ class NluEnglishTests(unittest.TestCase):
 
         slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
         self.assertIn("location", slots_by_name)
-        self.assertEqual(slots_by_name["location"].value, "Germany")
+        self.assertEqual(slots_by_name["location"].value["value"], "Germany")
 
         # Remove slot
         response = requests.post(
