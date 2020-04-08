@@ -3,7 +3,6 @@ import asyncio
 import json
 import logging
 import os
-import queue
 import sys
 import threading
 import unittest
@@ -11,7 +10,6 @@ from concurrent.futures import CancelledError
 from uuid import uuid4
 
 import paho.mqtt.client as mqtt
-import requests
 import websockets
 from rhasspyhermes.asr import AsrTextCaptured
 from rhasspyhermes.intent import Intent, Slot
@@ -41,8 +39,8 @@ class WebsocketEnglishTests(unittest.TestCase):
         # Block until connected
         connected_event.wait(timeout=5)
 
-        self.siteId = "default"
-        self.sessionId = str(uuid4())
+        self.site_id = "default"
+        self.session_id = str(uuid4())
 
     def tearDown(self):
         self.client.loop_stop()
@@ -96,9 +94,9 @@ class WebsocketEnglishTests(unittest.TestCase):
             text="this is a test",
             likelihood=1,
             seconds=0,
-            siteId=self.siteId,
-            sessionId=self.sessionId,
-            wakewordId=str(uuid4()),
+            site_id=self.site_id,
+            session_id=self.session_id,
+            wakeword_id=str(uuid4()),
         )
 
         self.client.publish(text_captured.topic(), text_captured.payload())
@@ -106,8 +104,8 @@ class WebsocketEnglishTests(unittest.TestCase):
         # Wait for response
         event = json.loads(await asyncio.wait_for(event_queue.get(), timeout=5))
         self.assertEqual(text_captured.text, event.get("text", ""))
-        self.assertEqual(text_captured.siteId, event.get("siteId", ""))
-        self.assertEqual(text_captured.wakewordId, event.get("wakewordId", ""))
+        self.assertEqual(text_captured.site_id, event.get("siteId", ""))
+        self.assertEqual(text_captured.wakeword_id, event.get("wakewordId", ""))
 
         # Stop listening
         receive_task.cancel()
@@ -132,29 +130,29 @@ class WebsocketEnglishTests(unittest.TestCase):
         nlu_intent = NluIntent(
             input="turn on the living room lamp",
             id=str(uuid4()),
-            intent=Intent(intentName="ChangeLightState", confidenceScore=1),
+            intent=Intent(intent_name="ChangeLightState", confidence_score=1),
             slots=[
                 Slot(
                     entity="state",
-                    slotName="state",
+                    slot_name="state",
                     value={"value": "on"},
                     confidence=1.0,
-                    rawValue="on",
+                    raw_value="on",
                 ),
                 Slot(
                     entity="name",
-                    slotName="name",
+                    slot_name="name",
                     value={"value": "living room lamp"},
                     confidence=1.0,
-                    rawValue="living room lamp",
+                    raw_value="living room lamp",
                 ),
             ],
-            siteId=self.siteId,
-            sessionId=self.sessionId,
+            site_id=self.site_id,
+            session_id=self.session_id,
         )
 
         self.client.publish(
-            nlu_intent.topic(intentName=nlu_intent.intent.intentName),
+            nlu_intent.topic(intent_name=nlu_intent.intent.intent_name),
             nlu_intent.payload(),
         )
 
@@ -187,15 +185,15 @@ class WebsocketEnglishTests(unittest.TestCase):
         await asyncio.wait_for(connected.wait(), timeout=5)
 
         # Send in a message
-        detected = HotwordDetected(modelId=str(uuid4()), siteId=self.siteId)
-        wakewordId = str(uuid4())
+        detected = HotwordDetected(model_id=str(uuid4()), site_id=self.site_id)
+        wakeword_id = str(uuid4())
 
-        self.client.publish(detected.topic(wakewordId=wakewordId), detected.payload())
+        self.client.publish(detected.topic(wakeword_id=wakeword_id), detected.payload())
 
         # Wait for response
         event = json.loads(await asyncio.wait_for(event_queue.get(), timeout=5))
-        self.assertEqual(wakewordId, event.get("wakewordId", ""))
-        self.assertEqual(detected.siteId, event.get("siteId", ""))
+        self.assertEqual(wakeword_id, event.get("wakewordId", ""))
+        self.assertEqual(detected.site_id, event.get("siteId", ""))
 
         # Stop listening
         receive_task.cancel()

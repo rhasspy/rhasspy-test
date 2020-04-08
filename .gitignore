@@ -1,3 +1,5 @@
 .venv/
 __pycache__/
 response.txt
+.mypy_cache/
+download/

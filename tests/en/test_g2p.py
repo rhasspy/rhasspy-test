@@ -1,5 +1,4 @@
 """Grapheme to phoneme tests."""
-import json
 import os
 import sys
 import unittest
@@ -7,8 +6,6 @@ from pathlib import Path
 from uuid import uuid4
 
 import requests
-from rhasspyhermes.asr import AsrTextCaptured
-from rhasspyhermes.nlu import NluIntent
 
 
 class G2pEnglishTests(unittest.TestCase):

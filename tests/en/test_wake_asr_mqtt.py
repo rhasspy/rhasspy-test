@@ -1,7 +1,6 @@
 """Test wake/ASR/NLU workflow."""
 import asyncio
 import io
-import json
 import logging
 import os
 import typing
@@ -9,9 +8,9 @@ import unittest
 from pathlib import Path
 
 import paho.mqtt.client as mqtt
-from rhasspyhermes.base import Message
 from rhasspyhermes.asr import AsrTextCaptured
 from rhasspyhermes.audioserver import AudioFrame
+from rhasspyhermes.base import Message
 from rhasspyhermes.client import HermesClient
 from rhasspyhermes.nlu import NluIntent
 from rhasspyhermes.wake import HotwordDetected
@@ -69,7 +68,7 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
         _LOGGER.debug("Sending %s", self.wav_path)
         with io.BytesIO(self.wav_bytes) as wav_io:
             for chunk in AudioFrame.iter_wav_chunked(wav_io, 4096, live_delay=True):
-                self.hermes.publish(AudioFrame(chunk), siteId="default")
+                self.hermes.publish(AudioFrame(wav_bytes=chunk), site_id="default")
 
         # Wait for up to 10 seconds
         await asyncio.wait_for(self.done_event.wait(), timeout=10)
@@ -86,9 +85,9 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
 
         # Verify intent
         self.assertIsNotNone(self.nlu_intent, "No intent recognized")
-        self.assertEqual(self.nlu_intent.intent.intentName, "ChangeLightState")
+        self.assertEqual(self.nlu_intent.intent.intent_name, "ChangeLightState")
 
-        slots = {s.slotName: s.value["value"] for s in self.nlu_intent.slots}
+        slots = {s.slot_name: s.value["value"] for s in self.nlu_intent.slots}
         self.assertEqual(slots.get("state"), "on")
         self.assertEqual(slots.get("name"), "living room lamp")
 
@@ -97,8 +96,8 @@ class WakeAsrMqttEnglishTests(unittest.TestCase):
     async def on_message_test_workflow(
         self,
         message: Message,
-        siteId: typing.Optional[str] = None,
-        sessionId: typing.Optional[str] = None,
+        site_id: typing.Optional[str] = None,
+        session_id: typing.Optional[str] = None,
         topic: typing.Optional[str] = None,
     ):
         """Receive messages for test_workflow"""

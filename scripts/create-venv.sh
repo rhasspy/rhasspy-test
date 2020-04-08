@@ -33,7 +33,10 @@ pip3 ${PIP_INSTALL} pip
 pip3 ${PIP_INSTALL} wheel setuptools
 
 echo 'Installing requirements'
-pip3 ${PIP_INSTALL} -r requirements.txt
+pip3 ${PIP_INSTALL} -f "${download}" -r requirements.txt
+
+pip3 ${PIP_INSTALL} -f "${download}" -r requirements_dev.txt \
+    || echo 'Failed to install development requirements'
 
 # -----------------------------------------------------------------------------
 

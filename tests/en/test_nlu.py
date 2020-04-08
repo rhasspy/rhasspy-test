@@ -1,8 +1,8 @@
 """Natural language understanding tests (English)."""
-import json
 import os
 import sys
 import unittest
+from uuid import uuid4
 
 import requests
 from rhasspyhermes.nlu import NluIntent, NluIntentNotRecognized
@@ -81,9 +81,9 @@ class NluEnglishTests(unittest.TestCase):
         self.assertEqual(nlu_intent.input, "set bedroom light to blue")
 
         # Intent name and slots
-        self.assertEqual(nlu_intent.intent.intentName, "ChangeLightColor")
+        self.assertEqual(nlu_intent.intent.intent_name, "ChangeLightColor")
 
-        slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
+        slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
         self.assertEqual(slots_by_name["name"].value["value"], "bedroom light")
 
@@ -107,6 +107,31 @@ class NluEnglishTests(unittest.TestCase):
 
         # Input carried forward
         self.assertEqual(not_recognized.input, "not a valid sentence")
+
+    def test_http_text_to_intent_custom_entity(self):
+        """Test text-to-intent HTTP endpoint with custom entity"""
+        custom_entity = str(uuid4())
+        custom_value = str(uuid4())
+
+        response = requests.post(
+            self.api_url("text-to-intent"),
+            data="set bedroom light to BLUE",
+            params={"entity": custom_entity, "value": custom_value},
+        )
+        self.check_status(response)
+
+        result = response.json()
+
+        # Check custom entity
+        self.assertEqual(result["slots"][custom_entity], custom_value)
+
+        found_entity = False
+        for entity in result["entities"]:
+            if entity.get("entity", "") == custom_entity:
+                found_entity = True
+                self.assertEqual(entity.get("value", ""), custom_value)
+
+        self.assertTrue(found_entity)
 
     def test_http_nlu_new_slot_value(self):
         """Test recognition with a new slot value"""
@@ -147,9 +172,9 @@ class NluEnglishTests(unittest.TestCase):
         nlu_intent = NluIntent.from_dict(result["value"])
 
         # Intent name and slots
-        self.assertEqual(nlu_intent.intent.intentName, "ChangeLightColor")
+        self.assertEqual(nlu_intent.intent.intent_name, "ChangeLightColor")
 
-        slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
+        slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
         self.assertEqual(slots_by_name["name"].value["value"], "bedroom light")
 
@@ -160,7 +185,7 @@ class NluEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("slots/color"),
             json=original_colors,
-            params={"overwrite_all": "true"},
+            params={"overwriteAll": "true"},
         )
         self.check_status(response)
 
@@ -220,9 +245,9 @@ class NluEnglishTests(unittest.TestCase):
         nlu_intent = NluIntent.from_dict(result["value"])
 
         # Intent name and slots
-        self.assertEqual(nlu_intent.intent.intentName, "GetWeather")
+        self.assertEqual(nlu_intent.intent.intent_name, "GetWeather")
 
-        slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
+        slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
         self.assertIn("location", slots_by_name)
         self.assertEqual(slots_by_name["location"].value["value"], "Germany")
 

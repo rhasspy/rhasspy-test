@@ -1,4 +1,4 @@
-import json
+"""Named entity/slots tests."""
 import os
 import sys
 import unittest
@@ -66,7 +66,7 @@ class SlotsEnglishTests(unittest.TestCase):
         response = requests.post(
             self.api_url("slots/color"),
             json=list(colors),
-            params={"overwrite_all": "true"},
+            params={"overwriteAll": "true"},
         )
         self.check_status(response)
 
@@ -92,7 +92,7 @@ class SlotsEnglishTests(unittest.TestCase):
 
         # Remove room
         response = requests.post(
-            self.api_url("slots/room"), json=[], params={"overwrite_all": "true"}
+            self.api_url("slots/room"), json=[], params={"overwriteAll": "true"}
         )
         self.check_status(response)
 

@@ -1,3 +1,4 @@
+"""Text to speech tests."""
 import json
 import os
 import queue
@@ -8,12 +9,7 @@ from uuid import uuid4
 
 import paho.mqtt.client as mqtt
 import requests
-from rhasspyhermes.audioserver import (
-    AudioPlayBytes,
-    AudioPlayFinished,
-    AudioToggleOff,
-    AudioToggleOn,
-)
+from rhasspyhermes.audioserver import AudioPlayBytes, AudioToggleOff, AudioToggleOn
 from rhasspyhermes.tts import TtsSay, TtsSayFinished
 
 
@@ -42,8 +38,8 @@ class TtsEnglishTests(unittest.TestCase):
         # Block until connected
         connected_event.wait(timeout=5)
 
-        self.siteId = "default"
-        self.sessionId = str(uuid4())
+        self.site_id = "default"
+        self.session_id = str(uuid4())
 
     def tearDown(self):
         self.client.loop_stop()
@@ -61,13 +57,13 @@ class TtsEnglishTests(unittest.TestCase):
         """Test text-to-speech HTTP endpoint"""
         text = "This is a test."
         self.client.subscribe(TtsSay.topic())
-        self.client.subscribe(AudioPlayBytes.topic(siteId=self.siteId))
+        self.client.subscribe(AudioPlayBytes.topic(site_id=self.site_id))
         self.client.subscribe(TtsSayFinished.topic())
 
         response = requests.post(
             self.api_url("text-to-speech"),
             data=text,
-            params={"siteId": self.siteId, "sessionId": self.sessionId},
+            params={"siteId": self.site_id, "sessionId": self.session_id},
         )
         self.check_status(response)
 
@@ -79,14 +75,14 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertTrue(TtsSay.is_topic(tts_say_msg.topic))
 
         tts_say = TtsSay.from_dict(json.loads(tts_say_msg.payload))
-        self.assertEqual(tts_say.siteId, self.siteId)
-        self.assertEqual(tts_say.sessionId, self.sessionId)
+        self.assertEqual(tts_say.site_id, self.site_id)
+        self.assertEqual(tts_say.session_id, self.session_id)
         self.assertEqual(tts_say.text, text)
 
         # Check audioServer/playBytes
         play_bytes_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
-        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
+        self.assertEqual(AudioPlayBytes.get_site_id(play_bytes_msg.topic), self.site_id)
         self.assertEqual(play_bytes_msg.payload, wav_data)
 
         # Check tts/sayFinished
@@ -94,7 +90,7 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertTrue(TtsSayFinished.is_topic(tts_finished_msg.topic))
 
         tts_finished = TtsSayFinished.from_dict(json.loads(tts_finished_msg.payload))
-        self.assertEqual(tts_finished.sessionId, self.sessionId)
+        self.assertEqual(tts_finished.session_id, self.session_id)
 
         # Ask for repeat
         response = requests.post(
@@ -107,7 +103,7 @@ class TtsEnglishTests(unittest.TestCase):
         """Test text-to-speech HTTP endpoint with play=false"""
         text = "This is a test."
         self.client.subscribe(TtsSay.topic())
-        self.client.subscribe(AudioPlayBytes.topic(siteId=self.siteId))
+        self.client.subscribe(AudioPlayBytes.topic(site_id=self.site_id))
         self.client.subscribe(TtsSayFinished.topic())
         self.client.subscribe(AudioToggleOff.topic())
         self.client.subscribe(AudioToggleOn.topic())
@@ -116,8 +112,8 @@ class TtsEnglishTests(unittest.TestCase):
             self.api_url("text-to-speech"),
             data=text,
             params={
-                "siteId": self.siteId,
-                "sessionId": self.sessionId,
+                "siteId": self.site_id,
+                "sessionId": self.session_id,
                 "play": "false",
             },
         )
@@ -131,21 +127,21 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertTrue(AudioToggleOff.is_topic(audio_off_msg.topic))
 
         audio_off = AudioToggleOff.from_dict(json.loads(audio_off_msg.payload))
-        self.assertEqual(audio_off.siteId, self.siteId)
+        self.assertEqual(audio_off.site_id, self.site_id)
 
         # Check tts/say
         tts_say_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(TtsSay.is_topic(tts_say_msg.topic))
 
         tts_say = TtsSay.from_dict(json.loads(tts_say_msg.payload))
-        self.assertEqual(tts_say.siteId, self.siteId)
-        self.assertEqual(tts_say.sessionId, self.sessionId)
+        self.assertEqual(tts_say.site_id, self.site_id)
+        self.assertEqual(tts_say.session_id, self.session_id)
         self.assertEqual(tts_say.text, text)
 
         # Check audioServer/playBytes (will be ignored by audio output system)
         play_bytes_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(AudioPlayBytes.is_topic(play_bytes_msg.topic))
-        self.assertEqual(AudioPlayBytes.get_siteId(play_bytes_msg.topic), self.siteId)
+        self.assertEqual(AudioPlayBytes.get_site_id(play_bytes_msg.topic), self.site_id)
         self.assertEqual(play_bytes_msg.payload, wav_data)
 
         # Check tts/sayFinished
@@ -153,12 +149,12 @@ class TtsEnglishTests(unittest.TestCase):
         self.assertTrue(TtsSayFinished.is_topic(tts_finished_msg.topic))
 
         tts_finished = TtsSayFinished.from_dict(json.loads(tts_finished_msg.payload))
-        self.assertEqual(tts_finished.siteId, self.siteId)
-        self.assertEqual(tts_finished.sessionId, self.sessionId)
+        self.assertEqual(tts_finished.site_id, self.site_id)
+        self.assertEqual(tts_finished.session_id, self.session_id)
 
         # Check audioServer/toggleOn
         audio_on_msg = self.mqtt_messages.get(timeout=5)
         self.assertTrue(AudioToggleOn.is_topic(audio_on_msg.topic))
 
         audio_on = AudioToggleOn.from_dict(json.loads(audio_on_msg.payload))
-        self.assertEqual(audio_on.siteId, self.siteId)
+        self.assertEqual(audio_on.site_id, self.site_id)

@@ -1,5 +1,4 @@
 """Automated speech recognition tests."""
-import json
 import os
 import sys
 import unittest
@@ -90,9 +89,9 @@ class AsrEnglishTests(unittest.TestCase):
         self.assertEqual(nlu_intent.input, "turn on the living room lamp")
 
         # Intent name and slots
-        self.assertEqual(nlu_intent.intent.intentName, "ChangeLightState")
+        self.assertEqual(nlu_intent.intent.intent_name, "ChangeLightState")
 
-        slots_by_name = {slot.slotName: slot for slot in nlu_intent.slots}
+        slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
         self.assertIn("name", slots_by_name)
         self.assertEqual(slots_by_name["name"].value["value"], "living room lamp")
 
