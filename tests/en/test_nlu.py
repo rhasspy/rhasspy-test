@@ -206,11 +206,82 @@ class NluEnglishTests(unittest.TestCase):
         result = response.json()
         self.assertEqual(result["type"], "intentNotRecognized")
 
-        # Add new slot
-        response = requests.post(
-            self.api_url("slots/location"), json=["Germany", "France"]
+        # Get sentences
+        response = requests.get(
+            self.api_url("sentences"), headers={"Accept": "application/json"}
         )
         self.check_status(response)
+        sentences = response.json()
+
+        try:
+            # Add new slot
+            response = requests.post(
+                self.api_url("slots/location"), json=["Germany", "France"]
+            )
+            self.check_status(response)
+
+            # Add new intent
+            sentences[
+                "intents/weather.ini"
+            ] = "[GetWeather]\nwhat is the weather like in ($location){location}\n"
+
+            # Save sentences
+            response = requests.post(self.api_url("sentences"), json=sentences)
+            self.check_status(response)
+
+            # Re-train
+            response = requests.post(self.api_url("train"))
+            self.check_status(response)
+
+            # Should work now
+            response = requests.post(
+                self.api_url("text-to-intent"),
+                data="what is the weather like in Germany",
+                params={"outputFormat": "hermes"},
+            )
+            self.check_status(response)
+
+            result = response.json()
+            self.assertEqual(result["type"], "intent")
+
+            nlu_intent = NluIntent.from_dict(result["value"])
+
+            # Intent name and slots
+            self.assertEqual(nlu_intent.intent.intent_name, "GetWeather")
+
+            slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
+            self.assertIn("location", slots_by_name)
+            self.assertEqual(slots_by_name["location"].value["value"], "Germany")
+        finally:
+            # Remove slot
+            response = requests.post(
+                self.api_url("slots/location"),
+                json=[],
+                params={"overwrite_all": "true"},
+            )
+            self.check_status(response)
+
+            # Remove sentences
+            sentences["intents/weather.ini"] = ""
+            response = requests.post(self.api_url("sentences"), json=sentences)
+            self.check_status(response)
+
+            # Re-train
+            response = requests.post(self.api_url("train"))
+            self.check_status(response)
+
+    def test_http_nlu_number_range(self):
+        """Test recognition with a number range"""
+        response = requests.post(
+            self.api_url("text-to-intent"),
+            data="set a timer for 10 minutes",
+            params={"outputFormat": "hermes"},
+        )
+        self.check_status(response)
+
+        # Shouldn't exist yet
+        result = response.json()
+        self.assertEqual(result["type"], "intentNotRecognized")
 
         # Add new intent
         response = requests.get(
@@ -220,48 +291,43 @@ class NluEnglishTests(unittest.TestCase):
         sentences = response.json()
 
         sentences[
-            "intents/weather.ini"
-        ] = "[GetWeather]\nwhat is the weather like in ($location){location}\n"
+            "intents/timer.ini"
+        ] = "[SetTimer]\nset a timer for (1..59){minute} minutes\n"
 
         # Save sentences
         response = requests.post(self.api_url("sentences"), json=sentences)
         self.check_status(response)
 
-        # Re-train
-        response = requests.post(self.api_url("train"))
-        self.check_status(response)
+        try:
+            # Re-train
+            response = requests.post(self.api_url("train"))
+            self.check_status(response)
 
-        # Should work now
-        response = requests.post(
-            self.api_url("text-to-intent"),
-            data="what is the weather like in Germany",
-            params={"outputFormat": "hermes"},
-        )
-        self.check_status(response)
+            # Should work now
+            response = requests.post(
+                self.api_url("text-to-intent"),
+                data="set a timer for 10 minutes",
+                params={"outputFormat": "hermes"},
+            )
+            self.check_status(response)
 
-        result = response.json()
-        self.assertEqual(result["type"], "intent")
+            result = response.json()
+            self.assertEqual(result["type"], "intent")
 
-        nlu_intent = NluIntent.from_dict(result["value"])
+            nlu_intent = NluIntent.from_dict(result["value"])
 
-        # Intent name and slots
-        self.assertEqual(nlu_intent.intent.intent_name, "GetWeather")
+            # Intent name and slots
+            self.assertEqual(nlu_intent.intent.intent_name, "SetTimer")
 
-        slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
-        self.assertIn("location", slots_by_name)
-        self.assertEqual(slots_by_name["location"].value["value"], "Germany")
+            slots_by_name = {slot.slot_name: slot for slot in nlu_intent.slots}
+            self.assertIn("minute", slots_by_name)
+            self.assertEqual(slots_by_name["minute"].value["value"], 10)
+        finally:
+            # Remove sentences
+            sentences["intents/timer.ini"] = ""
+            response = requests.post(self.api_url("sentences"), json=sentences)
+            self.check_status(response)
 
-        # Remove slot
-        response = requests.post(
-            self.api_url("slots/location"), json=[], params={"overwrite_all": "true"}
-        )
-        self.check_status(response)
-
-        # Remove sentences
-        sentences["intents/weather.ini"] = ""
-        response = requests.post(self.api_url("sentences"), json=sentences)
-        self.check_status(response)
-
-        # Re-train
-        response = requests.post(self.api_url("train"))
-        self.check_status(response)
+            # Re-train
+            response = requests.post(self.api_url("train"))
+            self.check_status(response)
