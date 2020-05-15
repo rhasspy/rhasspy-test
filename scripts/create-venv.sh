@@ -16,10 +16,12 @@ download="${src_dir}/download"
 
 # -----------------------------------------------------------------------------
 
+: "${PYTHON=python3}"
+
 if [[ ! -d "${venv}" ]]; then
     # Create virtual environment
     echo "Creating virtual environment at ${venv}"
-    python3 -m venv "${venv}"
+    "${PYTHON}" -m venv "${venv}"
 fi
 
 source "${venv}/bin/activate"

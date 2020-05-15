@@ -163,6 +163,12 @@ class WebsocketEnglishTests(unittest.TestCase):
         _LOGGER.debug(nlu_intent)
         expected = nlu_intent.to_rhasspy_dict()
 
+        # Extra info
+        expected["siteId"] = self.site_id
+        expected["sessionId"] = self.session_id
+        expected["customData"] = None
+        expected["wakewordId"] = None
+
         self.assertEqual(event, expected)
 
         # Stop listening
