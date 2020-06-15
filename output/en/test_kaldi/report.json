@@ -16,7 +16,7 @@
         "it"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "how cold is it",
       "tokens": [
         "how",
@@ -24,7 +24,8 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.034628705001523485,
+      "transcribe_seconds": 0.030057727000894374,
+      "wav_name": null,
       "wav_seconds": 1.1037916666666667,
       "word_error": {
         "deletions": 0,
@@ -71,7 +72,7 @@
         "it"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "how hot is it",
       "tokens": [
         "how",
@@ -79,7 +80,8 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.02438445500229136,
+      "transcribe_seconds": 0.02646972999900754,
+      "wav_name": null,
       "wav_seconds": 1.02975,
       "word_error": {
         "deletions": 0,
@@ -127,7 +129,7 @@
         "closed"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "is the garage door closed",
       "tokens": [
         "is",
@@ -136,7 +138,8 @@
         "door",
         "closed"
       ],
-      "transcribe_seconds": 0.045519987997977296,
+      "transcribe_seconds": 0.049806246999651194,
+      "wav_name": null,
       "wav_seconds": 1.967125,
       "word_error": {
         "deletions": 0,
@@ -187,7 +190,7 @@
         "open"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "is the garage door open",
       "tokens": [
         "is",
@@ -196,7 +199,8 @@
         "door",
         "open"
       ],
-      "transcribe_seconds": 0.04208190299686976,
+      "transcribe_seconds": 0.04518257999916386,
+      "wav_name": null,
       "wav_seconds": 1.803,
       "word_error": {
         "deletions": 0,
@@ -271,7 +275,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light blue",
       "tokens": [
         "make",
@@ -279,7 +283,8 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.03623803200025577,
+      "transcribe_seconds": 0.03933875800066744,
+      "wav_name": null,
       "wav_seconds": 1.5683333333333334,
       "word_error": {
         "deletions": 0,
@@ -351,7 +356,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light green",
       "tokens": [
         "make",
@@ -359,7 +364,8 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.03701549000106752,
+      "transcribe_seconds": 0.03714118499920005,
+      "wav_name": null,
       "wav_seconds": 1.5480833333333333,
       "word_error": {
         "deletions": 0,
@@ -431,7 +437,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light red",
       "tokens": [
         "make",
@@ -439,7 +445,8 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.03472326399787562,
+      "transcribe_seconds": 0.037397926000267034,
+      "wav_name": null,
       "wav_seconds": 1.5045,
       "word_error": {
         "deletions": 0,
@@ -512,7 +519,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light blue",
       "tokens": [
         "make",
@@ -521,7 +528,8 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.04006838499844889,
+      "transcribe_seconds": 0.04313459900004091,
+      "wav_name": null,
       "wav_seconds": 1.7679166666666666,
       "word_error": {
         "deletions": 0,
@@ -597,7 +605,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light green",
       "tokens": [
         "make",
@@ -606,7 +614,8 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.04143439299878082,
+      "transcribe_seconds": 0.042444396000064444,
+      "wav_name": null,
       "wav_seconds": 1.7502083333333334,
       "word_error": {
         "deletions": 0,
@@ -682,7 +691,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light red",
       "tokens": [
         "make",
@@ -691,7 +700,8 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.03710212200167007,
+      "transcribe_seconds": 0.03890677000163123,
+      "wav_name": null,
       "wav_seconds": 1.670625,
       "word_error": {
         "deletions": 0,
@@ -766,7 +776,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light blue",
       "tokens": [
         "set",
@@ -774,7 +784,8 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.041945949000364635,
+      "transcribe_seconds": 0.03928276800070307,
+      "wav_name": null,
       "wav_seconds": 1.58225,
       "word_error": {
         "deletions": 0,
@@ -846,7 +857,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light green",
       "tokens": [
         "set",
@@ -854,7 +865,8 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.03926635799871292,
+      "transcribe_seconds": 0.039277970001421636,
+      "wav_name": null,
       "wav_seconds": 1.5603333333333333,
       "word_error": {
         "deletions": 0,
@@ -926,7 +938,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light red",
       "tokens": [
         "set",
@@ -934,7 +946,8 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.0363911000022199,
+      "transcribe_seconds": 0.03779440499965858,
+      "wav_name": null,
       "wav_seconds": 1.5311666666666666,
       "word_error": {
         "deletions": 0,
@@ -1007,7 +1020,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to blue",
       "tokens": [
         "set",
@@ -1016,7 +1029,8 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.04236312799912412,
+      "transcribe_seconds": 0.045435878999342094,
+      "wav_name": null,
       "wav_seconds": 1.844125,
       "word_error": {
         "deletions": 0,
@@ -1092,7 +1106,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to green",
       "tokens": [
         "set",
@@ -1101,7 +1115,8 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.041746299000806175,
+      "transcribe_seconds": 0.04398690599919064,
+      "wav_name": null,
       "wav_seconds": 1.8626666666666667,
       "word_error": {
         "deletions": 0,
@@ -1177,7 +1192,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to red",
       "tokens": [
         "set",
@@ -1186,7 +1201,8 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.04317464500127244,
+      "transcribe_seconds": 0.04381143700084067,
+      "wav_name": null,
       "wav_seconds": 1.79925,
       "word_error": {
         "deletions": 0,
@@ -1262,7 +1278,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light blue",
       "tokens": [
         "set",
@@ -1271,7 +1287,8 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.04107738799939398,
+      "transcribe_seconds": 0.04454901799908839,
+      "wav_name": null,
       "wav_seconds": 1.7904583333333333,
       "word_error": {
         "deletions": 0,
@@ -1347,7 +1364,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light green",
       "tokens": [
         "set",
@@ -1356,7 +1373,8 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.04644797800210654,
+      "transcribe_seconds": 0.042532273999313475,
+      "wav_name": null,
       "wav_seconds": 1.765,
       "word_error": {
         "deletions": 0,
@@ -1432,7 +1450,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light red",
       "tokens": [
         "set",
@@ -1441,7 +1459,8 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.04011538999839104,
+      "transcribe_seconds": 0.04173606299991661,
+      "wav_name": null,
       "wav_seconds": 1.7149166666666666,
       "word_error": {
         "deletions": 0,
@@ -1518,7 +1537,7 @@
         "blue"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to blue",
       "tokens": [
         "set",
@@ -1528,7 +1547,8 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.04402359800224076,
+      "transcribe_seconds": 0.04416817200035439,
+      "wav_name": null,
       "wav_seconds": 1.8801666666666668,
       "word_error": {
         "deletions": 0,
@@ -1608,7 +1628,7 @@
         "green"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to green",
       "tokens": [
         "set",
@@ -1618,7 +1638,8 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.04214667599808308,
+      "transcribe_seconds": 0.04491586400035885,
+      "wav_name": null,
       "wav_seconds": 1.8752083333333334,
       "word_error": {
         "deletions": 0,
@@ -1698,7 +1719,7 @@
         "red"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to red",
       "tokens": [
         "set",
@@ -1708,7 +1729,8 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.041567252003005706,
+      "transcribe_seconds": 0.04509880099976726,
+      "wav_name": null,
       "wav_seconds": 1.8183333333333334,
       "word_error": {
         "deletions": 0,
@@ -1761,7 +1783,7 @@
         "time"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "tell me the time",
       "tokens": [
         "tell",
@@ -1769,7 +1791,8 @@
         "the",
         "time"
       ],
-      "transcribe_seconds": 0.03202805899854866,
+      "transcribe_seconds": 0.029605031000755844,
+      "wav_name": null,
       "wav_seconds": 1.0830833333333334,
       "word_error": {
         "deletions": 0,
@@ -1841,7 +1864,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn bedroom light off",
       "tokens": [
         "turn",
@@ -1849,7 +1872,8 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.03575651299979654,
+      "transcribe_seconds": 0.03939128499951039,
+      "wav_name": null,
       "wav_seconds": 1.5684583333333333,
       "word_error": {
         "deletions": 0,
@@ -1921,7 +1945,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn bedroom light on",
       "tokens": [
         "turn",
@@ -1929,7 +1953,8 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.036096518000704236,
+      "transcribe_seconds": 0.038642479999907664,
+      "wav_name": null,
       "wav_seconds": 1.5656666666666668,
       "word_error": {
         "deletions": 0,
@@ -2001,7 +2026,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn garage light off",
       "tokens": [
         "turn",
@@ -2009,7 +2034,8 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.03719511600138503,
+      "transcribe_seconds": 0.03958001799946942,
+      "wav_name": null,
       "wav_seconds": 1.6213333333333333,
       "word_error": {
         "deletions": 0,
@@ -2081,7 +2107,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn garage light on",
       "tokens": [
         "turn",
@@ -2089,7 +2115,8 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.03858401000252343,
+      "transcribe_seconds": 0.039678867999100476,
+      "wav_name": null,
       "wav_seconds": 1.6065416666666668,
       "word_error": {
         "deletions": 0,
@@ -2162,7 +2189,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn living room lamp off",
       "tokens": [
         "turn",
@@ -2171,7 +2198,8 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.05078567799864686,
+      "transcribe_seconds": 0.048095337000631844,
+      "wav_name": null,
       "wav_seconds": 1.927375,
       "word_error": {
         "deletions": 0,
@@ -2247,7 +2275,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn living room lamp on",
       "tokens": [
         "turn",
@@ -2256,7 +2284,8 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.04223441800058936,
+      "transcribe_seconds": 0.045172445999924093,
+      "wav_name": null,
       "wav_seconds": 1.8906666666666667,
       "word_error": {
         "deletions": 0,
@@ -2331,7 +2360,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off bedroom light",
       "tokens": [
         "turn",
@@ -2339,7 +2368,8 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.03520861399738351,
+      "transcribe_seconds": 0.03535359000125027,
+      "wav_name": null,
       "wav_seconds": 1.470875,
       "word_error": {
         "deletions": 0,
@@ -2411,7 +2441,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off garage light",
       "tokens": [
         "turn",
@@ -2419,7 +2449,8 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.03669034899940016,
+      "transcribe_seconds": 0.042831863998799236,
+      "wav_name": null,
       "wav_seconds": 1.547,
       "word_error": {
         "deletions": 0,
@@ -2492,7 +2523,7 @@
         "lamp"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off living room lamp",
       "tokens": [
         "turn",
@@ -2501,7 +2532,8 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.04199278300075093,
+      "transcribe_seconds": 0.0466810580001038,
+      "wav_name": null,
       "wav_seconds": 1.8044583333333333,
       "word_error": {
         "deletions": 0,
@@ -2577,7 +2609,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the bedroom light",
       "tokens": [
         "turn",
@@ -2586,7 +2618,8 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.0389834020024864,
+      "transcribe_seconds": 0.039514363001217134,
+      "wav_name": null,
       "wav_seconds": 1.6902916666666667,
       "word_error": {
         "deletions": 0,
@@ -2662,7 +2695,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the garage light",
       "tokens": [
         "turn",
@@ -2671,7 +2704,8 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.03968128500127932,
+      "transcribe_seconds": 0.04391721199863241,
+      "wav_name": null,
       "wav_seconds": 1.7356666666666667,
       "word_error": {
         "deletions": 0,
@@ -2748,7 +2782,7 @@
         "lamp"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the living room lamp",
       "tokens": [
         "turn",
@@ -2758,7 +2792,8 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.04274496599828126,
+      "transcribe_seconds": 0.044976322000366054,
+      "wav_name": null,
       "wav_seconds": 1.8654166666666667,
       "word_error": {
         "deletions": 0,
@@ -2836,7 +2871,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on bedroom light",
       "tokens": [
         "turn",
@@ -2844,7 +2879,8 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.034203466999315424,
+      "transcribe_seconds": 0.034676446000958094,
+      "wav_name": null,
       "wav_seconds": 1.4594166666666666,
       "word_error": {
         "deletions": 0,
@@ -2916,7 +2952,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on garage light",
       "tokens": [
         "turn",
@@ -2924,7 +2960,8 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.042580769997584866,
+      "transcribe_seconds": 0.03879087600034836,
+      "wav_name": null,
       "wav_seconds": 1.5037083333333334,
       "word_error": {
         "deletions": 0,
@@ -2997,7 +3034,7 @@
         "lamp"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on living room lamp",
       "tokens": [
         "turn",
@@ -3006,7 +3043,8 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.04299617100332398,
+      "transcribe_seconds": 0.043635097001242684,
+      "wav_name": null,
       "wav_seconds": 1.7895833333333333,
       "word_error": {
         "deletions": 0,
@@ -3082,7 +3120,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the bedroom light",
       "tokens": [
         "turn",
@@ -3091,7 +3129,8 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.0373143489996437,
+      "transcribe_seconds": 0.03905363500052772,
+      "wav_name": null,
       "wav_seconds": 1.6467083333333334,
       "word_error": {
         "deletions": 0,
@@ -3167,7 +3206,7 @@
         "light"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the garage light",
       "tokens": [
         "turn",
@@ -3176,7 +3215,8 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.03722505000041565,
+      "transcribe_seconds": 0.041242613000576966,
+      "wav_name": null,
       "wav_seconds": 1.692375,
       "word_error": {
         "deletions": 0,
@@ -3253,7 +3293,7 @@
         "lamp"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the living room lamp",
       "tokens": [
         "turn",
@@ -3263,7 +3303,8 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.042650088002119446,
+      "transcribe_seconds": 0.045878316999733215,
+      "wav_name": null,
       "wav_seconds": 1.8501666666666667,
       "word_error": {
         "deletions": 0,
@@ -3342,7 +3383,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the bedroom light off",
       "tokens": [
         "turn",
@@ -3351,7 +3392,8 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.04002137200222933,
+      "transcribe_seconds": 0.04431363999901805,
+      "wav_name": null,
       "wav_seconds": 1.7300416666666667,
       "word_error": {
         "deletions": 0,
@@ -3427,7 +3469,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the bedroom light on",
       "tokens": [
         "turn",
@@ -3436,7 +3478,8 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.04023953200157848,
+      "transcribe_seconds": 0.04337007899994205,
+      "wav_name": null,
       "wav_seconds": 1.7334583333333333,
       "word_error": {
         "deletions": 0,
@@ -3512,7 +3555,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the garage light off",
       "tokens": [
         "turn",
@@ -3521,7 +3564,8 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.04023946999950567,
+      "transcribe_seconds": 0.053201111000817036,
+      "wav_name": null,
       "wav_seconds": 1.7683333333333333,
       "word_error": {
         "deletions": 0,
@@ -3597,7 +3641,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the garage light on",
       "tokens": [
         "turn",
@@ -3606,7 +3650,8 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.040387877998000477,
+      "transcribe_seconds": 0.04465381799855095,
+      "wav_name": null,
       "wav_seconds": 1.7797083333333332,
       "word_error": {
         "deletions": 0,
@@ -3683,7 +3728,7 @@
         "off"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the living room lamp off",
       "tokens": [
         "turn",
@@ -3693,7 +3738,8 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.04596623899851693,
+      "transcribe_seconds": 0.04946690300130285,
+      "wav_name": null,
       "wav_seconds": 1.9486666666666668,
       "word_error": {
         "deletions": 0,
@@ -3773,7 +3819,7 @@
         "on"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the living room lamp on",
       "tokens": [
         "turn",
@@ -3783,7 +3829,8 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.04780650499742478,
+      "transcribe_seconds": 0.04819813600079215,
+      "wav_name": null,
       "wav_seconds": 1.94125,
       "word_error": {
         "deletions": 0,
@@ -3836,7 +3883,7 @@
         "it"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "what time is it",
       "tokens": [
         "what",
@@ -3844,7 +3891,8 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.02557234000050812,
+      "transcribe_seconds": 0.02746547599963378,
+      "wav_name": null,
       "wav_seconds": 1.047875,
       "word_error": {
         "deletions": 0,
@@ -3890,14 +3938,15 @@
         "temperature"
       ],
       "recognize_seconds": 0,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "whats the temperature",
       "tokens": [
         "whats",
         "the",
         "temperature"
       ],
-      "transcribe_seconds": 0.03215870300118695,
+      "transcribe_seconds": 0.03414150700155005,
+      "wav_name": null,
       "wav_seconds": 1.298125,
       "word_error": {
         "deletions": 0,
@@ -3926,7 +3975,7 @@
       "wrong_entities": []
     }
   },
-  "average_transcription_speedup": 42.092118789465715,
+  "average_transcription_speedup": 40.15687900155367,
   "correct_entities": 84,
   "correct_intent_and_entities": 49,
   "correct_intent_names": 49,
@@ -3948,7 +3997,7 @@
         "it"
       ],
       "recognize_seconds": 0.0011115074157714844,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "how cold is it",
       "tokens": [
         "how",
@@ -3956,8 +4005,9 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "how_hot_is_it.wav": {
       "entities": [],
@@ -3973,7 +4023,7 @@
         "it"
       ],
       "recognize_seconds": 0.0002765655517578125,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "how hot is it",
       "tokens": [
         "how",
@@ -3981,8 +4031,9 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "is_the_garage_door_closed.wav": {
       "entities": [],
@@ -3999,7 +4050,7 @@
         "closed"
       ],
       "recognize_seconds": 0.0010418891906738281,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "is the garage door closed",
       "tokens": [
         "is",
@@ -4008,8 +4059,9 @@
         "door",
         "closed"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "is_the_garage_door_open.wav": {
       "entities": [],
@@ -4026,7 +4078,7 @@
         "open"
       ],
       "recognize_seconds": 0.0002727508544921875,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "is the garage door open",
       "tokens": [
         "is",
@@ -4035,8 +4087,9 @@
         "door",
         "open"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_bedroom_light_blue.wav": {
       "entities": [
@@ -4077,7 +4130,7 @@
         "blue"
       ],
       "recognize_seconds": 0.001384735107421875,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light blue",
       "tokens": [
         "make",
@@ -4085,8 +4138,9 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_bedroom_light_green.wav": {
       "entities": [
@@ -4127,7 +4181,7 @@
         "green"
       ],
       "recognize_seconds": 0.0012445449829101562,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light green",
       "tokens": [
         "make",
@@ -4135,8 +4189,9 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_bedroom_light_red.wav": {
       "entities": [
@@ -4177,7 +4232,7 @@
         "red"
       ],
       "recognize_seconds": 0.00039839744567871094,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make bedroom light red",
       "tokens": [
         "make",
@@ -4185,8 +4240,9 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_the_bedroom_light_blue.wav": {
       "entities": [
@@ -4228,7 +4284,7 @@
         "blue"
       ],
       "recognize_seconds": 0.00046539306640625,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light blue",
       "tokens": [
         "make",
@@ -4237,8 +4293,9 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_the_bedroom_light_green.wav": {
       "entities": [
@@ -4280,7 +4337,7 @@
         "green"
       ],
       "recognize_seconds": 0.0004088878631591797,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light green",
       "tokens": [
         "make",
@@ -4289,8 +4346,9 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "make_the_bedroom_light_red.wav": {
       "entities": [
@@ -4332,7 +4390,7 @@
         "red"
       ],
       "recognize_seconds": 0.00039267539978027344,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "make the bedroom light red",
       "tokens": [
         "make",
@@ -4341,8 +4399,9 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_blue.wav": {
       "entities": [
@@ -4383,7 +4442,7 @@
         "blue"
       ],
       "recognize_seconds": 0.0014884471893310547,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light blue",
       "tokens": [
         "set",
@@ -4391,8 +4450,9 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_green.wav": {
       "entities": [
@@ -4433,7 +4493,7 @@
         "green"
       ],
       "recognize_seconds": 0.0004918575286865234,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light green",
       "tokens": [
         "set",
@@ -4441,8 +4501,9 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_red.wav": {
       "entities": [
@@ -4483,7 +4544,7 @@
         "red"
       ],
       "recognize_seconds": 0.0014257431030273438,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light red",
       "tokens": [
         "set",
@@ -4491,8 +4552,9 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_to_blue.wav": {
       "entities": [
@@ -4534,7 +4596,7 @@
         "blue"
       ],
       "recognize_seconds": 0.00046443939208984375,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to blue",
       "tokens": [
         "set",
@@ -4543,8 +4605,9 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_to_green.wav": {
       "entities": [
@@ -4586,7 +4649,7 @@
         "green"
       ],
       "recognize_seconds": 0.00144195556640625,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to green",
       "tokens": [
         "set",
@@ -4595,8 +4658,9 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_bedroom_light_to_red.wav": {
       "entities": [
@@ -4638,7 +4702,7 @@
         "red"
       ],
       "recognize_seconds": 0.00047969818115234375,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set bedroom light to red",
       "tokens": [
         "set",
@@ -4647,8 +4711,9 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_blue.wav": {
       "entities": [
@@ -4690,7 +4755,7 @@
         "blue"
       ],
       "recognize_seconds": 0.0005872249603271484,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light blue",
       "tokens": [
         "set",
@@ -4699,8 +4764,9 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_green.wav": {
       "entities": [
@@ -4742,7 +4808,7 @@
         "green"
       ],
       "recognize_seconds": 0.0015377998352050781,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light green",
       "tokens": [
         "set",
@@ -4751,8 +4817,9 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_red.wav": {
       "entities": [
@@ -4794,7 +4861,7 @@
         "red"
       ],
       "recognize_seconds": 0.001444101333618164,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light red",
       "tokens": [
         "set",
@@ -4803,8 +4870,9 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_to_blue.wav": {
       "entities": [
@@ -4847,7 +4915,7 @@
         "blue"
       ],
       "recognize_seconds": 0.0005192756652832031,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to blue",
       "tokens": [
         "set",
@@ -4857,8 +4925,9 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_to_green.wav": {
       "entities": [
@@ -4901,7 +4970,7 @@
         "green"
       ],
       "recognize_seconds": 0.00179290771484375,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to green",
       "tokens": [
         "set",
@@ -4911,8 +4980,9 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "set_the_bedroom_light_to_red.wav": {
       "entities": [
@@ -4955,7 +5025,7 @@
         "red"
       ],
       "recognize_seconds": 0.0005435943603515625,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "set the bedroom light to red",
       "tokens": [
         "set",
@@ -4965,8 +5035,9 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "tell_me_the_time.wav": {
       "entities": [],
@@ -4982,7 +5053,7 @@
         "time"
       ],
       "recognize_seconds": 0.0009148120880126953,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "tell me the time",
       "tokens": [
         "tell",
@@ -4990,8 +5061,9 @@
         "the",
         "time"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_bedroom_light_off.wav": {
       "entities": [
@@ -5032,7 +5104,7 @@
         "off"
       ],
       "recognize_seconds": 0.0027565956115722656,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn bedroom light off",
       "tokens": [
         "turn",
@@ -5040,8 +5112,9 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_bedroom_light_on.wav": {
       "entities": [
@@ -5082,7 +5155,7 @@
         "on"
       ],
       "recognize_seconds": 0.0009396076202392578,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn bedroom light on",
       "tokens": [
         "turn",
@@ -5090,8 +5163,9 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_garage_light_off.wav": {
       "entities": [
@@ -5132,7 +5206,7 @@
         "off"
       ],
       "recognize_seconds": 0.0008075237274169922,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn garage light off",
       "tokens": [
         "turn",
@@ -5140,8 +5214,9 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_garage_light_on.wav": {
       "entities": [
@@ -5182,7 +5257,7 @@
         "on"
       ],
       "recognize_seconds": 0.0029053688049316406,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn garage light on",
       "tokens": [
         "turn",
@@ -5190,8 +5265,9 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_living_room_lamp_off.wav": {
       "entities": [
@@ -5233,7 +5309,7 @@
         "off"
       ],
       "recognize_seconds": 0.0031638145446777344,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn living room lamp off",
       "tokens": [
         "turn",
@@ -5242,8 +5318,9 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_living_room_lamp_on.wav": {
       "entities": [
@@ -5285,7 +5362,7 @@
         "on"
       ],
       "recognize_seconds": 0.0027468204498291016,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn living room lamp on",
       "tokens": [
         "turn",
@@ -5294,8 +5371,9 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_bedroom_light.wav": {
       "entities": [
@@ -5336,7 +5414,7 @@
         "light"
       ],
       "recognize_seconds": 0.0007283687591552734,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off bedroom light",
       "tokens": [
         "turn",
@@ -5344,8 +5422,9 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_garage_light.wav": {
       "entities": [
@@ -5386,7 +5465,7 @@
         "light"
       ],
       "recognize_seconds": 0.0007455348968505859,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off garage light",
       "tokens": [
         "turn",
@@ -5394,8 +5473,9 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_living_room_lamp.wav": {
       "entities": [
@@ -5437,7 +5517,7 @@
         "lamp"
       ],
       "recognize_seconds": 0.002843141555786133,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off living room lamp",
       "tokens": [
         "turn",
@@ -5446,8 +5526,9 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_the_bedroom_light.wav": {
       "entities": [
@@ -5489,7 +5570,7 @@
         "light"
       ],
       "recognize_seconds": 0.002583742141723633,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the bedroom light",
       "tokens": [
         "turn",
@@ -5498,8 +5579,9 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_the_garage_light.wav": {
       "entities": [
@@ -5541,7 +5623,7 @@
         "light"
       ],
       "recognize_seconds": 0.0026466846466064453,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the garage light",
       "tokens": [
         "turn",
@@ -5550,8 +5632,9 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_off_the_living_room_lamp.wav": {
       "entities": [
@@ -5594,7 +5677,7 @@
         "lamp"
       ],
       "recognize_seconds": 0.000751495361328125,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn off the living room lamp",
       "tokens": [
         "turn",
@@ -5604,8 +5687,9 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_bedroom_light.wav": {
       "entities": [
@@ -5646,7 +5730,7 @@
         "light"
       ],
       "recognize_seconds": 0.002665996551513672,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on bedroom light",
       "tokens": [
         "turn",
@@ -5654,8 +5738,9 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_garage_light.wav": {
       "entities": [
@@ -5696,7 +5781,7 @@
         "light"
       ],
       "recognize_seconds": 0.0027306079864501953,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on garage light",
       "tokens": [
         "turn",
@@ -5704,8 +5789,9 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_living_room_lamp.wav": {
       "entities": [
@@ -5747,7 +5833,7 @@
         "lamp"
       ],
       "recognize_seconds": 0.002945423126220703,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on living room lamp",
       "tokens": [
         "turn",
@@ -5756,8 +5842,9 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_the_bedroom_light.wav": {
       "entities": [
@@ -5799,7 +5886,7 @@
         "light"
       ],
       "recognize_seconds": 0.0031557083129882812,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the bedroom light",
       "tokens": [
         "turn",
@@ -5808,8 +5895,9 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_the_garage_light.wav": {
       "entities": [
@@ -5851,7 +5939,7 @@
         "light"
       ],
       "recognize_seconds": 0.0008332729339599609,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the garage light",
       "tokens": [
         "turn",
@@ -5860,8 +5948,9 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_on_the_living_room_lamp.wav": {
       "entities": [
@@ -5904,7 +5993,7 @@
         "lamp"
       ],
       "recognize_seconds": 0.0028378963470458984,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn on the living room lamp",
       "tokens": [
         "turn",
@@ -5914,8 +6003,9 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_bedroom_light_off.wav": {
       "entities": [
@@ -5957,7 +6047,7 @@
         "off"
       ],
       "recognize_seconds": 0.0026140213012695312,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the bedroom light off",
       "tokens": [
         "turn",
@@ -5966,8 +6056,9 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_bedroom_light_on.wav": {
       "entities": [
@@ -6009,7 +6100,7 @@
         "on"
       ],
       "recognize_seconds": 0.0025267601013183594,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the bedroom light on",
       "tokens": [
         "turn",
@@ -6018,8 +6109,9 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_garage_light_off.wav": {
       "entities": [
@@ -6061,7 +6153,7 @@
         "off"
       ],
       "recognize_seconds": 0.0007758140563964844,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the garage light off",
       "tokens": [
         "turn",
@@ -6070,8 +6162,9 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_garage_light_on.wav": {
       "entities": [
@@ -6113,7 +6206,7 @@
         "on"
       ],
       "recognize_seconds": 0.0009126663208007812,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the garage light on",
       "tokens": [
         "turn",
@@ -6122,8 +6215,9 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_living_room_lamp_off.wav": {
       "entities": [
@@ -6166,7 +6260,7 @@
         "off"
       ],
       "recognize_seconds": 0.002612590789794922,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the living room lamp off",
       "tokens": [
         "turn",
@@ -6176,8 +6270,9 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "turn_the_living_room_lamp_on.wav": {
       "entities": [
@@ -6220,7 +6315,7 @@
         "on"
       ],
       "recognize_seconds": 0.002851724624633789,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "turn the living room lamp on",
       "tokens": [
         "turn",
@@ -6230,8 +6325,9 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "what_time_is_it.wav": {
       "entities": [],
@@ -6247,7 +6343,7 @@
         "it"
       ],
       "recognize_seconds": 0.00029468536376953125,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "what time is it",
       "tokens": [
         "what",
@@ -6255,8 +6351,9 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     },
     "whats_the_temperature.wav": {
       "entities": [],
@@ -6271,15 +6368,16 @@
         "temperature"
       ],
       "recognize_seconds": 0.0010981559753417969,
-      "speech_confidence": 0,
+      "speech_confidence": null,
       "text": "whats the temperature",
       "tokens": [
         "whats",
         "the",
         "temperature"
       ],
-      "transcribe_seconds": 0,
-      "wav_seconds": 0
+      "transcribe_seconds": null,
+      "wav_name": null,
+      "wav_seconds": null
     }
   },
   "intent_accuracy": 1,

@@ -168,6 +168,7 @@ class WebsocketEnglishTests(unittest.TestCase):
         expected["sessionId"] = self.session_id
         expected["customData"] = None
         expected["wakewordId"] = None
+        expected["lang"] = None
 
         self.assertEqual(event, expected)
 
