@@ -1,0 +1,15 @@
+{
+  "speech_to_text": {
+    "system": "pocketsphinx"
+  },
+  "intent": {
+    "system": "fsticuffs"
+  },
+  "wake": {
+    "system": "raven",
+    "probability_threshold": 0.45
+  },
+  "dialogue": {
+    "system": "rhasspy"
+  }
+}
