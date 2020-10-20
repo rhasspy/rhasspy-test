@@ -8,6 +8,7 @@ import unittest
 from pathlib import Path
 
 import paho.mqtt.client as mqtt
+
 from rhasspyhermes.asr import AsrTextCaptured
 from rhasspyhermes.audioserver import AudioFrame
 from rhasspyhermes.base import Message

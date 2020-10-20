@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 
 import requests
+
 from rhasspyhermes.asr import AsrTextCaptured
 from rhasspyhermes.nlu import NluIntent
 

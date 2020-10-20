@@ -5,6 +5,7 @@ import unittest
 from uuid import uuid4
 
 import requests
+
 from rhasspyhermes.nlu import NluIntent, NluIntentNotRecognized
 
 

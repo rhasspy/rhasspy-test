@@ -11,6 +11,7 @@ from uuid import uuid4
 
 import paho.mqtt.client as mqtt
 import websockets
+
 from rhasspyhermes.asr import AsrTextCaptured
 from rhasspyhermes.intent import Intent, Slot
 from rhasspyhermes.nlu import NluIntent

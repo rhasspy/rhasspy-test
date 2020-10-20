@@ -24,7 +24,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.09026537899990217,
+      "transcribe_seconds": 0.11911414298810996,
       "wav_name": null,
       "wav_seconds": 1.1037916666666667,
       "word_error": {
@@ -80,7 +80,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.09099597100066603,
+      "transcribe_seconds": 0.10573107001255266,
       "wav_name": null,
       "wav_seconds": 1.02975,
       "word_error": {
@@ -138,7 +138,7 @@
         "door",
         "closed"
       ],
-      "transcribe_seconds": 0.11050130100011302,
+      "transcribe_seconds": 0.11284092999994755,
       "wav_name": null,
       "wav_seconds": 1.967125,
       "word_error": {
@@ -199,7 +199,7 @@
         "door",
         "open"
       ],
-      "transcribe_seconds": 0.10971563199927914,
+      "transcribe_seconds": 0.16065323099610396,
       "wav_name": null,
       "wav_seconds": 1.803,
       "word_error": {
@@ -283,7 +283,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.1257197430004453,
+      "transcribe_seconds": 0.12988727702759206,
       "wav_name": null,
       "wav_seconds": 1.5683333333333334,
       "word_error": {
@@ -364,7 +364,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.10806196500016085,
+      "transcribe_seconds": 0.10632378401351161,
       "wav_name": null,
       "wav_seconds": 1.5480833333333333,
       "word_error": {
@@ -445,7 +445,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.092536439999094,
+      "transcribe_seconds": 0.11603933401056565,
       "wav_name": null,
       "wav_seconds": 1.5045,
       "word_error": {
@@ -528,7 +528,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.11659082400001353,
+      "transcribe_seconds": 0.14602657398791052,
       "wav_name": null,
       "wav_seconds": 1.7679166666666666,
       "word_error": {
@@ -614,7 +614,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.10863386999881186,
+      "transcribe_seconds": 0.13700351500301622,
       "wav_name": null,
       "wav_seconds": 1.7502083333333334,
       "word_error": {
@@ -700,7 +700,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.09619137400113686,
+      "transcribe_seconds": 0.12939564097905532,
       "wav_name": null,
       "wav_seconds": 1.670625,
       "word_error": {
@@ -784,7 +784,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.13616443499995512,
+      "transcribe_seconds": 0.11589624299085699,
       "wav_name": null,
       "wav_seconds": 1.58225,
       "word_error": {
@@ -865,7 +865,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.12011767500007409,
+      "transcribe_seconds": 0.11992910000844859,
       "wav_name": null,
       "wav_seconds": 1.5603333333333333,
       "word_error": {
@@ -946,7 +946,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.09481891299947165,
+      "transcribe_seconds": 0.09549729101127014,
       "wav_name": null,
       "wav_seconds": 1.5311666666666666,
       "word_error": {
@@ -1029,7 +1029,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.14957593400140468,
+      "transcribe_seconds": 0.15708522099885158,
       "wav_name": null,
       "wav_seconds": 1.844125,
       "word_error": {
@@ -1115,7 +1115,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.11899883800106181,
+      "transcribe_seconds": 0.1758773619949352,
       "wav_name": null,
       "wav_seconds": 1.8626666666666667,
       "word_error": {
@@ -1201,7 +1201,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.13422082599936402,
+      "transcribe_seconds": 0.14092890301253647,
       "wav_name": null,
       "wav_seconds": 1.79925,
       "word_error": {
@@ -1287,7 +1287,7 @@
         "light",
         "blue"
       ],
-      "transcribe_seconds": 0.11972403999970993,
+      "transcribe_seconds": 0.13095658700331114,
       "wav_name": null,
       "wav_seconds": 1.7904583333333333,
       "word_error": {
@@ -1373,7 +1373,7 @@
         "light",
         "green"
       ],
-      "transcribe_seconds": 0.11005094899883261,
+      "transcribe_seconds": 0.11565099802101031,
       "wav_name": null,
       "wav_seconds": 1.765,
       "word_error": {
@@ -1459,7 +1459,7 @@
         "light",
         "red"
       ],
-      "transcribe_seconds": 0.10297354600152175,
+      "transcribe_seconds": 0.1062301310012117,
       "wav_name": null,
       "wav_seconds": 1.7149166666666666,
       "word_error": {
@@ -1547,7 +1547,7 @@
         "to",
         "blue"
       ],
-      "transcribe_seconds": 0.13359414599835873,
+      "transcribe_seconds": 0.15949327099951915,
       "wav_name": null,
       "wav_seconds": 1.8801666666666668,
       "word_error": {
@@ -1638,7 +1638,7 @@
         "to",
         "green"
       ],
-      "transcribe_seconds": 0.1192979360002937,
+      "transcribe_seconds": 0.12537914802669547,
       "wav_name": null,
       "wav_seconds": 1.8752083333333334,
       "word_error": {
@@ -1729,7 +1729,7 @@
         "to",
         "red"
       ],
-      "transcribe_seconds": 0.10787551300018094,
+      "transcribe_seconds": 0.1305762580013834,
       "wav_name": null,
       "wav_seconds": 1.8183333333333334,
       "word_error": {
@@ -1791,7 +1791,7 @@
         "the",
         "time"
       ],
-      "transcribe_seconds": 0.09720550000020012,
+      "transcribe_seconds": 0.09671811398584396,
       "wav_name": null,
       "wav_seconds": 1.0830833333333334,
       "word_error": {
@@ -1872,7 +1872,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.11199191200103087,
+      "transcribe_seconds": 0.14001255002222024,
       "wav_name": null,
       "wav_seconds": 1.5684583333333333,
       "word_error": {
@@ -1953,7 +1953,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.11308264599938411,
+      "transcribe_seconds": 0.13682020199485123,
       "wav_name": null,
       "wav_seconds": 1.5656666666666668,
       "word_error": {
@@ -2034,7 +2034,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.12839375399926212,
+      "transcribe_seconds": 0.14208513998892158,
       "wav_name": null,
       "wav_seconds": 1.6213333333333333,
       "word_error": {
@@ -2115,7 +2115,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.12571993100027612,
+      "transcribe_seconds": 0.16932748700492084,
       "wav_name": null,
       "wav_seconds": 1.6065416666666668,
       "word_error": {
@@ -2198,7 +2198,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.12410602000090876,
+      "transcribe_seconds": 0.12824911798816174,
       "wav_name": null,
       "wav_seconds": 1.927375,
       "word_error": {
@@ -2284,7 +2284,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.12626450899915653,
+      "transcribe_seconds": 0.1535599750059191,
       "wav_name": null,
       "wav_seconds": 1.8906666666666667,
       "word_error": {
@@ -2368,7 +2368,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.11398097599885659,
+      "transcribe_seconds": 0.12783346301876009,
       "wav_name": null,
       "wav_seconds": 1.470875,
       "word_error": {
@@ -2449,7 +2449,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.11532889799855184,
+      "transcribe_seconds": 0.12042634299723431,
       "wav_name": null,
       "wav_seconds": 1.547,
       "word_error": {
@@ -2532,7 +2532,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.11094459500054654,
+      "transcribe_seconds": 0.1331704769982025,
       "wav_name": null,
       "wav_seconds": 1.8044583333333333,
       "word_error": {
@@ -2618,7 +2618,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.10278335000111838,
+      "transcribe_seconds": 0.11524544699932449,
       "wav_name": null,
       "wav_seconds": 1.6902916666666667,
       "word_error": {
@@ -2704,7 +2704,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.11330887599979178,
+      "transcribe_seconds": 0.12869066701387055,
       "wav_name": null,
       "wav_seconds": 1.7356666666666667,
       "word_error": {
@@ -2792,7 +2792,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.1096758450003108,
+      "transcribe_seconds": 0.11599246799596585,
       "wav_name": null,
       "wav_seconds": 1.8654166666666667,
       "word_error": {
@@ -2879,7 +2879,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.0941781589990569,
+      "transcribe_seconds": 0.10168142101611011,
       "wav_name": null,
       "wav_seconds": 1.4594166666666666,
       "word_error": {
@@ -2960,7 +2960,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.11441649900007178,
+      "transcribe_seconds": 0.12126233201706782,
       "wav_name": null,
       "wav_seconds": 1.5037083333333334,
       "word_error": {
@@ -3043,7 +3043,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.13133333199948538,
+      "transcribe_seconds": 0.11814408400095999,
       "wav_name": null,
       "wav_seconds": 1.7895833333333333,
       "word_error": {
@@ -3129,7 +3129,7 @@
         "bedroom",
         "light"
       ],
-      "transcribe_seconds": 0.09658870399834996,
+      "transcribe_seconds": 0.1361342910095118,
       "wav_name": null,
       "wav_seconds": 1.6467083333333334,
       "word_error": {
@@ -3215,7 +3215,7 @@
         "garage",
         "light"
       ],
-      "transcribe_seconds": 0.10922346699953778,
+      "transcribe_seconds": 0.12743653199868277,
       "wav_name": null,
       "wav_seconds": 1.692375,
       "word_error": {
@@ -3303,7 +3303,7 @@
         "room",
         "lamp"
       ],
-      "transcribe_seconds": 0.10515425400080858,
+      "transcribe_seconds": 0.1053079639968928,
       "wav_name": null,
       "wav_seconds": 1.8501666666666667,
       "word_error": {
@@ -3392,7 +3392,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.11050220200013428,
+      "transcribe_seconds": 0.12003367798752151,
       "wav_name": null,
       "wav_seconds": 1.7300416666666667,
       "word_error": {
@@ -3478,7 +3478,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.11124957200081553,
+      "transcribe_seconds": 0.16984171100193635,
       "wav_name": null,
       "wav_seconds": 1.7334583333333333,
       "word_error": {
@@ -3564,7 +3564,7 @@
         "light",
         "off"
       ],
-      "transcribe_seconds": 0.11963432999982615,
+      "transcribe_seconds": 0.13712446900899522,
       "wav_name": null,
       "wav_seconds": 1.7683333333333333,
       "word_error": {
@@ -3650,7 +3650,7 @@
         "light",
         "on"
       ],
-      "transcribe_seconds": 0.11285411400058365,
+      "transcribe_seconds": 0.13564146801945753,
       "wav_name": null,
       "wav_seconds": 1.7797083333333332,
       "word_error": {
@@ -3738,7 +3738,7 @@
         "lamp",
         "off"
       ],
-      "transcribe_seconds": 0.12197664299856115,
+      "transcribe_seconds": 0.13778181301313452,
       "wav_name": null,
       "wav_seconds": 1.9486666666666668,
       "word_error": {
@@ -3829,7 +3829,7 @@
         "lamp",
         "on"
       ],
-      "transcribe_seconds": 0.13943803700021817,
+      "transcribe_seconds": 0.1257986720011104,
       "wav_name": null,
       "wav_seconds": 1.94125,
       "word_error": {
@@ -3891,7 +3891,7 @@
         "is",
         "it"
       ],
-      "transcribe_seconds": 0.0932418600004894,
+      "transcribe_seconds": 0.1079727339965757,
       "wav_name": null,
       "wav_seconds": 1.047875,
       "word_error": {
@@ -3945,7 +3945,7 @@
         "the",
         "temperature"
       ],
-      "transcribe_seconds": 0.09213513699978648,
+      "transcribe_seconds": 0.11473603901686147,
       "wav_name": null,
       "wav_seconds": 1.298125,
       "word_error": {
@@ -3975,7 +3975,7 @@
       "wrong_entities": []
     }
   },
-  "average_transcription_speedup": 14.726469769848192,
+  "average_transcription_speedup": 13.038624741124517,
   "correct_entities": 84,
   "correct_intent_and_entities": 49,
   "correct_intent_names": 49,
