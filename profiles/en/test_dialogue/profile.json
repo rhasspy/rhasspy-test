@@ -1,0 +1,12 @@
+{
+    "speech_to_text": {
+        "system": "dummy"
+    },
+    "intent": {
+        "system": "dummy"
+    },
+    "dialogue": {
+        "system": "rhasspy",
+        "satellite_site_ids": "satellite1,satellite2"
+    }
+}

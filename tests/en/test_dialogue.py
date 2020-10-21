@@ -31,7 +31,7 @@ class DialogueManagerTests(unittest.TestCase):
     """Test dialogue manager with multiple satellites."""
 
     def setUp(self):
-        self.base_id = "base"
+        self.base_id = "default"
         self.satellite_ids = ["satellite1", "satellite2"]
         self.session_ids = {}
         self.custom_data = {}
